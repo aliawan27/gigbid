@@ -1,0 +1,122 @@
+{
+ "create_email_draft": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": false,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "body": {
+     "title": "Body",
+     "type": "string"
+    },
+    "idempotency_key": {
+     "title": "Idempotency Key",
+     "type": "string"
+    },
+    "subject": {
+     "title": "Subject",
+     "type": "string"
+    },
+    "to": {
+     "title": "To",
+     "type": "string"
+    },
+    "user_id": {
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id",
+    "to",
+    "subject",
+    "body",
+    "idempotency_key"
+   ],
+   "title": "create_email_draftArguments",
+   "type": "object"
+  }
+ },
+ "create_tentative_hold": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": false,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "idempotency_key": {
+     "title": "Idempotency Key",
+     "type": "string"
+    },
+    "start": {
+     "title": "Start",
+     "type": "string"
+    },
+    "title": {
+     "title": "Title",
+     "type": "string"
+    },
+    "user_id": {
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id",
+    "start",
+    "title",
+    "idempotency_key"
+   ],
+   "title": "create_tentative_holdArguments",
+   "type": "object"
+  }
+ },
+ "free_slots": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "days": {
+     "default": 5,
+     "maximum": 14,
+     "minimum": 1,
+     "title": "Days",
+     "type": "integer"
+    },
+    "duration_minutes": {
+     "default": 30,
+     "maximum": 120,
+     "minimum": 15,
+     "title": "Duration Minutes",
+     "type": "integer"
+    },
+    "max_slots": {
+     "default": 5,
+     "title": "Max Slots",
+     "type": "integer"
+    },
+    "user_id": {
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "free_slotsArguments",
+   "type": "object"
+  }
+ }
+}

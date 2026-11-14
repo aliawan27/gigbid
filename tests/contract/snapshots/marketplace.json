@@ -1,0 +1,507 @@
+{
+ "create_proposal_draft": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": false,
+   "title": null
+  },
+  "input": {
+   "$defs": {
+    "ProposalIn": {
+     "properties": {
+      "bid_amount": {
+       "exclusiveMinimum": 0,
+       "maximum": 1000000,
+       "title": "Bid Amount",
+       "type": "number"
+      },
+      "cover_letter": {
+       "maxLength": 5000,
+       "minLength": 50,
+       "title": "Cover Letter",
+       "type": "string"
+      },
+      "dry_run": {
+       "default": false,
+       "description": "Return exactly what would be sent and what it costs; send nothing",
+       "title": "Dry Run",
+       "type": "boolean"
+      },
+      "idempotency_key": {
+       "description": "Same key => the action happens once",
+       "maxLength": 128,
+       "minLength": 8,
+       "title": "Idempotency Key",
+       "type": "string"
+      },
+      "job_id": {
+       "title": "Job Id",
+       "type": "string"
+      },
+      "screening_answers": {
+       "items": {
+        "type": "string"
+       },
+       "maxItems": 10,
+       "title": "Screening Answers",
+       "type": "array"
+      },
+      "trace_id": {
+       "default": "",
+       "title": "Trace Id",
+       "type": "string"
+      },
+      "user_id": {
+       "title": "User Id",
+       "type": "string"
+      }
+     },
+     "required": [
+      "user_id",
+      "job_id",
+      "cover_letter",
+      "bid_amount",
+      "idempotency_key"
+     ],
+     "title": "ProposalIn",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "p": {
+     "$ref": "#/$defs/ProposalIn"
+    }
+   },
+   "required": [
+    "p"
+   ],
+   "title": "create_proposal_draftArguments",
+   "type": "object"
+  }
+ },
+ "get_client_history": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "client_id": {
+     "title": "Client Id",
+     "type": "string"
+    },
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id",
+    "client_id"
+   ],
+   "title": "get_client_historyArguments",
+   "type": "object"
+  }
+ },
+ "get_connects_balance": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "get_connects_balanceArguments",
+   "type": "object"
+  }
+ },
+ "get_job": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "job_id": {
+     "title": "Job Id",
+     "type": "string"
+    },
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id",
+    "job_id"
+   ],
+   "title": "get_jobArguments",
+   "type": "object"
+  }
+ },
+ "get_market_stats": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "category": {
+     "title": "Category",
+     "type": "string"
+    },
+    "complexity": {
+     "default": 2,
+     "maximum": 5,
+     "minimum": 1,
+     "title": "Complexity",
+     "type": "integer"
+    },
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id",
+    "category"
+   ],
+   "title": "get_market_statsArguments",
+   "type": "object"
+  }
+ },
+ "get_platform_policy": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "get_platform_policyArguments",
+   "type": "object"
+  }
+ },
+ "list_messages": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "list_messagesArguments",
+   "type": "object"
+  }
+ },
+ "list_proposals": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "list_proposalsArguments",
+   "type": "object"
+  }
+ },
+ "search_jobs": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "category": {
+     "default": "",
+     "title": "Category",
+     "type": "string"
+    },
+    "limit": {
+     "default": 20,
+     "maximum": 50,
+     "minimum": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "query": {
+     "default": "",
+     "title": "Query",
+     "type": "string"
+    },
+    "since": {
+     "default": "",
+     "title": "Since",
+     "type": "string"
+    },
+    "trace_id": {
+     "default": "",
+     "description": "Trace id propagated from the UI request",
+     "title": "Trace Id",
+     "type": "string"
+    },
+    "user_id": {
+     "description": "GigBid user / freelancer id on whose behalf the call is made",
+     "title": "User Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "search_jobsArguments",
+   "type": "object"
+  }
+ },
+ "send_message": {
+  "annotations": {
+   "destructiveHint": true,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": false,
+   "title": null
+  },
+  "input": {
+   "$defs": {
+    "MessageIn": {
+     "properties": {
+      "dry_run": {
+       "default": false,
+       "title": "Dry Run",
+       "type": "boolean"
+      },
+      "idempotency_key": {
+       "maxLength": 128,
+       "minLength": 8,
+       "title": "Idempotency Key",
+       "type": "string"
+      },
+      "text": {
+       "maxLength": 4000,
+       "minLength": 1,
+       "title": "Text",
+       "type": "string"
+      },
+      "thread_id": {
+       "title": "Thread Id",
+       "type": "string"
+      },
+      "trace_id": {
+       "default": "",
+       "title": "Trace Id",
+       "type": "string"
+      },
+      "user_id": {
+       "title": "User Id",
+       "type": "string"
+      }
+     },
+     "required": [
+      "user_id",
+      "thread_id",
+      "text",
+      "idempotency_key"
+     ],
+     "title": "MessageIn",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "m": {
+     "$ref": "#/$defs/MessageIn"
+    }
+   },
+   "required": [
+    "m"
+   ],
+   "title": "send_messageArguments",
+   "type": "object"
+  }
+ },
+ "submit_proposal": {
+  "annotations": {
+   "destructiveHint": true,
+   "idempotentHint": true,
+   "openWorldHint": true,
+   "readOnlyHint": false,
+   "title": null
+  },
+  "input": {
+   "$defs": {
+    "ProposalIn": {
+     "properties": {
+      "bid_amount": {
+       "exclusiveMinimum": 0,
+       "maximum": 1000000,
+       "title": "Bid Amount",
+       "type": "number"
+      },
+      "cover_letter": {
+       "maxLength": 5000,
+       "minLength": 50,
+       "title": "Cover Letter",
+       "type": "string"
+      },
+      "dry_run": {
+       "default": false,
+       "description": "Return exactly what would be sent and what it costs; send nothing",
+       "title": "Dry Run",
+       "type": "boolean"
+      },
+      "idempotency_key": {
+       "description": "Same key => the action happens once",
+       "maxLength": 128,
+       "minLength": 8,
+       "title": "Idempotency Key",
+       "type": "string"
+      },
+      "job_id": {
+       "title": "Job Id",
+       "type": "string"
+      },
+      "screening_answers": {
+       "items": {
+        "type": "string"
+       },
+       "maxItems": 10,
+       "title": "Screening Answers",
+       "type": "array"
+      },
+      "trace_id": {
+       "default": "",
+       "title": "Trace Id",
+       "type": "string"
+      },
+      "user_id": {
+       "title": "User Id",
+       "type": "string"
+      }
+     },
+     "required": [
+      "user_id",
+      "job_id",
+      "cover_letter",
+      "bid_amount",
+      "idempotency_key"
+     ],
+     "title": "ProposalIn",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "p": {
+     "$ref": "#/$defs/ProposalIn"
+    }
+   },
+   "required": [
+    "p"
+   ],
+   "title": "submit_proposalArguments",
+   "type": "object"
+  }
+ }
+}

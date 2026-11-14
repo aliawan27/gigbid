@@ -1,0 +1,183 @@
+{
+ "get_case_study": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "id": {
+     "title": "Id",
+     "type": "string"
+    },
+    "owner": {
+     "default": "",
+     "title": "Owner",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id"
+   ],
+   "title": "get_case_studyArguments",
+   "type": "object"
+  }
+ },
+ "list_skills": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "owner": {
+     "default": "",
+     "title": "Owner",
+     "type": "string"
+    }
+   },
+   "title": "list_skillsArguments",
+   "type": "object"
+  }
+ },
+ "search_evidence": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "$defs": {
+    "SearchFilters": {
+     "properties": {
+      "since": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date; only evidence on/after this date",
+       "title": "Since"
+      },
+      "types": {
+       "anyOf": [
+        {
+         "items": {
+          "enum": [
+           "case_study",
+           "readme",
+           "code",
+           "review",
+           "cv"
+          ],
+          "type": "string"
+         },
+         "type": "array"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Types"
+      }
+     },
+     "title": "SearchFilters",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "filters": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/SearchFilters"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "k": {
+     "default": 5,
+     "maximum": 20,
+     "minimum": 1,
+     "title": "K",
+     "type": "integer"
+    },
+    "owner": {
+     "default": "",
+     "title": "Owner",
+     "type": "string"
+    },
+    "requirement": {
+     "description": "One job requirement or a whole job post",
+     "title": "Requirement",
+     "type": "string"
+    }
+   },
+   "required": [
+    "requirement"
+   ],
+   "title": "search_evidenceArguments",
+   "type": "object"
+  }
+ },
+ "search_past_proposals": {
+  "annotations": {
+   "destructiveHint": false,
+   "idempotentHint": true,
+   "openWorldHint": false,
+   "readOnlyHint": true,
+   "title": null
+  },
+  "input": {
+   "properties": {
+    "k": {
+     "default": 3,
+     "maximum": 10,
+     "minimum": 1,
+     "title": "K",
+     "type": "integer"
+    },
+    "outcome": {
+     "default": "any",
+     "enum": [
+      "won",
+      "replied",
+      "ignored",
+      "any"
+     ],
+     "title": "Outcome",
+     "type": "string"
+    },
+    "owner": {
+     "default": "",
+     "title": "Owner",
+     "type": "string"
+    },
+    "query": {
+     "title": "Query",
+     "type": "string"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "search_past_proposalsArguments",
+   "type": "object"
+  }
+ }
+}
