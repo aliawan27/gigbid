@@ -1,0 +1,19 @@
+name: eval
+on: [pull_request, workflow_dispatch]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    env: { PYTHONPATH: ".", GROQ_API_KEYS: "${{ secrets.GROQ_API_KEYS }}", GIGSIM_ERROR_RATE: "0" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install uv && uv pip install --system -e ".[dev]"
+      - name: 30-job smoke eval (fails if unsupported claims rise or bid/skip F1 drops past thresholds)
+        run: |
+          if [ -z "$GROQ_API_KEYS" ]; then export GIGBID_FAKE_LLM=1; fi
+          (PORT=7860 python -m apps.api.allinone > server.log 2>&1 &) && sleep 25
+          python evals/runners/smoke_eval.py --n 30
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: smoke-eval, path: evals/results/smoke_eval.json }
