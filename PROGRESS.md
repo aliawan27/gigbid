@@ -1,12 +1,9 @@
 # Build progress (resume notes)
 
-Done: data generator + GigSim; RAG V0-V5,V8 + claim verification; 3 MCP servers + GitHub/Upwork adapters; both graphs, memory,
-interrupts, durability; FastAPI + worker + SSE; React UI (9 screens) + Playwright (10/10); unit/contract/integration tests
-(18/18); CI; all evals (rag, decisions + fixes, outcomes, A/B, injection, tool granularity, agent comparison); report PDF;
-write-up; README; demo GIF; public LangSmith traces; change request.
+Done: everything in the brief, plus (2026-11-14 evening) Arq worker on Redis (Render Key Value), dev sets extended to
+200/persona (retrieval eval on 465 jobs, held-out decision eval on 474 jobs), public blind pairwise panel at /panel,
+student judge labels (kappa 0.091), MCP Inspector screenshots. Live: https://gigbid-sg.onrender.com (Singapore, Neon + Redis).
 
-Waiting on the user (details in HANDOFF.md, which is git-ignored):
-- [ ] DATABASE_URL (Neon) and RENDER_API_KEY in .env -> `python scripts/deploy_render.py`; then fill LIVE_URL in README + report
-- [ ] 30 human labels in evals/datasets/judge_labels.csv -> `python evals/runners/judge_calibration.py`; fill KAPPA_SENTENCE in report
-- [ ] MCP Inspector screenshots -> docs/images/inspector_*.png
+Waiting on the user (details in HANDOFF.md, git-ignored):
+- [ ] classmates vote at /panel -> `python evals/runners/pairwise_panel.py analyse` (needs DATABASE_URL), make_tables, README, report
 - [ ] demo video, Medium post, Google Classroom submission
