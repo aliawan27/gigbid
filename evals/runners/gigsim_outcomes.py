@@ -23,7 +23,8 @@ from agent.graphs.bid_graph import build_bid_graph
 from agent.llm import LLMUnavailable, _extract_json, chat
 from agent.nodes.approval import clean_letter
 
-CONFIGS = {"v0_open": ("v0_naive", "open"), "best_open": ("best", "open"), "best_qwen": ("best", "open_qwen")}
+CONFIGS = {"v0_open": ("v0_naive", "open", "writer"), "best_open": ("best", "open", "writer"),
+           "best_qwen": ("best", "open_qwen", "writer"), "best_open_B": ("best", "open", "writer_b")}
 JUDGE_MODEL = "openai/gpt-oss-120b"
 
 
@@ -91,9 +92,10 @@ def summarise(rows: list[dict]) -> dict:
 
 
 async def run_config(tag: str, jobs, conc: int) -> list[dict]:
-    variant, profile = CONFIGS[tag]
+    variant, profile, writer_prompt = CONFIGS[tag]
     os.environ["GIGBID_RAG_VARIANT"] = variant
     os.environ["MODEL_PROFILE"] = profile
+    os.environ["WRITER_PROMPT"] = writer_prompt
     with Stack(client_llm=True) as stack:
         g = build_bid_graph(MemorySaver(), InMemoryStore())
         sem = asyncio.Semaphore(conc)
@@ -119,6 +121,6 @@ async def main(per_persona: int, configs: list[str]):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--per-persona", type=int, default=6)
-    ap.add_argument("--configs", default="v0_open,best_open,best_qwen")
+    ap.add_argument("--configs", default="v0_open,best_open,best_qwen,best_open_B")
     a = ap.parse_args()
     asyncio.run(main(a.per_persona, a.configs.split(",")))

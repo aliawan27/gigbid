@@ -2,6 +2,7 @@
 promoted style memory and outcome memory."""
 from __future__ import annotations
 
+import os
 import re
 
 from pydantic import BaseModel
@@ -76,7 +77,9 @@ async def writer(state, store):
             f"\nUSER STYLE RULES: {style or 'none yet'}" +
             (f"\nWHAT GOT REPLIES IN THIS CATEGORY: {lessons.get('positive_examples')}" if lessons else "") + feedback)
     try:
-        out = await llm_structured("writer", prompt("writer"), user, WriterOut, max_tokens=1500)
+        # X2 proposal experiments: the strategy is a versioned prompt chosen by config/env (writer=A, writer_b=B)
+        out = await llm_structured("writer", prompt(os.getenv("WRITER_PROMPT", CONFIG.get("writer", {}).get("prompt", "writer"))),
+                                   user, WriterOut, max_tokens=1500)
     except LLMUnavailable:
         out = fallback_letter(spec, ev)
     draft = ProposalDraft(cover_letter=out.cover_letter.strip(), screening_answers=out.screening_answers,

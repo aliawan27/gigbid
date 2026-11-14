@@ -1,0 +1,1411 @@
+{
+ "generated_at": "2026-11-14T12:20:47",
+ "model": "openai/gpt-oss-20b",
+ "hypothesis": "Fewer, well-described tools raise selection and argument accuracy and cut tokens per task versus many fine-grained tools; catch-all tools lose argument accuracy.",
+ "sets": {
+  "fine": {
+   "n_tasks": 40,
+   "n_tools": 19,
+   "tool_selection_accuracy": 0.8,
+   "argument_accuracy": 0.725,
+   "tokens_per_task": 576.8,
+   "rows": [
+    {
+     "task": "Find new jobs about dbt and Snowflake.",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "dbt Snowflake"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 585,
+     "latency": 1.37
+    },
+    {
+     "task": "Show me open data-category jobs.",
+     "called": "search_jobs_by_category",
+     "args_got": {
+      "category": "data"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 576,
+     "latency": 1.03
+    },
+    {
+     "task": "What is the budget of job-0042?",
+     "called": "get_job_budget",
+     "args_got": {
+      "job_id": "job-0042"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 572,
+     "latency": 0.73
+    },
+    {
+     "task": "Read the full post for job-0007.",
+     "called": "get_job_description",
+     "args_got": {
+      "job_id": "job-0007"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 572,
+     "latency": 3.45
+    },
+    {
+     "task": "Which skills does job-0101 need?",
+     "called": "get_job_skills",
+     "args_got": {
+      "job_id": "job-0101"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 575,
+     "latency": 1.16
+    },
+    {
+     "task": "How many Connects does job-0033 cost?",
+     "called": "get_job_connects_cost",
+     "args_got": {
+      "job_id": "job-0033"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 577,
+     "latency": 1.2
+    },
+    {
+     "task": "Is client c017 payment verified?",
+     "called": "get_client_payment_status",
+     "args_got": {
+      "client_id": "c017"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 569,
+     "latency": 4.18
+    },
+    {
+     "task": "How much has client c004 spent?",
+     "called": "get_client_spend",
+     "args_got": {
+      "client_id": "c004"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 570,
+     "latency": 2.83
+    },
+    {
+     "task": "What rating does client c023 give freelancers?",
+     "called": "get_client_rating",
+     "args_got": {
+      "client_id": "c023"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 573,
+     "latency": 1.26
+    },
+    {
+     "task": "Typical price for a complexity-3 AI/ML job?",
+     "called": "get_price_median",
+     "args_got": {
+      "category": "AI/ML",
+      "complexity": 3
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 591,
+     "latency": 1.45
+    },
+    {
+     "task": "Price range for simple web jobs (complexity 1)?",
+     "called": "get_price_median",
+     "args_got": {
+      "category": "web",
+      "complexity": 1
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 589,
+     "latency": 0.92
+    },
+    {
+     "task": "How many Connects do I have left?",
+     "called": "get_connects_balance",
+     "args_got": {
+      "": ""
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 568,
+     "latency": 1.97
+    },
+    {
+     "task": "Do I have proof of Airflow experience?",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "Airflow"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 589,
+     "latency": 2.43
+    },
+    {
+     "task": "Find my work with React Native.",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "React Native"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 572,
+     "latency": 1.55
+    },
+    {
+     "task": "Have I done NER for healthcare?",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "NER healthcare"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 573,
+     "latency": 2.76
+    },
+    {
+     "task": "Any client reviews mentioning dashboards?",
+     "called": "search_reviews",
+     "args_got": {
+      "query": "dashboard"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 563,
+     "latency": 0.85
+    },
+    {
+     "task": "Do I have code using Celery?",
+     "called": "search_repos",
+     "args_got": {
+      "query": "Celery"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 570,
+     "latency": 2.16
+    },
+    {
+     "task": "Open case study ai_ml:cs:recsys.",
+     "called": "get_case_study",
+     "args_got": {
+      "id": "ai_ml:cs:recsys"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 587,
+     "latency": 1.85
+    },
+    {
+     "task": "Show the full text of fullstack:cs:lms.",
+     "called": "get_case_study",
+     "args_got": {
+      "id": "fullstack:cs:lms"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 585,
+     "latency": 2.14
+    },
+    {
+     "task": "Any new client messages?",
+     "called": "list_threads",
+     "args_got": {
+      "": ""
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 565,
+     "latency": 1.11
+    },
+    {
+     "task": "When am I free for an interview this week?",
+     "called": "get_free_slots",
+     "args_got": {
+      "days": 7
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 570,
+     "latency": 1.06
+    },
+    {
+     "task": "Find free interview times in the next 3 days.",
+     "called": "get_free_slots",
+     "args_got": {
+      "days": 3
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 569,
+     "latency": 1.14
+    },
+    {
+     "task": "Search jobs mentioning Power BI.",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "Power BI"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 575,
+     "latency": 2.76
+    },
+    {
+     "task": "List AI/ML jobs.",
+     "called": "search_jobs_by_category",
+     "args_got": {
+      "category": "AI/ML"
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 576,
+     "latency": 1.07
+    },
+    {
+     "task": "Get details of job-0090.",
+     "called": "get_job_title",
+     "args_got": {
+      "job_id": "job-0090"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 600,
+     "latency": 0.63
+    },
+    {
+     "task": "Is job-0015 worth its Connects? First get the job.",
+     "called": "get_job_title",
+     "args_got": {
+      "job_id": "job-0015"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 593,
+     "latency": 1.93
+    },
+    {
+     "task": "Check history of client c045 before bidding.",
+     "called": "get_client_spend",
+     "args_got": {
+      "client_id": "c045"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 593,
+     "latency": 1.64
+    },
+    {
+     "task": "Median price for data jobs of complexity 2.",
+     "called": "get_price_median",
+     "args_got": {
+      "category": "data",
+      "complexity": 2
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 584,
+     "latency": 0.89
+    },
+    {
+     "task": "Prove I know LangGraph.",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "LangGraph"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 572,
+     "latency": 1.31
+    },
+    {
+     "task": "Evidence of Stripe billing work?",
+     "called": "search_case_studies",
+     "args_got": {
+      "query": "Stripe billing"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 581,
+     "latency": 3.52
+    },
+    {
+     "task": "Have I used Tableau?",
+     "called": null,
+     "args_got": {},
+     "sel": false,
+     "args": false,
+     "tokens": 575,
+     "latency": 2.91
+    },
+    {
+     "task": "Find my A/B testing projects.",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "A/B testing"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 574,
+     "latency": 2.12
+    },
+    {
+     "task": "Read data_analyst:cs:dbt-warehouse.",
+     "called": "get_case_study",
+     "args_got": {
+      "id": "data_analyst:cs:dbt-warehouse"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 591,
+     "latency": 0.83
+    },
+    {
+     "task": "What jobs ask for Kubernetes?",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "Kubernetes"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 571,
+     "latency": 0.88
+    },
+    {
+     "task": "Title of job-0055?",
+     "called": "get_job_title",
+     "args_got": {
+      "job_id": "0055"
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 573,
+     "latency": 2.97
+    },
+    {
+     "task": "Client c010's reviews from freelancers?",
+     "called": "search_reviews",
+     "args_got": {
+      "query": "c010"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 574,
+     "latency": 2.65
+    },
+    {
+     "task": "My Connects balance please.",
+     "called": "get_connects_balance",
+     "args_got": {
+      "": ""
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 567,
+     "latency": 0.69
+    },
+    {
+     "task": "Do I have reviews praising communication?",
+     "called": "search_reviews",
+     "args_got": {
+      "query": "reviews praising communication"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 570,
+     "latency": 3.96
+    },
+    {
+     "task": "Schedule options for a call in the next 5 days?",
+     "called": "get_free_slots",
+     "args_got": {
+      "days": 5
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 571,
+     "latency": 0.79
+    },
+    {
+     "task": "Open web jobs about Next.js.",
+     "called": "search_jobs_by_keyword",
+     "args_got": {
+      "keyword": "Next.js"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 572,
+     "latency": 0.82
+    }
+   ]
+  },
+  "coarse": {
+   "n_tasks": 40,
+   "n_tools": 2,
+   "tool_selection_accuracy": 0.575,
+   "argument_accuracy": 0.1,
+   "tokens_per_task": 255.425,
+   "rows": [
+    {
+     "task": "Find new jobs about dbt and Snowflake.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 248,
+     "latency": 1.19
+    },
+    {
+     "task": "Show me open data-category jobs.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 252,
+     "latency": 0.54
+    },
+    {
+     "task": "What is the budget of job-0042?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 252,
+     "latency": 0.74
+    },
+    {
+     "task": "Read the full post for job-0007.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 252,
+     "latency": 0.6
+    },
+    {
+     "task": "Which skills does job-0101 need?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 245,
+     "latency": 2.15
+    },
+    {
+     "task": "How many Connects does job-0033 cost?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 249,
+     "latency": 0.78
+    },
+    {
+     "task": "Is client c017 payment verified?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 245,
+     "latency": 0.68
+    },
+    {
+     "task": "How much has client c004 spent?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 250,
+     "latency": 0.75
+    },
+    {
+     "task": "What rating does client c023 give freelancers?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 247,
+     "latency": 0.85
+    },
+    {
+     "task": "Typical price for a complexity-3 AI/ML job?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "market_stats",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 255,
+     "latency": 2.12
+    },
+    {
+     "task": "Price range for simple web jobs (complexity 1)?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 250,
+     "latency": 0.63
+    },
+    {
+     "task": "How many Connects do I have left?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "connects",
+      "params": {}
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 247,
+     "latency": 1.76
+    },
+    {
+     "task": "Do I have proof of Airflow experience?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 276,
+     "latency": 0.6
+    },
+    {
+     "task": "Find my work with React Native.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 243,
+     "latency": 0.79
+    },
+    {
+     "task": "Have I done NER for healthcare?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 297,
+     "latency": 1.05
+    },
+    {
+     "task": "Any client reviews mentioning dashboards?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 315,
+     "latency": 1.01
+    },
+    {
+     "task": "Do I have code using Celery?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 254,
+     "latency": 0.66
+    },
+    {
+     "task": "Open case study ai_ml:cs:recsys.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 256,
+     "latency": 1.64
+    },
+    {
+     "task": "Show the full text of fullstack:cs:lms.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 256,
+     "latency": 0.86
+    },
+    {
+     "task": "Any new client messages?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "messages",
+      "params": {}
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 241,
+     "latency": 0.61
+    },
+    {
+     "task": "When am I free for an interview this week?",
+     "called": "portfolio",
+     "args_got": {
+      "action": "free_slots",
+      "params": {}
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 251,
+     "latency": 0.65
+    },
+    {
+     "task": "Find free interview times in the next 3 days.",
+     "called": "portfolio",
+     "args_got": {
+      "action": "free_slots",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 249,
+     "latency": 1.05
+    },
+    {
+     "task": "Search jobs mentioning Power BI.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 246,
+     "latency": 0.71
+    },
+    {
+     "task": "List AI/ML jobs.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 244,
+     "latency": 0.58
+    },
+    {
+     "task": "Get details of job-0090.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 246,
+     "latency": 0.62
+    },
+    {
+     "task": "Is job-0015 worth its Connects? First get the job.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 252,
+     "latency": 1.15
+    },
+    {
+     "task": "Check history of client c045 before bidding.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 247,
+     "latency": 0.66
+    },
+    {
+     "task": "Median price for data jobs of complexity 2.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 255,
+     "latency": 0.53
+    },
+    {
+     "task": "Prove I know LangGraph.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 255,
+     "latency": 1.26
+    },
+    {
+     "task": "Evidence of Stripe billing work?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 253,
+     "latency": 0.87
+    },
+    {
+     "task": "Have I used Tableau?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 262,
+     "latency": 0.69
+    },
+    {
+     "task": "Find my A/B testing projects.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 251,
+     "latency": 0.83
+    },
+    {
+     "task": "Read data_analyst:cs:dbt-warehouse.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 271,
+     "latency": 0.66
+    },
+    {
+     "task": "What jobs ask for Kubernetes?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 244,
+     "latency": 1.35
+    },
+    {
+     "task": "Title of job-0055?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 245,
+     "latency": 0.74
+    },
+    {
+     "task": "Client c010's reviews from freelancers?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {
+       "client_id": "c010"
+      }
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 279,
+     "latency": 0.68
+    },
+    {
+     "task": "My Connects balance please.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 261,
+     "latency": 0.91
+    },
+    {
+     "task": "Do I have reviews praising communication?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_job",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 260,
+     "latency": 0.81
+    },
+    {
+     "task": "Schedule options for a call in the next 5 days?",
+     "called": "marketplace",
+     "args_got": {
+      "action": "get_client",
+      "params": {}
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 268,
+     "latency": 1.14
+    },
+    {
+     "task": "Open web jobs about Next.js.",
+     "called": "marketplace",
+     "args_got": {
+      "action": "search_jobs",
+      "params": {}
+     },
+     "sel": true,
+     "args": false,
+     "tokens": 248,
+     "latency": 0.7
+    }
+   ]
+  },
+  "best": {
+   "n_tasks": 40,
+   "n_tools": 9,
+   "tool_selection_accuracy": 0.95,
+   "argument_accuracy": 0.95,
+   "tokens_per_task": 518.125,
+   "rows": [
+    {
+     "task": "Find new jobs about dbt and Snowflake.",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "data",
+      "query": "dbt snowflake"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 524,
+     "latency": 0.56
+    },
+    {
+     "task": "Show me open data-category jobs.",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "data",
+      "query": ""
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 526,
+     "latency": 1.01
+    },
+    {
+     "task": "What is the budget of job-0042?",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0042"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 515,
+     "latency": 1.63
+    },
+    {
+     "task": "Read the full post for job-0007.",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0007"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 515,
+     "latency": 1.32
+    },
+    {
+     "task": "Which skills does job-0101 need?",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0101"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 516,
+     "latency": 2.22
+    },
+    {
+     "task": "How many Connects does job-0033 cost?",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0033"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 516,
+     "latency": 1.61
+    },
+    {
+     "task": "Is client c017 payment verified?",
+     "called": "get_client_history",
+     "args_got": {
+      "client_id": "c017"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 512,
+     "latency": 1.25
+    },
+    {
+     "task": "How much has client c004 spent?",
+     "called": "get_client_history",
+     "args_got": {
+      "client_id": "c004"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 513,
+     "latency": 1.33
+    },
+    {
+     "task": "What rating does client c023 give freelancers?",
+     "called": "get_client_history",
+     "args_got": {
+      "client_id": "c023"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 513,
+     "latency": 0.98
+    },
+    {
+     "task": "Typical price for a complexity-3 AI/ML job?",
+     "called": "get_market_stats",
+     "args_got": {
+      "category": "ai_ml",
+      "complexity": 3
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 520,
+     "latency": 1.17
+    },
+    {
+     "task": "Price range for simple web jobs (complexity 1)?",
+     "called": "get_market_stats",
+     "args_got": {
+      "category": "web",
+      "complexity": 1
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 519,
+     "latency": 1.45
+    },
+    {
+     "task": "How many Connects do I have left?",
+     "called": "get_connects_balance",
+     "args_got": {},
+     "sel": true,
+     "args": true,
+     "tokens": 512,
+     "latency": 1.44
+    },
+    {
+     "task": "Do I have proof of Airflow experience?",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "Airflow DAGs"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 523,
+     "latency": 1.25
+    },
+    {
+     "task": "Find my work with React Native.",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "mobile",
+      "query": "React Native"
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 518,
+     "latency": 1.17
+    },
+    {
+     "task": "Have I done NER for healthcare?",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "NER healthcare"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 518,
+     "latency": 1.29
+    },
+    {
+     "task": "Any client reviews mentioning dashboards?",
+     "called": "list_messages",
+     "args_got": {
+      "": ""
+     },
+     "sel": false,
+     "args": false,
+     "tokens": 526,
+     "latency": 1.78
+    },
+    {
+     "task": "Do I have code using Celery?",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "Celery"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 520,
+     "latency": 1.43
+    },
+    {
+     "task": "Open case study ai_ml:cs:recsys.",
+     "called": "get_case_study",
+     "args_got": {
+      "id": "ai_ml:cs:recsys"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 526,
+     "latency": 1.29
+    },
+    {
+     "task": "Show the full text of fullstack:cs:lms.",
+     "called": "get_case_study",
+     "args_got": {
+      "id": "fullstack:cs:lms"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 522,
+     "latency": 0.97
+    },
+    {
+     "task": "Any new client messages?",
+     "called": "list_messages",
+     "args_got": {},
+     "sel": true,
+     "args": true,
+     "tokens": 503,
+     "latency": 0.84
+    },
+    {
+     "task": "When am I free for an interview this week?",
+     "called": "free_slots",
+     "args_got": {
+      "days": 7
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 511,
+     "latency": 1.25
+    },
+    {
+     "task": "Find free interview times in the next 3 days.",
+     "called": "free_slots",
+     "args_got": {
+      "days": 3
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 518,
+     "latency": 0.53
+    },
+    {
+     "task": "Search jobs mentioning Power BI.",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "data",
+      "query": "Power BI"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 525,
+     "latency": 1.02
+    },
+    {
+     "task": "List AI/ML jobs.",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "ai_ml",
+      "query": "AI/ML"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 521,
+     "latency": 1.57
+    },
+    {
+     "task": "Get details of job-0090.",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0090"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 515,
+     "latency": 1.18
+    },
+    {
+     "task": "Is job-0015 worth its Connects? First get the job.",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0015"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 522,
+     "latency": 1.86
+    },
+    {
+     "task": "Check history of client c045 before bidding.",
+     "called": "get_client_history",
+     "args_got": {
+      "client_id": "c045"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 514,
+     "latency": 2.33
+    },
+    {
+     "task": "Median price for data jobs of complexity 2.",
+     "called": "get_market_stats",
+     "args_got": {
+      "category": "data",
+      "complexity": 2
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 518,
+     "latency": 1.53
+    },
+    {
+     "task": "Prove I know LangGraph.",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "LangGraph"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 515,
+     "latency": 1.49
+    },
+    {
+     "task": "Evidence of Stripe billing work?",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "Stripe billing"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 518,
+     "latency": 0.86
+    },
+    {
+     "task": "Have I used Tableau?",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "Tableau"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 513,
+     "latency": 2.2
+    },
+    {
+     "task": "Find my A/B testing projects.",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "A/B testing"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 527,
+     "latency": 0.6
+    },
+    {
+     "task": "Read data_analyst:cs:dbt-warehouse.",
+     "called": "get_case_study",
+     "args_got": {
+      "id": "data_analyst:cs:dbt-warehouse"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 528,
+     "latency": 1.55
+    },
+    {
+     "task": "What jobs ask for Kubernetes?",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "data",
+      "query": "Kubernetes"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 516,
+     "latency": 0.93
+    },
+    {
+     "task": "Title of job-0055?",
+     "called": "get_job",
+     "args_got": {
+      "job_id": "job-0055"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 512,
+     "latency": 1.19
+    },
+    {
+     "task": "Client c010's reviews from freelancers?",
+     "called": "get_client_history",
+     "args_got": {
+      "client_id": "c010"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 512,
+     "latency": 1.03
+    },
+    {
+     "task": "My Connects balance please.",
+     "called": "get_connects_balance",
+     "args_got": {
+      "": ""
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 512,
+     "latency": 1.37
+    },
+    {
+     "task": "Do I have reviews praising communication?",
+     "called": "search_evidence",
+     "args_got": {
+      "k": 5,
+      "requirement": "communication"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 544,
+     "latency": 2.11
+    },
+    {
+     "task": "Schedule options for a call in the next 5 days?",
+     "called": "free_slots",
+     "args_got": {
+      "days": 5
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 513,
+     "latency": 2.53
+    },
+    {
+     "task": "Open web jobs about Next.js.",
+     "called": "search_jobs",
+     "args_got": {
+      "category": "web",
+      "query": "Next.js"
+     },
+     "sel": true,
+     "args": true,
+     "tokens": 514,
+     "latency": 1.42
+    }
+   ]
+  }
+ }
+}

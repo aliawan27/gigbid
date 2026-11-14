@@ -39,6 +39,9 @@ models:
   embeddings: BAAI/bge-small-en-v1.5
   reranker: Xenova/ms-marco-MiniLM-L-6-v2
 
+writer:
+  prompt: writer            # X2 proposal experiments: writer (A, evidence-led) | writer_b (B, question-led)
+
 rag:
   variant: best             # chosen by evals/results/rag_variants.json
   k: 6
