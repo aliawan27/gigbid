@@ -66,6 +66,7 @@ marketplace is behind it.
 | Store | Local | Deployed |
 |---|---|---|
 | Graph checkpointer + LangGraph store | SQLite (`AsyncSqliteSaver`, `AsyncSqliteStore`) | Postgres (`AsyncPostgresSaver`, `AsyncPostgresStore`) when `DATABASE_URL` is set |
-| App DB (users, job index, runs, events, task queue, encrypted OAuth tokens) | SQLite | Postgres |
+| App DB (users, job index, runs, events, task records, encrypted OAuth tokens) | SQLite | Postgres |
+| Task queue (Arq) | DB polling fallback | Redis (Render Key Value) |
 | Vector index | BGE-small embeddings in a numpy flat index + BM25, cached by content hash | same (baked into the image) |
 | Audit log | `logs/audit.jsonl` (append-only, PII masked) | same |

@@ -87,9 +87,15 @@ def enqueue(user_id: str, kind: str, payload: dict, dedup_key: str | None = None
         with engine.begin() as c:
             res = c.execute(insert(tasks).values(user_id=user_id, kind=kind, payload=payload, dedup_key=dedup_key,
                                                  status="queued", attempts=0, created_at=now, updated_at=now))
-            return res.inserted_primary_key[0]
+            tid = res.inserted_primary_key[0]
     except Exception:  # noqa: BLE001  duplicate dedup_key -> already queued/done (idempotent processing)
         return None
+    try:  # hand the task to Arq on Redis when configured (worker/queue.py); the DB row stays the record
+        from worker.queue import push
+        push(tid)
+    except Exception:  # noqa: BLE001  Redis down -> the DB-poll fallback still runs it
+        pass
+    return tid
 
 
 def upsert_job(user_id: str, job_id: str, **vals) -> None:

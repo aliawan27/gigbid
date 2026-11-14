@@ -18,7 +18,9 @@ Reviewer login is seeded at start-up (`scripts/seed_users.py`); its password com
   Upwork mode** (`agent/config.yaml`). Justification for live mode: freelance posts stay open for days, Upwork's guidance treats
   aggressive polling as bot behaviour, and 6 searches/day per saved search is far below any rate a human would hit by hand; the
   scout only reads through the official MCP server, never scrapes.
-* Tasks live in the `tasks` table with a unique `dedup_key` (`bid:<user>:<job>`), so a re-scout never queues a job twice.
+* Tasks are recorded in the `tasks` table with a unique `dedup_key` (`bid:<user>:<job>`), so a re-scout never queues a job twice,
+  and executed by an **Arq worker on Redis** (`REDIS_URL`); scouting and sync are Arq cron jobs. Without Redis the worker polls
+  the DB queue (local/CI), and it falls back to that automatically if Redis is lost.
 * Pipeline sync (proposal statuses, new client messages) runs every 45 s against GigSim.
 
 ## Crash safety (C6)

@@ -1,5 +1,5 @@
 # docker compose -f infra/docker-compose.yml up --build
-# Starts web+API, worker, the three MCP servers, GigSim, Postgres (checkpointer, store, app DB) and an Ollama
+# Starts web+API, the Arq worker, the three MCP servers, GigSim, Postgres (checkpointer, store, app DB), Redis (Arq queue) and an Ollama
 # service for running the open profile fully locally (MODEL_PROFILE=local). The vector store is the in-process
 # BGE/numpy index inside the portfolio server (rag/index/store.py), so it needs no separate container.
 x-app: &app
@@ -7,6 +7,7 @@ x-app: &app
   env_file: ../.env
   environment: &env
     DATABASE_URL: postgresql://gigbid:gigbid@postgres:5432/gigbid
+    REDIS_URL: redis://redis:6379/0
     GIGSIM_BASE_URL: http://gigsim:8081
     PORTFOLIO_MCP_URL: http://portfolio:8091/mcp/
     MARKETPLACE_MCP_URL: http://marketplace:8092/mcp/
@@ -19,6 +20,9 @@ services:
     environment: { POSTGRES_USER: gigbid, POSTGRES_PASSWORD: gigbid, POSTGRES_DB: gigbid }
     volumes: [pgdata:/var/lib/postgresql/data]
     healthcheck: { test: ["CMD-SHELL", "pg_isready -U gigbid"], interval: 5s, retries: 10 }
+  redis:
+    image: redis:7.2-alpine
+    healthcheck: { test: ["CMD", "redis-cli", "ping"], interval: 5s, retries: 10 }
   gigsim:
     <<: *app
     command: python -m uvicorn gigsim.app:app --host 0.0.0.0 --port 8081
@@ -35,7 +39,7 @@ services:
   worker:
     <<: *app
     command: python -m worker.main
-    depends_on: { postgres: { condition: service_healthy }, marketplace: { condition: service_started }, portfolio: { condition: service_started } }
+    depends_on: { postgres: { condition: service_healthy }, redis: { condition: service_healthy }, marketplace: { condition: service_started }, portfolio: { condition: service_started } }
   api:
     <<: *app
     command: python -m uvicorn apps.api.main:app --host 0.0.0.0 --port 8000

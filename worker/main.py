@@ -143,12 +143,94 @@ def recover() -> None:
     db.q(db.tasks.update().where(db.tasks.c.status == "running").values(status="queued"))
 
 
+def scout_interval_s() -> int:
+    live = os.getenv("MARKETPLACE_MODE", CONFIG["marketplace"]["mode"]) == "upwork_live"
+    return 60 * CONFIG["marketplace"]["live_scout_interval_minutes" if live else "scout_interval_minutes"]
+
+
+# ---------------- Arq on Redis (used when REDIS_URL is set) ----------------
+_arq_sem: asyncio.Semaphore | None = None
+
+
+async def arq_run_task(ctx, task_id: int) -> str:
+    """Arq job: run one DB-recorded task. Re-queues (deferred) when the marketplace is down; the DB row tracks status."""
+    from worker.queue import push
+    global _arq_sem
+    _arq_sem = _arq_sem or asyncio.Semaphore(MAX_PARALLEL)
+    with db.engine.begin() as c:
+        row = c.execute(select(db.tasks).where(db.tasks.c.id == task_id)).first()
+        if not row or row._mapping["status"] in ("done", "dead_letter"):
+            return "skipped"  # idempotent: a duplicate or replayed job never runs twice
+        t = dict(row._mapping)
+        c.execute(db.tasks.update().where(db.tasks.c.id == task_id).values(status="running", attempts=(t["attempts"] or 0) + 1,
+                                                                          updated_at=time.time()))
+    t["attempts"] = (t["attempts"] or 0) + 1
+    await run_task(t, asyncio.Semaphore(1) if t["kind"].startswith("resume") else _arq_sem)
+    after = db.one(select(db.tasks).where(db.tasks.c.id == task_id))
+    if after and after["status"] == "queued":  # transient failure -> retry later through Arq
+        push(task_id, job_id=f"task:{task_id}:try{t['attempts']}", defer_s=30)
+    return after["status"] if after else "gone"
+
+
+async def arq_scout_all(ctx) -> None:
+    now = time.time()
+    iv = scout_interval_s()
+    for u in users():
+        if u.get("owner"):
+            db.enqueue(u["id"], "scout", {}, dedup_key=f"scout:{u['id']}:{int(now // iv)}")
+
+
+async def arq_sync_all(ctx) -> None:
+    for u in users():
+        if u.get("owner"):
+            try:
+                await sync_pipeline(u)
+            except Exception as e:  # noqa: BLE001
+                log.warning("sync failed for %s: %s", u["id"], e)
+
+
+def _redis_settings(RedisSettings):
+    rs = RedisSettings.from_dsn(redis_url_())
+    rs.conn_timeout, rs.conn_retries, rs.conn_retry_delay = 10, 5, 2
+    return rs
+
+
+def redis_url_() -> str:
+    from worker.queue import redis_url
+    return redis_url()
+
+
+async def run_arq() -> None:
+    from arq import Worker, cron
+    from arq.connections import RedisSettings
+
+    from worker.queue import push, redis_url
+    for t in db.rows(select(db.tasks).where(db.tasks.c.status == "queued")):  # recovery: hand back unfinished tasks
+        push(t["id"], job_id=f"task:{t['id']}:recover{int(time.time())}")
+    iv_min = max(1, scout_interval_s() // 60)
+    w = Worker(functions=[arq_run_task], redis_settings=_redis_settings(RedisSettings), max_jobs=MAX_PARALLEL + 3,
+               job_timeout=1800, handle_signals=False, keep_result=3600,
+               cron_jobs=[cron(arq_scout_all, minute={0} if iv_min >= 60 else set(range(0, 60, iv_min)), run_at_startup=True),
+                          cron(arq_sync_all, second={0, 45}, unique=True)])
+    log.info("worker started on Arq/Redis (scout every %s min)", iv_min)
+    await w.async_run()
+
+
 async def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s worker %(message)s")
     logging.getLogger("httpx").setLevel(logging.WARNING)
     db.init_db()
     recover()
     await runner.graphs()
+    from worker.queue import ping, redis_url
+    if redis_url():
+        if ping():
+            try:
+                return await run_arq()
+            except Exception:  # noqa: BLE001  Redis lost: keep working from the DB queue rather than stopping
+                log.error("Arq worker stopped (%s); falling back to the DB queue", traceback.format_exc(limit=1))
+        else:
+            log.warning("REDIS_URL set but Redis unreachable; falling back to the DB queue")
     sem = asyncio.Semaphore(MAX_PARALLEL)
     last_scout: dict[str, float] = {}
     last_sync = 0.0

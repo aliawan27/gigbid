@@ -13,6 +13,8 @@ services:
         sync: false
       - key: DATABASE_URL
         sync: false
+      - key: REDIS_URL          # internal connection string of the free Render Key Value instance (Arq queue)
+        sync: false
       - key: LANGSMITH_API_KEY
         sync: false
       - key: LANGSMITH_PROJECT
