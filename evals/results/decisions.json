@@ -2717,5 +2717,12 @@
    "good_jobs_missed": 6,
    "accuracy": 0.95
   }
- ]
+ ],
+ "fix_tried_pricing_complexity": {
+  "n": 71,
+  "llm_complexity_in_band": 0.507,
+  "requirement_count_complexity_in_band": 1.0,
+  "above_band_before": 31,
+  "above_band_after": 0
+ }
 }
