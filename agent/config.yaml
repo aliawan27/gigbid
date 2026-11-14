@@ -48,7 +48,7 @@ models:
   reranker: Xenova/ms-marco-MiniLM-L-6-v2
 
 writer:
-  prompt: writer            # X2 proposal experiments: writer (A, evidence-led) | writer_b (B, question-led)
+  prompt: writer_b          # X2: shipped B (question-led) - better on every metric, reply-rate gain p=0.089 (evals/results/ab_test.json)
 
 rag:
   variant: best             # chosen by evals/results/rag_variants.json

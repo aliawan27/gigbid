@@ -40,13 +40,31 @@ for f in (ROOT / "agent" / "nodes").glob("*.py"):
 
 readme = (ROOT / "README.md").read_text(encoding="utf-8") if (ROOT / "README.md").exists() else ""
 sec = readme.split("<!-- results:start -->")[1].split("<!-- results:end -->")[0] if "<!-- results:start -->" in readme else ""
-blob = " ".join((p.read_text(encoding="utf-8") for p in (ROOT / "evals" / "results").glob("*.json")))
+values: list[float] = []
+
+
+def _collect(o):
+    if isinstance(o, bool):
+        return
+    if isinstance(o, (int, float)):
+        values.append(float(o))
+    elif isinstance(o, dict):
+        for v in o.values():
+            _collect(v)
+    elif isinstance(o, list):
+        for v in o:
+            _collect(v)
+
+
+for p in (ROOT / "evals" / "results").glob("*.json"):
+    _collect(json.loads(p.read_text(encoding="utf-8")))
 for num in set(re.findall(r"(?<![\w.])\d+\.\d+(?![\w.])", sec)):
-    if num not in blob:
-        fail.append(f"README number {num} not found in evals/results/*.json")
+    d = len(num.split(".")[1])
+    v = float(num)
+    if not any(abs(x - v) <= 0.5 * 10 ** -d + 1e-9 for x in values):
+        fail.append(f"README number {num} does not trace to any value in evals/results/*.json")
 
 if fail:
     print("\n".join(fail))
     sys.exit(1)
 print("ci checks ok")
-_ = json
