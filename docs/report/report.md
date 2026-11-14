@@ -27,7 +27,7 @@ Agents exchange Pydantic hand-offs (`JobSpec`, `RiskReport`, `FitReport`, `BidDe
 server wraps the port so the graph cannot tell which marketplace it uses. **MCP surface**: Portfolio (read), Marketplace
 (read + idempotent write tools, bearer auth, per-user rate limit, append-only PII-masked audit log), Workspace (calendar, email
 drafts), plus Upwork's official MCP (live mode) and GitHub's MCP (repo ingestion). **Stores**: Postgres or SQLite checkpointer
-and store, app DB with a task queue, numpy/BM25 index. **Why each agent exists**: each owns a different failure mode — the
+and store, an Arq worker on Redis (free Render Key Value) with the app DB as the task record, numpy/BM25 index. **Why each agent exists**: each owns a different failure mode — the
 analyst normalises messy posts; the risk assessor must not be biased toward bidding; fit matching is deterministic retrieval
 for auditability; the writer is the only creative step and gets the strongest model; the critic and compliance guard are
 independent checks; the liaison has different cadence and state (`docs/ARCHITECTURE.md`).
