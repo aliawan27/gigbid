@@ -28,8 +28,15 @@ class RAGConfig:
 _index_cache: dict[tuple, tuple[Index, dict]] = {}
 
 
+def _uploads_version(owner: str) -> float:
+    from rag.ingest.loaders import PERSONA_ROOT
+    up = PERSONA_ROOT.parent / "uploads" / owner
+    return max([f.stat().st_mtime for f in up.iterdir()], default=0.0) if up.exists() else 0.0
+
+
 def get_index(owner: str, chunking: str) -> tuple[Index, dict]:
-    key = (owner, chunking)
+    """Cached per owner; a new upload changes the version so only new chunks are embedded (incremental)."""
+    key = (owner, chunking, _uploads_version(owner))
     if key not in _index_cache:
         items = load_item_texts(owner)
         _index_cache[key] = (Index(chunk_items(items, chunking)), {it["id"]: it for it in items})

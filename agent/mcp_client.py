@@ -39,10 +39,10 @@ SERVER_OF = {
 
 def connections() -> dict[str, dict]:
     return {
-        "portfolio": {"url": os.getenv("PORTFOLIO_MCP_URL", "http://localhost:8091/mcp"), "transport": "streamable_http"},
-        "marketplace": {"url": os.getenv("MARKETPLACE_MCP_URL", "http://localhost:8092/mcp"), "transport": "streamable_http",
+        "portfolio": {"url": os.getenv("PORTFOLIO_MCP_URL", "http://localhost:8091/mcp/"), "transport": "streamable_http"},
+        "marketplace": {"url": os.getenv("MARKETPLACE_MCP_URL", "http://localhost:8092/mcp/"), "transport": "streamable_http",
                         "headers": {"Authorization": f"Bearer {os.getenv('MARKETPLACE_MCP_TOKEN', 'marketplace-dev-token')}"}},
-        "workspace": {"url": os.getenv("WORKSPACE_MCP_URL", "http://localhost:8093/mcp"), "transport": "streamable_http"},
+        "workspace": {"url": os.getenv("WORKSPACE_MCP_URL", "http://localhost:8093/mcp/"), "transport": "streamable_http"},
     }
 
 
