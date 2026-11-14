@@ -40,7 +40,7 @@ def main():
     else:
         body = {"type": "web_service", "name": "gigbid", "ownerId": owner, "repo": REPO, "branch": "main", "autoDeploy": "yes",
                 "envVars": env_vars,
-                "serviceDetails": {"runtime": "docker", "plan": "free", "region": "oregon", "healthCheckPath": "/api/health",
+                "serviceDetails": {"runtime": "docker", "plan": "free", "region": "oregon", "healthCheckPath": "/healthz",
                                    "envSpecificDetails": {"dockerfilePath": "./Dockerfile", "dockerContext": "."}}}
         r = httpx.post(f"{API}/services", headers=h, json=body, timeout=60)
         if r.status_code >= 400:

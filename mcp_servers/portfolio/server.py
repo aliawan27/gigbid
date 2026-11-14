@@ -11,6 +11,7 @@ Use your own portfolio folder:              GIGBID_PORTFOLIO_DIR=~/my-portfolio 
 from __future__ import annotations
 
 import argparse
+import asyncio
 import json
 import os
 from typing import Annotated, Literal
@@ -55,24 +56,26 @@ class SearchFilters(BaseModel):
 
 
 @mcp.tool(annotations=RO)
-def search_evidence(requirement: Annotated[str, Field(description="One job requirement or a whole job post")],
+async def search_evidence(requirement: Annotated[str, Field(description="One job requirement or a whole job post")],
                     k: Annotated[int, Field(ge=1, le=20)] = 5,
                     filters: SearchFilters | None = None,
                     owner: str = "") -> list[EvidenceItem]:
     """Find portfolio evidence (with type, source, date, outcome) that proves a requirement. Read-only."""
     owner = owner or DEFAULT_OWNER
-    res = _variant().search(owner, query=requirement, k=k, filters=filters.model_dump() if filters else None)
+    # embedding + BM25 are CPU work: run off the event loop so one search never stalls other requests
+    res = await asyncio.to_thread(_variant().search, owner, query=requirement, k=k,
+                                  filters=filters.model_dump() if filters else None)
     return [EvidenceItem(**{f: r.get(f) for f in EvidenceItem.model_fields}) for r in res]
 
 
 @mcp.tool(annotations=RO)
-def search_past_proposals(query: str, k: Annotated[int, Field(ge=1, le=10)] = 3,
+async def search_past_proposals(query: str, k: Annotated[int, Field(ge=1, le=10)] = 3,
                           outcome: Literal["won", "replied", "ignored", "any"] = "any",
                           owner: str = "") -> list[EvidenceItem]:
     """Find the freelancer's past proposals (with outcome) for phrasing that actually worked. Read-only."""
     owner = owner or DEFAULT_OWNER
     p = Pipeline(RAGConfig(name="proposals", hybrid=True, outcome_boost=1.0, types=("proposal",)))
-    res = p.search(owner, query=query, k=k * 4, filters={"types": ["proposal"]})
+    res = await asyncio.to_thread(p.search, owner, query=query, k=k * 4, filters={"types": ["proposal"]})
     if outcome != "any":
         res = [r for r in res if r.get("outcome") == outcome]
     return [EvidenceItem(**{f: r.get(f) for f in EvidenceItem.model_fields}) for r in res[:k]]

@@ -121,7 +121,7 @@ async def health() -> dict[str, bool]:
     for s in ("portfolio", "marketplace", "workspace"):
         try:
             _tools_cache.pop(s, None)
-            await asyncio.wait_for(_server_tools(s), 5)
+            await asyncio.wait_for(_server_tools(s), 20)
             res[s] = True
         except Exception:  # noqa: BLE001
             res[s] = False

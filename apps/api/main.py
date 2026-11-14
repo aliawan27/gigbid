@@ -55,10 +55,24 @@ for r in (auth.router, jobs.router, messages.router, runs.router, settings.route
     app.include_router(r)
 
 
+@app.get("/healthz", include_in_schema=False)
+def healthz():
+    """Instant liveness probe for the host (no downstream calls)."""
+    return {"ok": True}
+
+
+_health_cache: dict = {}
+
+
 @app.get("/api/health", response_model=Health, tags=["health"])
 async def health():
+    """Readiness incl. MCP servers; cached for 30 s so polling UIs and probes stay cheap on a small CPU."""
     from agent.mcp_client import health as mcp_health
-    h = await mcp_health()
+    if _health_cache.get("t", 0) > time.time() - 30:
+        h = _health_cache["h"]
+    else:
+        h = await mcp_health()
+        _health_cache.update(t=time.time(), h=h)
     return Health(api=True, marketplace=h["marketplace"], portfolio=h["portfolio"], workspace=h["workspace"],
                   degraded=not all(h.values()), mode=os.getenv("MARKETPLACE_MODE", CONFIG["marketplace"]["mode"]))
 
