@@ -64,7 +64,8 @@ def main():
     j = [int(hidden[r["item"]]["judge"]) for r in rows]
     dis = [{"item": r["item"], "job": r["job_title"], "human": a, "judge": b, "judge_reason": hidden[r["item"]]["reason"],
             "proposal": r["proposal"][:400]} for r, a, b in zip(rows, h, j) if abs(a - b) >= 2]
-    out = {"status": "done", "n": len(rows), "cohen_kappa_quadratic": kappa(h, j), "cohen_kappa_unweighted": kappa(h, j, weighted=False),
+    annot = sorted({r.get("annotator") or "student" for r in rows})
+    out = {"status": "done", "reference_annotator": annot, "n": len(rows), "cohen_kappa_quadratic": kappa(h, j), "cohen_kappa_unweighted": kappa(h, j, weighted=False),
            "exact_agreement": round(sum(a == b for a, b in zip(h, j)) / len(h), 3),
            "within_one": round(sum(abs(a - b) <= 1 for a, b in zip(h, j)) / len(h), 3),
            "mean_human": round(sum(h) / len(h), 2), "mean_judge": round(sum(j) / len(j), 2), "big_disagreements": dis}

@@ -103,7 +103,8 @@ def main():
                    f"**{inj['attack_success_rate_after']}** after ({inj['n_attacks']} attacks: planted job posts + client messages); detection rate {inj['detection_rate']}.")
     if jc and jc.get("status") == "done":
         out.append(f"\n### Judge calibration\n\nCohen's kappa (quadratic) **{jc['cohen_kappa_quadratic']}**, exact agreement {jc['exact_agreement']}, "
-                   f"within ±1 {jc['within_one']} on {jc['n']} human-labelled proposals.")
+                   f"within ±1 {jc['within_one']} on {jc['n']} proposals; reference labels by {', '.join(jc.get('reference_annotator', ['the student']))}. "
+                   "The judge is not calibrated, so its scores are not used for decisions.")
     text = "\n".join(out) + "\n"
     (RESULTS / "tables.md").write_text(text, encoding="utf-8")
     print(text)
