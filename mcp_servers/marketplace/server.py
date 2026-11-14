@@ -11,6 +11,10 @@ Run: python -m mcp_servers.marketplace.server --http 8092
 """
 from __future__ import annotations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import argparse
 import json
 import os

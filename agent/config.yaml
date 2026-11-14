@@ -16,6 +16,10 @@ models:
       small: openai/gpt-oss-20b
       strong: qwen/qwen3.8-27b
       fallback: openai/gpt-oss-120b
+    local:                  # fully local via Ollama (LLM_BASE_URL=http://ollama:11434/v1, GROQ_API_KEYS=ollama)
+      small: qwen3:4b
+      strong: qwen3:8b
+      fallback: qwen3:4b
     paid:                   # optional; not used by the deployment
       small: openai/gpt-oss-20b
       strong: openai/gpt-oss-120b

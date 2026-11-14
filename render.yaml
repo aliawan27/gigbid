@@ -1,0 +1,27 @@
+# Render Blueprint: New -> Blueprint -> this repo. Fill the secret env vars when prompted (values are never committed).
+services:
+  - type: web
+    name: gigbid
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: "7860"
+      - key: GROQ_API_KEYS
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: LANGSMITH_API_KEY
+        sync: false
+      - key: LANGSMITH_PROJECT
+        value: gigbid
+      - key: REVIEWER_PASSWORD
+        sync: false
+      - key: APP_SECRET_KEY
+        generateValue: true
+      - key: MARKETPLACE_MCP_TOKEN
+        generateValue: true
+      - key: GIGSIM_API_TOKEN
+        generateValue: true

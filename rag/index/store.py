@@ -20,21 +20,38 @@ RERANK_MODEL = os.getenv("RERANK_MODEL", "Xenova/ms-marco-MiniLM-L-6-v2")
 _lock = threading.Lock()
 
 
+def _lean_onnx() -> None:
+    """Disable onnxruntime's CPU memory arena: otherwise one large embedding batch keeps GBs reserved."""
+    import onnxruntime as ort
+    if getattr(ort.InferenceSession, "_gigbid_patched", False):
+        return
+    orig = ort.InferenceSession.__init__
+
+    def init(self, path, sess_options=None, *a, **k):
+        so = sess_options or ort.SessionOptions()
+        so.enable_cpu_mem_arena = False
+        orig(self, path, so, *a, **k)
+    ort.InferenceSession.__init__ = init
+    ort.InferenceSession._gigbid_patched = True
+
+
 @lru_cache(1)
 def embedder():
+    _lean_onnx()
     from fastembed import TextEmbedding
     return TextEmbedding(EMBED_MODEL, cache_dir=str(CACHE / "models"))
 
 
 @lru_cache(1)
 def reranker():
+    _lean_onnx()
     from fastembed.rerank.cross_encoder import TextCrossEncoder
     return TextCrossEncoder(RERANK_MODEL, cache_dir=str(CACHE / "models"))
 
 
 def embed(texts: list[str]) -> np.ndarray:
     with _lock:
-        v = np.array(list(embedder().embed(texts)), dtype=np.float32)
+        v = np.array(list(embedder().embed(texts, batch_size=16)), dtype=np.float32)
     return v / (np.linalg.norm(v, axis=1, keepdims=True) + 1e-9)
 
 

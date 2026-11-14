@@ -1,0 +1,12 @@
+.venv
+.env
+**/node_modules
+apps/web/dist
+data/processed
+data/*.db*
+data/uploads
+logs
+.git
+**/__pycache__
+apps/web/test-results
+apps/web/playwright-report

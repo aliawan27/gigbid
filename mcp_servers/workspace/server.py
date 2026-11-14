@@ -5,6 +5,10 @@ Run: python -m mcp_servers.workspace.server --http 8093
 """
 from __future__ import annotations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import argparse
 import hashlib
 import json

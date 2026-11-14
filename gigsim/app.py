@@ -11,6 +11,10 @@ Run: uvicorn gigsim.app:app --port 8081
 """
 from __future__ import annotations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import hashlib
 import json
 import os
