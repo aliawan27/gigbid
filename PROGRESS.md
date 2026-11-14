@@ -1,16 +1,12 @@
 # Build progress (resume notes)
 
-Done:
-- [x] Synthetic data generator (scripts/generate_data.py) + GigSim simulator (gigsim/)
-- [x] RAG: loaders, indexes, variants V0,V1,V2,V3,V4,V5,V8, claim verification
-- [x] MCP servers: portfolio (8091), marketplace (8092, bearer token), workspace (8093); agent/mcp_client.py allowlists
-Next:
-- [x] agent: handoffs, state, nodes, prompts, bid graph, conversation graph, memory
-- [x] API (FastAPI) + worker + SSE
-- [x] Web (Vite React TS) 9 screens + Playwright (10 passing)
-- [ ] tests (unit/contract/integration), CI
-- [ ] evals (rag, decisions, gigsim outcomes, tool study, single-agent comparison, judge calibration, injection)
-- [ ] Dockerfiles/compose, HF Space deploy
-- [ ] docs, README, report PDF, write-up, change request
+Done: data generator + GigSim; RAG V0-V5,V8 + claim verification; 3 MCP servers + GitHub/Upwork adapters; both graphs, memory,
+interrupts, durability; FastAPI + worker + SSE; React UI (9 screens) + Playwright (10/10); unit/contract/integration tests
+(18/18); CI; all evals (rag, decisions + fixes, outcomes, A/B, injection, tool granularity, agent comparison); report PDF;
+write-up; README; demo GIF; public LangSmith traces; change request.
 
-Local run: GigSim :8081, portfolio :8091, marketplace :8092, workspace :8093 (see Makefile `dev`).
+Waiting on the user (details in HANDOFF.md, which is git-ignored):
+- [ ] DATABASE_URL (Neon) and RENDER_API_KEY in .env -> `python scripts/deploy_render.py`; then fill LIVE_URL in README + report
+- [ ] 30 human labels in evals/datasets/judge_labels.csv -> `python evals/runners/judge_calibration.py`; fill KAPPA_SENTENCE in report
+- [ ] MCP Inspector screenshots -> docs/images/inspector_*.png
+- [ ] demo video, Medium post, Google Classroom submission
