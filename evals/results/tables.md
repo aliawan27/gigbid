@@ -62,6 +62,22 @@
 | off | 18 | 0.000 | 0.889 | — | — | — | 21.4 | 0.00030 |
 | scam | 9 | 0.000 | 1 | 1.000 | 1.000 | — | 20.8 | 0.00030 |
 
+### Decisions — held-out jobs (shipped config, never used for tuning)
+
+Excluded for lack of free-tier LLM quota: 6 jobs.
+
+| Slice | n | Bid/skip F1 | Accuracy | Scam precision | Scam recall | Price in fair band | p95 latency / job (s) | USD / job |
+|---|---|---|---|---|---|---|---|---|
+| overall | 474 | 0.992 | 0.990 | 1.000 | 1.000 | 0.394 | 98.8 | 0.00050 |
+| ai_ml | 158 | 1.000 | 1 | 1.000 | 1.000 | 0.407 | 71.5 | 0.00050 |
+| fullstack | 157 | 0.995 | 0.994 | 1.000 | 1.000 | 0.374 | 100.4 | 0.00050 |
+| data_analyst | 159 | 0.981 | 0.975 | 1.000 | 1.000 | 0.400 | 105.2 | 0.00040 |
+| fit | 288 | 0.995 | 0.990 | — | — | 0.407 | 102.2 | 0.00050 |
+| inject | 36 | 0.986 | 0.972 | — | — | 0.286 | 114.6 | 0.00050 |
+| lowball | 48 | 0.000 | 0.979 | — | — | — | 80.1 | 0.00050 |
+| off | 72 | 0.000 | 1 | — | — | — | 97.5 | 0.00050 |
+| scam | 30 | 0.000 | 1 | 1.000 | 1.000 | — | 51.1 | 0.00050 |
+
 ### R&D A — tool granularity (40 tasks)
 
 | Tool set | Tools | Selection accuracy | Argument accuracy | Tokens / task |
