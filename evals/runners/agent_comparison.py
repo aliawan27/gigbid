@@ -86,7 +86,7 @@ async def supervisor_agent(persona: str, job_id: str) -> dict:
     from langgraph.prebuilt import create_react_agent
     from langgraph_supervisor import create_supervisor
     keys = [k for k in os.getenv("GROQ_API_KEYS", "").split(",") if k]
-    llm = ChatGroq(model=model_for("single_agent"), api_key=keys[-1], max_retries=8, temperature=0.2)
+    llm = ChatGroq(model=model_for("single_agent"), api_key=keys[int(os.getenv("SUP_KEY_INDEX", "0"))], max_retries=8, temperature=0.2)
     t_an = await tools_for("sup_analyst")
     t_wr = await tools_for("sup_writer")
     analyst = create_react_agent(llm, t_an, name="analyst", prompt=(

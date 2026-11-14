@@ -29,6 +29,8 @@ def fisher_two_sided(a, b, c, d):
 
 
 def main():
+    import sys
+    sys.stdout.reconfigure(encoding="utf-8")
     out = []
     rag, outc, dec, tools, cmp_, inj, jc = (load(n) for n in ("rag_variants", "gigsim_outcomes", "decisions", "tool_granularity",
                                                               "agent_comparison", "injection", "judge_calibration"))
@@ -88,11 +90,12 @@ def main():
             out.append(f"| {k} | {s['n_tools']} | {f(s['tool_selection_accuracy'])} | {f(s['argument_accuracy'])} | {f(s['tokens_per_task'], 0)} |")
     if cmp_:
         out.append("\n### R&D C — single agent vs supervisor vs graph\n")
-        out.append("| System | Jobs | Bid/skip accuracy | Scam jobs bid on | Unsupported claims / proposal | Violations caught by guard | Violations left in output | Reply rate | Tokens / job | p50 / p95 latency (s) |")
-        out.append("|---|---|---|---|---|---|---|---|---|---|")
+        out.append("| System | Jobs | Failed runs | Bid/skip accuracy | Scam jobs bid on | Unsupported claims / proposal | Violations caught by guard | Violations left in output | Reply rate | Tokens / job | p50 / p95 latency (s) |")
+        out.append("|---|---|---|---|---|---|---|---|---|---|---|")
         for k, c in cmp_["systems"].items():
             s = c["summary"]
-            out.append(f"| {k} | {s['n']} | {f(s['bid_skip_accuracy'])} | {f(s['scam_bid_rate'])} | {f(s['unsupported_claims_per_proposal'], 2)} "
+            nerr = sum(r.get("pred") == "error" for r in c["rows"])
+            out.append(f"| {k} | {s['n']} | {nerr} | {f(s['bid_skip_accuracy'])} | {f(s['scam_bid_rate'])} | {f(s['unsupported_claims_per_proposal'], 2)} "
                        f"| {s['violations_caught_by_guard']} | {s['violations_left_in_output']} | {f(s['reply_rate'])} | {f(s['tokens_per_job'], 0)} "
                        f"| {f(s['p50_latency_s'], 1)} / {f(s['p95_latency_s'], 1)} |")
     if inj:

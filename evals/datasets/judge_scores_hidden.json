@@ -1,0 +1,152 @@
+{
+ "1": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Specific experience with clinical NER, concrete tech stack, clear deliverables and next steps"
+ },
+ "2": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "The proposal directly addresses the job with concrete experience, clear steps, timeline, and relevant technical details."
+ },
+ "3": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Highly specific, mentions Whisper, LangGraph, clear plan and relevant experience"
+ },
+ "4": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Highly specific, addresses all required technologies, outlines concrete steps and timeline, and is concise"
+ },
+ "5": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Highly specific, concrete achievements, clear plan and timeline matching the job"
+ },
+ "6": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Specific, concrete experience, clear next steps, concise"
+ },
+ "7": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "The proposal directly addresses all required technologies, outlines concrete deliverables and timeline, and provides clear next steps, showing strong relevance and specificity."
+ },
+ "8": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Highly specific, concrete experience, clear steps and timeline, concise"
+ },
+ "9": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "Highly specific, concrete plan with clear steps, timeline, and relevant technical details"
+ },
+ "10": {
+  "judge": 5,
+  "config": "v0_open",
+  "reason": "The proposal is directly tailored, cites concrete relevant experience, and outlines clear next steps concisely."
+ },
+ "11": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Specific, concrete experience with required tools and clear delivery plan"
+ },
+ "12": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "The proposal directly addresses the job with concrete technical details, clear deliverables, timeline, and next steps."
+ },
+ "13": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Highly specific, concrete experience, clear plan and next steps matching the job requirements"
+ },
+ "14": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Highly specific, concrete claims, clear next steps, concise and directly addresses the job requirements"
+ },
+ "15": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Highly specific, addresses all required technologies, outlines concrete steps and realistic timeline"
+ },
+ "16": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Highly specific, cites concrete results, outlines clear steps and deliverables, and matches the job requirements"
+ },
+ "17": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Specific, concrete claims, clear plan and timeline, no filler"
+ },
+ "18": {
+  "judge": 4,
+  "config": "best_open",
+  "reason": "Specific to the logistics dashboard with concrete Laravel/MySQL experience and clear next steps, though includes some extra filler"
+ },
+ "19": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Highly specific, mentions all required technologies, clear deliverables and timeline, and provides concrete next steps"
+ },
+ "20": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "The proposal directly addresses the job with concrete experience, clear step\u2011by\u2011step plan, timeline alignment, and concise delivery details."
+ },
+ "21": {
+  "judge": 5,
+  "config": "best_open",
+  "reason": "Specific to the job, concrete experience with ggplot2 and survey analysis, clear next steps and timeline"
+ },
+ "22": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "The proposal directly addresses all job requirements with concrete experience, clear deliverables, and a concise plan."
+ },
+ "23": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "The proposal directly addresses the job with concrete relevant experience, clear next steps, and concise language"
+ },
+ "24": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "Highly specific, concrete plan with relevant tech details and clear next steps"
+ },
+ "25": {
+  "judge": 4,
+  "config": "best_qwen",
+  "reason": "Specific to required tools and next steps, minor filler but overall clear and relevant"
+ },
+ "26": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "The proposal directly addresses all required technologies, outlines concrete steps, and is concise and specific to the job"
+ },
+ "27": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "The proposal directly addresses the job with concrete metrics, clear steps, timeline, and relevant experience"
+ },
+ "28": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "Specific, concrete experience and clear plan aligned with job requirements"
+ },
+ "29": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "The proposal is tailored to the logistics dashboard, cites relevant tech, outlines concrete steps, and is concise."
+ },
+ "30": {
+  "judge": 5,
+  "config": "best_qwen",
+  "reason": "Specific, concrete experience with required tools, clear deliverables and next steps"
+ }
+}
