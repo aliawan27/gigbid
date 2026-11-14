@@ -56,7 +56,7 @@ budgets:
   declared_cost_usd_per_proposal: 0.01
 
 thresholds:
-  bid_fit_score: 0.55       # fit >= this and risk <= max_risk -> bid
+  bid_fit_score: 0.70       # fit >= this and risk <= max_risk -> bid (was 0.55; failure analysis, evals/results/decisions.json)
   watch_fit_score: 0.40
   max_risk_score: 0.60
   scam_risk_score: 0.80
