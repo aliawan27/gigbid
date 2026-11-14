@@ -148,7 +148,7 @@ def main() -> None:
     if a.owner:
         DEFAULT_OWNER = a.owner
     if a.http:
-        mcp.settings.host, mcp.settings.port = "0.0.0.0", a.http
+        mcp.settings.host, mcp.settings.port, mcp.settings.stateless_http = "0.0.0.0", a.http, True
         mcp.run(transport="streamable-http")
     else:
         mcp.run()
