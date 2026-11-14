@@ -85,7 +85,8 @@ class Stack:
                "GIGSIM_CLIENT_LLM": "1" if self.client_llm else "0", "GIGBID_APP_DB": str(self.dir / "app.db"),
                "GIGBID_SQLITE": str(self.dir / "g.db"), "GIGBID_AUDIT_LOG": str(self.dir / "audit.jsonl"),
                "WORKSPACE_STORE": str(self.dir / "ws.json"), "WORKER_SYNC_EVERY_S": "100000", "GIGSIM_STATE": str(self.dir / "gigsim.json"),
-               "MARKETPLACE_USER_RPM": "1000", "GIGSIM_RATE_PER_MIN": "2000"}
+               "MARKETPLACE_USER_RPM": "1000", "GIGSIM_RATE_PER_MIN": "2000",
+               "GIGBID_WORKER": "0"}  # eval stacks serve GigSim + MCP only; no background scouting
         for k in ("GIGSIM_BASE_URL", "PORTFOLIO_MCP_URL", "MARKETPLACE_MCP_URL", "WORKSPACE_MCP_URL"):
             env.pop(k, None)
         self.proc = subprocess.Popen([sys.executable, "-m", "apps.api.allinone"], cwd=ROOT, env=env,

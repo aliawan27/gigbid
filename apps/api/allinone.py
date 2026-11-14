@@ -45,11 +45,12 @@ async def lifespan(app):
             await stack.enter_async_context(m.session_manager.run())
         await stack.enter_async_context(_orig_lifespan(app))
         from worker import main as worker
-        task = asyncio.create_task(worker.main())
+        task = asyncio.create_task(worker.main()) if os.getenv("GIGBID_WORKER", "1") == "1" else None
         try:
             yield
         finally:
-            task.cancel()
+            if task:
+                task.cancel()
 
 
 api.app.router.lifespan_context = lifespan
