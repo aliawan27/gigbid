@@ -18,7 +18,7 @@ COPY . .
 COPY --from=web /web/dist apps/web/dist
 # bake the open embedding + reranker models into the image (CPU, no GPU needed)
 RUN python -c "from rag.index.store import embedder, reranker; embedder(); reranker()" \
- && python -c "from rag.variants.base import get_index; [get_index(p, c) for p in ('ai_ml','fullstack','data_analyst') for c in ('structural',)]" \
+ && python -c "from rag.variants.base import get_index; [get_index(p, c) for p in ('ai_ml','fullstack','data_analyst') for c in ('structural', 'multivector')]" \
  && mkdir -p logs && chmod -R 777 /app/data /app/logs
 EXPOSE 7860
 # all services in one process for 512 MB free hosts; compose overrides the command per service
