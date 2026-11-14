@@ -37,31 +37,39 @@ class LLMUnavailable(RuntimeError):
 
 
 class _KeyRing:
+    """Keys rotate per model: a cooldown is tracked per (key, model), so one model hitting its daily cap on a key does not
+    block other models on that key. If every key is cooling down for longer than FAIL_FAST_S, fail fast so the caller can
+    use its fallback model instead of sleeping."""
+    FAIL_FAST_S = 45
+
     def __init__(self) -> None:
         self.keys = [k.strip() for k in os.getenv("GROQ_API_KEYS", os.getenv("GROQ_API_KEY", "")).split(",") if k.strip()]
-        self.i = 0
-        self.cooldown: dict[int, float] = {}
+        self.i: dict[str, int] = {}
+        self.cooldown: dict[tuple[int, str], float] = {}
         self.lock = threading.Lock()
 
-    def current(self) -> tuple[int, str]:
+    def current(self, model: str = "") -> tuple[int, str]:
         with self.lock:
             if not self.keys:
                 raise LLMUnavailable("no GROQ_API_KEYS configured")
             now = time.time()
+            i = self.i.get(model, 0)
             for _ in range(len(self.keys)):
-                if self.cooldown.get(self.i, 0) <= now:
-                    return self.i, self.keys[self.i]
-                self.i = (self.i + 1) % len(self.keys)
-            # all cooling down: wait for the soonest
-            idx = min(self.cooldown, key=self.cooldown.get)
-            wait = max(0.0, self.cooldown[idx] - now)
-        time.sleep(min(wait, 20))
+                if self.cooldown.get((i, model), 0) <= now:
+                    self.i[model] = i
+                    return i, self.keys[i]
+                i = (i + 1) % len(self.keys)
+            idx = min(range(len(self.keys)), key=lambda k: self.cooldown.get((k, model), 0))
+            wait = max(0.0, self.cooldown.get((idx, model), 0) - now)
+        if wait > self.FAIL_FAST_S:
+            raise LLMUnavailable(f"{model}: all keys rate-limited for {wait:.0f}s")
+        time.sleep(wait)
         return idx, self.keys[idx]
 
-    def fail(self, idx: int, seconds: float) -> None:
+    def fail(self, idx: int, seconds: float, model: str = "") -> None:
         with self.lock:
-            self.cooldown[idx] = time.time() + seconds
-            self.i = (idx + 1) % len(self.keys)
+            self.cooldown[(idx, model)] = time.time() + seconds
+            self.i[model] = (idx + 1) % len(self.keys)
 
 
 KEYS = _KeyRing()
@@ -108,7 +116,7 @@ def chat(model: str, messages: list[dict], *, node: str = "", temperature: float
         body["reasoning_effort"] = "low"
     last = None
     for attempt in range(2 * max(1, len(KEYS.keys)) + 1):
-        idx, key = KEYS.current()
+        idx, key = KEYS.current(model)
         t0 = time.time()
         try:
             r = httpx.post(f"{BASE_URL}/chat/completions", json=body, timeout=timeout,
@@ -119,7 +127,7 @@ def chat(model: str, messages: list[dict], *, node: str = "", temperature: float
             continue
         if r.status_code in (429, 401, 403):
             ra = float(r.headers.get("retry-after", "20") or 20)
-            KEYS.fail(idx, ra if r.status_code == 429 else 3600)
+            KEYS.fail(idx, ra if r.status_code == 429 else 3600, model)
             last = f"{r.status_code}"
             continue
         if r.status_code >= 500:

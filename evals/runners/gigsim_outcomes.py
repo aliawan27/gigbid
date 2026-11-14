@@ -23,8 +23,11 @@ from agent.graphs.bid_graph import build_bid_graph
 from agent.llm import LLMUnavailable, _extract_json, chat
 from agent.nodes.approval import clean_letter
 
-CONFIGS = {"v0_open": ("v0_naive", "open", "writer"), "best_open": ("best", "open", "writer"),
-           "best_qwen": ("best", "open_qwen", "writer"), "best_open_B": ("best", "open", "writer_b")}
+# profiles: eval_open = gpt-oss-120b writer/critic (+ qwen small nodes), eval_qwen = qwen3.8-27b everywhere
+CONFIGS = {"v0_open": ("v0_naive", os.getenv("EVAL_OPEN_PROFILE", "eval_open"), "writer"),
+           "best_open": ("best", os.getenv("EVAL_OPEN_PROFILE", "eval_open"), "writer"),
+           "best_qwen": ("best", "eval_qwen", "writer"),
+           "best_open_B": ("best", os.getenv("EVAL_OPEN_PROFILE", "eval_open"), "writer_b")}
 JUDGE_MODEL = "openai/gpt-oss-120b"
 
 

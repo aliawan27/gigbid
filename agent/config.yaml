@@ -16,6 +16,14 @@ models:
       small: openai/gpt-oss-20b
       strong: qwen/qwen3.8-27b
       fallback: openai/gpt-oss-120b
+    eval_open:              # used for the evaluation runs after gpt-oss-20b hit its free-tier daily token cap (see report)
+      small: qwen/qwen3.8-27b
+      strong: openai/gpt-oss-120b
+      fallback: openai/gpt-oss-120b
+    eval_qwen:
+      small: qwen/qwen3.8-27b
+      strong: qwen/qwen3.8-27b
+      fallback: openai/gpt-oss-120b
     local:                  # fully local via Ollama (LLM_BASE_URL=http://ollama:11434/v1, GROQ_API_KEYS=ollama)
       small: qwen3:4b
       strong: qwen3:8b
