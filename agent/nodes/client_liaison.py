@@ -69,6 +69,11 @@ async def draft_reply(state, store):
         else:
             txt = "Thanks for your reply. Happy to answer any questions about scope and milestones here."
         r = ReplyDraft(text=txt, proposed_slots=[s["start"] for s in state.get("slots") or []])
+    slots_ = [s["start"] for s in state.get("slots") or []]
+    if slots_ and not any(s[:13] in r.text or s[11:16] in r.text for s in slots_):
+        r.text = r.text.rstrip() + "\n\nTimes that work for me (UTC): " + "; ".join(
+            f"{s[:10]} {s[11:16]}" for s in slots_) + "."
+        r.proposed_slots = slots_
     return {"reply": r.model_dump(), "_summary": r.text[:150]}
 
 
