@@ -16,3 +16,4 @@ apps/web/playwright-report/
 logs/
 *.db.store
 *.db.store-*
+gigsim/state.json

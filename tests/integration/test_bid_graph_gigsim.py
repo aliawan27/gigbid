@@ -31,7 +31,7 @@ def stack(tmp_path_factory):
     d = tmp_path_factory.mktemp("stack")
     env = {**os.environ, "PORT": str(port), "PYTHONPATH": str(ROOT), "GIGBID_FAKE_LLM": "1", "GIGSIM_CLIENT_LLM": "0",
            "GIGSIM_ERROR_RATE": "0", "GIGBID_APP_DB": str(d / "app.db"), "GIGBID_SQLITE": str(d / "g.db"),
-           "GIGBID_AUDIT_LOG": str(d / "audit.jsonl"), "WORKSPACE_STORE": str(d / "ws.json"),
+           "GIGBID_AUDIT_LOG": str(d / "audit.jsonl"), "WORKSPACE_STORE": str(d / "ws.json"), "GIGSIM_STATE": str(d / "gigsim.json"),
            "MARKETPLACE_MCP_TOKEN": "test-token", "GIGSIM_API_TOKEN": "test-gigsim", "WORKER_SYNC_EVERY_S": "100000"}
     for k in ("GIGSIM_BASE_URL", "PORTFOLIO_MCP_URL", "MARKETPLACE_MCP_URL", "WORKSPACE_MCP_URL"):
         env.pop(k, None)

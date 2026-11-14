@@ -12,8 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 os.environ.setdefault("LANGSMITH_PROJECT", "gigbid")
-if os.getenv("LANGSMITH_API_KEY"):
-    os.environ.setdefault("LANGSMITH_TRACING", "true")
+os.environ["LANGSMITH_TRACING"] = "false"  # explicit, PII-masked tracer only (agent/tracing.py)
 
 from fastapi import FastAPI, Request  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402

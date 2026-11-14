@@ -18,8 +18,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 _os.environ.setdefault("LANGSMITH_PROJECT", "gigbid")
-if _os.getenv("LANGSMITH_API_KEY"):
-    _os.environ.setdefault("LANGSMITH_TRACING", "true")
+_os.environ["LANGSMITH_TRACING"] = "false"  # explicit, PII-masked tracer only (agent/tracing.py)
 
 import asyncio
 import logging

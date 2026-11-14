@@ -1,0 +1,6 @@
+{
+ "critic_loop_2_revisions": "https://smith.langchain.com/public/fcdffc26-a140-4a65-b773-b3c7ae7ad697/r",
+ "skipped_scam": "https://smith.langchain.com/public/50c220ee-9199-4d1b-bae6-fbdfadc846a0/r",
+ "approved_proposal_submitted": "https://smith.langchain.com/public/7230898f-ae23-4ddf-bea7-0a88f031021d/r",
+ "crash_and_resume_exactly_once": "https://smith.langchain.com/public/48d35f93-1280-4b6f-902d-ee98cff17d6d/r"
+}

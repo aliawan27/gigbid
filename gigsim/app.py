@@ -54,6 +54,26 @@ PROPOSALS: dict[str, dict] = {}
 IDEMP: dict[str, dict] = {}
 THREADS: dict[str, dict] = {}
 _hits: dict[str, deque] = defaultdict(deque)
+STATE = Path(os.getenv("GIGSIM_STATE", Path(__file__).parent / "state.json"))
+
+
+def _save_state() -> None:
+    """Marketplace state survives restarts (like a real platform): proposals, idempotency keys, threads, Connects."""
+    try:
+        STATE.write_text(json.dumps({"proposals": PROPOSALS, "idemp": IDEMP, "threads": THREADS, "connects": dict(CONNECTS)}))
+    except OSError:
+        pass
+
+
+if STATE.exists():
+    try:
+        _s = json.loads(STATE.read_text())
+        PROPOSALS.update(_s["proposals"])
+        IDEMP.update(_s["idemp"])
+        THREADS.update(_s["threads"])
+        CONNECTS.update(_s["connects"])
+    except (ValueError, KeyError):
+        pass
 
 
 def public(obj: dict) -> dict:
@@ -180,6 +200,7 @@ def submit_proposal(p: ProposalIn, _=Depends(auth)):
                "cover_letter": p.cover_letter}
         PROPOSALS[pid] = rec
         IDEMP[p.idempotency_key] = {k: rec[k] for k in ("proposal_id", "status", "connects_spent")}
+        _save_state()
     from gigsim.clients import decide  # lazy: may call an LLM
     d = decide(job, CLIENTS[job["client_id"]], p.cover_letter, p.bid_amount)
     with _lock:
@@ -192,6 +213,7 @@ def submit_proposal(p: ProposalIn, _=Depends(auth)):
                             "freelancer_id": p.freelancer_id, "messages": [
                                 {"from": "client", "text": d["reply"], "at": time.time()}]}
             rec["thread_id"] = tid
+        _save_state()
     return {k: rec[k] for k in ("proposal_id", "status", "connects_spent")} | {"thread_id": rec.get("thread_id")}
 
 
@@ -234,6 +256,7 @@ def send_message(m: MessageIn, _=Depends(auth)):
         t["messages"].append({"from": "freelancer", "text": m.text, "at": time.time()})
         res = {"thread_id": m.thread_id, "status": "sent", "n_messages": len(t["messages"])}
         IDEMP[m.idempotency_key] = res
+        _save_state()
     return res
 
 

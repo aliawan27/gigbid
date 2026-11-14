@@ -12,6 +12,7 @@ from langgraph.types import Command
 from agent.graphs.bid_graph import build_bid_graph
 from agent.graphs.conversation_graph import build_conversation_graph
 from agent.persistence import open_persistence
+from agent import tracing
 from apps.api import db
 
 _graphs: dict = {}
@@ -52,7 +53,8 @@ async def _execute(kind: str, graph, inp, thread_id: str, user_id: str, ref_id: 
     db.q(db.runs.insert().values(id=run_id, user_id=user_id, kind=kind, thread_id=thread_id, ref_id=ref_id,
                                  status="running", trace_id=trace_id, created_at=now, updated_at=now))
     cfg = {"configurable": {"thread_id": thread_id}, "run_id": uuid.UUID(trace_id), "run_name": f"gigbid-{kind}",
-           "metadata": {"user_id": user_id, "ref_id": ref_id, "trace_id": trace_id}, "tags": [kind]}
+           "metadata": {"user_id": user_id, "ref_id": ref_id, "trace_id": trace_id}, "tags": [kind],
+           "callbacks": tracing.callbacks()}
     db.add_event(run_id, {"phase": "run_start", "kind": kind, "thread_id": thread_id})
     t0 = time.time()
     async for mode, ev in graph.astream(inp, cfg, stream_mode=["custom", "updates"]):

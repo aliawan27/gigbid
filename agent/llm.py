@@ -87,6 +87,12 @@ def fake_mode() -> bool:
     return os.getenv("GIGBID_FAKE_LLM", "0") == "1"
 
 
+def _traced(fn):
+    from agent.tracing import llm_span
+    return llm_span(fn)
+
+
+@_traced
 def chat(model: str, messages: list[dict], *, node: str = "", temperature: float = 0.2,
          max_tokens: int = 1200, json_mode: bool = False, tools: list | None = None, timeout: float = 60) -> dict:
     """Returns {'content', 'tool_calls', 'usage', 'latency'}; raises LLMUnavailable after retries."""
