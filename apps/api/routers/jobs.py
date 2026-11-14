@@ -18,7 +18,8 @@ def _row(r: dict) -> JobRow:
     return JobRow(job_id=r["job_id"], title=r["title"] or r["job_id"], status=r["status"], thread_id=r.get("thread_id"),
                   fit=s.get("fit"), risk=s.get("risk"), scam=s.get("scam"), flags=s.get("flags") or [],
                   action=s.get("action"), reason=s.get("reason"), price=s.get("price"),
-                  connects_cost=s.get("connects_cost"), budget=s.get("budget"), updated_at=r.get("updated_at"))
+                  connects_cost=s.get("connects_cost"), budget=s.get("budget"), marketplace_status=s.get("marketplace_status"),
+                  updated_at=r.get("updated_at"))
 
 
 @router.get("/jobs", response_model=list[JobRow])

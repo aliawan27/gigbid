@@ -52,6 +52,7 @@ class JobRow(BaseModel):
     price: float | None = None
     connects_cost: int | None = None
     budget: float | None = None
+    marketplace_status: str | None = None
     updated_at: float | None = None
 
 
