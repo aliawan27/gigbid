@@ -18,3 +18,4 @@ logs/
 *.db.store-*
 gigsim/state.json
 HANDOFF.md
+.claude/settings.local.json

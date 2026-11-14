@@ -41,3 +41,13 @@ output schemas (`ProposalOut`, `MessageOut`).
 ## Tool-design study (R&D question A)
 See `evals/results/tool_granularity.json` and the README: 40 tasks with known correct calls, three tool sets (19 fine-grained,
 2 coarse, 9 shipped tools with rewritten descriptions).
+
+## MCP Inspector (official client) against the Portfolio server
+Connected over Streamable HTTP (`http://localhost:8091/mcp/`); tools listed; `search_evidence("spaCy NER clinical notes")` returns
+typed evidence items. Captured by `apps/web/scripts/inspector_shots.mjs`.
+
+| Tools | Tool call result |
+|---|---|
+| ![](images/inspector_tools.png) | ![](images/inspector_call_result.png) |
+
+Also: `images/inspector_resources.png` (resource templates), `images/inspector_prompts.png` (prompts).
