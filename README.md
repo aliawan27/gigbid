@@ -4,7 +4,7 @@ GigBid finds freelance jobs, judges whether they are worth bidding on, writes pr
 portfolio evidence**, and handles client replies — with a human approving every proposal, message and Connects spend.
 LangGraph agents · MCP tool layer · advanced RAG · FastAPI + React · open-weight models.
 
-**Live app:** LIVE_URL_PLACEHOLDER (reviewer login is in the submission's private comment) ·
+**Live app:** https://gigbid-k1by.onrender.com (reviewer login is in the submission's private comment) ·
 **Demo video:** DEMO_URL_PLACEHOLDER · **Portfolio MCP server:** [`mcp_servers/portfolio`](mcp_servers/portfolio/README.md)
 
 ![GigBid demo](docs/images/demo.gif)

@@ -1,5 +1,5 @@
 # GigBid — R&D report (engineering design review)
-<span class="sub">AI-4016 · Muhammad Ali · repo: github.com/aliawan27/gigbid · live: LIVE_URL · every number cites a file in <code>evals/results/</code></span>
+<span class="sub">AI-4016 · Muhammad Ali · repo: github.com/aliawan27/gigbid · live: https://gigbid-k1by.onrender.com · every number cites a file in <code>evals/results/</code></span>
 
 ## 1. Problem and constraints
 A freelancer loses hours scanning feeds, spends paid Connects on jobs they will not win, sends generic proposals, and meets
