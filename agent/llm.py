@@ -100,8 +100,31 @@ def _traced(fn):
     return llm_span(fn)
 
 
+def free_model_chain(model: str) -> list[str]:
+    """Each Groq free-tier model has its own daily token cap per key, so a call that finds its model exhausted moves on to
+    the next free model instead of failing: preferred model first, then the rest of models.free_chain (agent/config.yaml)."""
+    try:
+        from agent.config import CONFIG
+        chain = CONFIG["models"].get("free_chain", [])
+    except Exception:  # noqa: BLE001
+        chain = []
+    return [model] + [m for m in chain if m != model]
+
+
+def chat(model: str, messages: list[dict], **kw) -> dict:
+    last: Exception | None = None
+    for m in free_model_chain(model):
+        try:
+            return _chat_one(m, messages, **kw)
+        except LLMUnavailable as e:
+            last = e
+            if fake_mode() or "rate-limited" not in str(e) and "exhausted" not in str(e):
+                raise
+    raise LLMUnavailable(f"all free models exhausted: {last}")
+
+
 @_traced
-def chat(model: str, messages: list[dict], *, node: str = "", temperature: float = 0.2,
+def _chat_one(model: str, messages: list[dict], *, node: str = "", temperature: float = 0.2,
          max_tokens: int = 1200, json_mode: bool = False, tools: list | None = None, timeout: float = 60) -> dict:
     """Returns {'content', 'tool_calls', 'usage', 'latency'}; raises LLMUnavailable after retries."""
     if fake_mode():

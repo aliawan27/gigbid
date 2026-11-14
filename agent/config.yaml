@@ -32,6 +32,10 @@ models:
       small: openai/gpt-oss-20b
       strong: openai/gpt-oss-120b
       fallback: openai/gpt-oss-20b
+  free_chain:               # pooled free-tier quotas: a model at its daily cap hands the call to the next one
+    - openai/gpt-oss-20b
+    - qwen/qwen3.8-27b
+    - openai/gpt-oss-120b
   nodes:                    # route by node: cheap nodes -> small, writer/critic/liaison -> strong
     scout: small
     analyst: small
