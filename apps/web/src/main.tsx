@@ -7,6 +7,7 @@ import JobDetail from "./app/JobDetail";
 import Login from "./app/Login";
 import Messages from "./app/Messages";
 import Onboarding from "./app/Onboarding";
+import Panel from "./app/Panel";
 import Pipeline from "./app/Pipeline";
 import { RunList, RunView } from "./app/Runs";
 import Settings from "./app/Settings";
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/panel" element={<Panel />} />
         <Route path="/onboarding" element={<Private><Onboarding /></Private>} />
         <Route element={<Private><Layout /></Private>}>
           <Route path="/inbox" element={<Inbox />} />

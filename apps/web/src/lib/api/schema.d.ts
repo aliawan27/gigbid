@@ -408,6 +408,40 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/panel/pair": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Next Pair */
+        get: operations["next_pair_api_panel_pair_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/panel/vote": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Vote */
+        post: operations["vote_api_panel_vote_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/runs/{run_id}/events": {
         parameters: {
             query?: never;
@@ -449,7 +483,10 @@ export interface paths {
             path?: never;
             cookie?: never;
         };
-        /** Health */
+        /**
+         * Health
+         * @description Readiness incl. MCP servers; cached for 30 s so polling UIs and probes stay cheap on a small CPU.
+         */
         get: operations["health_api_health_get"];
         put?: never;
         post?: never;
@@ -581,6 +618,36 @@ export interface components {
              */
             persona: "ai_ml" | "fullstack" | "data_analyst" | "own";
             prefs: components["schemas"]["Prefs"];
+        };
+        /** PanelPair */
+        PanelPair: {
+            /** Pair Ref */
+            pair_ref: number;
+            /** Swap */
+            swap: boolean;
+            /** Job Title */
+            job_title: string;
+            /** Job Description */
+            job_description: string;
+            /** Left */
+            left: string;
+            /** Right */
+            right: string;
+            /** Done */
+            done: number;
+            /** Total */
+            total: number;
+        };
+        /** PanelVote */
+        PanelVote: {
+            /** Rater */
+            rater: string;
+            /** Pair Ref */
+            pair_ref: number;
+            /** Swap */
+            swap: boolean;
+            /** Choice */
+            choice: string;
         };
         /** Prefs */
         Prefs: {
@@ -1475,6 +1542,70 @@ export interface operations {
             cookie?: never;
         };
         requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": unknown;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    next_pair_api_panel_pair_get: {
+        parameters: {
+            query: {
+                rater: string;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PanelPair"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    vote_api_panel_vote_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PanelVote"];
+            };
+        };
         responses: {
             /** @description Successful Response */
             200: {

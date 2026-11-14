@@ -21,7 +21,7 @@ from fastapi.staticfiles import StaticFiles  # noqa: E402
 
 from agent.config import CONFIG  # noqa: E402
 from apps.api import db  # noqa: E402
-from apps.api.routers import auth, jobs, messages, runs, settings  # noqa: E402
+from apps.api.routers import auth, jobs, messages, panel, runs, settings  # noqa: E402
 from apps.api.schemas.models import Health  # noqa: E402
 from apps.api.streaming import router as stream_router  # noqa: E402
 
@@ -51,7 +51,7 @@ async def trace_mw(request: Request, call_next):
     return resp
 
 
-for r in (auth.router, jobs.router, messages.router, runs.router, settings.router, stream_router):
+for r in (auth.router, jobs.router, messages.router, runs.router, settings.router, panel.router, stream_router):
     app.include_router(r)
 
 

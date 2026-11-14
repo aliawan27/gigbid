@@ -51,6 +51,10 @@ tasks = Table("tasks", md,
 oauth = Table("oauth_tokens", md,
               Column("user_id", String, primary_key=True), Column("provider", String, primary_key=True),
               Column("token_encrypted", Text), Column("updated_at", Float))
+panel_votes = Table("panel_votes", md,  # blind pairwise human panel (evals/runners/pairwise_panel.py)
+                    Column("id", Integer, primary_key=True, autoincrement=True), Column("rater", String, index=True),
+                    Column("pair_id", String, index=True), Column("winner", String), Column("ts", Float),
+                    UniqueConstraint("rater", "pair_id", name="uq_rater_pair"))
 convs = Table("conversations", md,
               Column("id", Integer, primary_key=True, autoincrement=True), Column("user_id", String, index=True),
               Column("thread_id", String), Column("graph_thread", String), Column("status", String),
