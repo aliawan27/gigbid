@@ -75,7 +75,7 @@ async def draft_reply(state, store):
 @node("reply_compliance")
 async def reply_compliance(state, store):
     rep = dict(state["reply"])
-    v = check_text(rep["text"], injection_hits=state.get("intent", {}).get("injection_hits"))
+    v = check_text(rep["text"], injection_hits=state.get("intent", {}).get("injection_hits"), kind="message")
     rep["text"] = v.cleaned_text
     return {"reply": rep, "compliance": v.model_dump(), "status": "awaiting_approval",
             "_summary": f"{len(v.violations)} fixes"}

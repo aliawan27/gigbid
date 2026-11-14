@@ -10,7 +10,7 @@ from agent.nodes._common import node
 
 
 def check_text(text: str, claim_checks: list[dict] | None = None, injection_hits: list[str] | None = None,
-               unsupported_after: float | None = None) -> ComplianceVerdict:
+               unsupported_after: float | None = None, kind: str = "proposal") -> ComplianceVerdict:
     rules = policy_rules()["rules"]
     violations, blocked, reason = [], False, ""
     sentences = re.split(r"(?<=[.!?])\s+", text)
@@ -35,7 +35,7 @@ def check_text(text: str, claim_checks: list[dict] | None = None, injection_hits
                 violations.append(Violation(rule_id="injection_echo", text=token))
                 cleaned = cleaned.replace(token, "")
     for r in rules:
-        if r["type"] == "require_phrase" and r["phrase"].lower() not in cleaned.lower():
+        if r["type"] == "require_phrase" and r.get("applies_to", kind) == kind and r["phrase"].lower() not in cleaned.lower():
             cleaned = (cleaned + "\n\n" + r["phrase"]).strip()
             violations.append(Violation(rule_id=r["id"], text="required phrase appended"))
         if r["type"] == "verified_claims" and unsupported_after is not None and unsupported_after > 0:
@@ -52,7 +52,7 @@ async def compliance(state, store):
     v = check_text(d["cover_letter"], state.get("claim_checks"), state.get("risk_report", {}).get("injection_hits"),
                    state.get("unsupported_after"))
     d["cover_letter"] = v.cleaned_text
-    answers = [check_text(a).cleaned_text for a in d.get("screening_answers", [])]
+    answers = [check_text(a, kind="screening_answer").cleaned_text for a in d.get("screening_answers", [])]
     d["screening_answers"] = answers
     out = {"draft": d, "compliance": v.model_dump(),
            "_summary": ("BLOCKED: " + v.reason) if v.blocked else f"{len(v.violations)} fixes applied"}
