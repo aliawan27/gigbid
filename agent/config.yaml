@@ -60,7 +60,7 @@ thresholds:
   watch_fit_score: 0.40
   max_risk_score: 0.60
   scam_risk_score: 0.80
-  min_rate_floor_ratio: 0.8 # skip when the client budget is below 80% of the user's floor price
+  min_rate_floor_ratio: 0.55 # skip when budget < 55% of the floor (was 0.8; changed by failure analysis, evals/results/decisions.json)
 
 autonomy:
   auto_skip_low_fit: true   # may auto-skip; NEVER auto-send
