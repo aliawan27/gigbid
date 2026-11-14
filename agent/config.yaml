@@ -1,0 +1,63 @@
+# GigBid configuration. Rules, prompts, models and thresholds live here (never hard-coded).
+marketplace:
+  mode: gigsim              # gigsim | upwork_live  (switches the adapter behind agent/marketplace_port.py)
+  max_requests_per_minute: 30
+  scout_interval_minutes: 60      # gigsim; live mode uses live_scout_interval_minutes (see docs/RUNBOOK.md)
+  live_scout_interval_minutes: 240
+
+models:
+  profile: open             # open | open_qwen | paid  (env MODEL_PROFILE overrides)
+  profiles:
+    open:                   # open-weight models via Groq (hosted open-model provider)
+      small: openai/gpt-oss-20b
+      strong: openai/gpt-oss-120b
+      fallback: qwen/qwen3.8-27b
+    open_qwen:              # second open configuration compared on the dev set
+      small: openai/gpt-oss-20b
+      strong: qwen/qwen3.8-27b
+      fallback: openai/gpt-oss-120b
+    paid:                   # optional; not used by the deployment
+      small: openai/gpt-oss-20b
+      strong: openai/gpt-oss-120b
+      fallback: openai/gpt-oss-20b
+  nodes:                    # route by node: cheap nodes -> small, writer/critic/liaison -> strong
+    scout: small
+    analyst: small
+    risk_assessor: small
+    fit_matcher: small
+    pricing: small
+    writer: strong
+    verifier: small
+    critic: strong
+    compliance: small
+    client_liaison: strong
+    single_agent: strong
+  embeddings: BAAI/bge-small-en-v1.5
+  reranker: Xenova/ms-marco-MiniLM-L-6-v2
+
+rag:
+  variant: best             # chosen by evals/results/rag_variants.json
+  k: 6
+
+budgets:
+  max_graph_steps: 40
+  max_revisions: 2
+  max_tokens_per_job: 30000
+  declared_p95_latency_s_per_job: 30
+  declared_p95_latency_s_per_proposal: 60
+  declared_cost_usd_per_job: 0.002
+  declared_cost_usd_per_proposal: 0.01
+
+thresholds:
+  bid_fit_score: 0.55       # fit >= this and risk <= max_risk -> bid
+  watch_fit_score: 0.40
+  max_risk_score: 0.60
+  scam_risk_score: 0.80
+  min_rate_floor_ratio: 0.8 # skip when the client budget is below 80% of the user's floor price
+
+autonomy:
+  auto_skip_low_fit: true   # may auto-skip; NEVER auto-send
+
+policy:
+  pack: data/policy_pack/marketplace_policy.md
+  rules_file: data/policy_pack/rules.yaml

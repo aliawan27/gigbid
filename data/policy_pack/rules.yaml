@@ -1,0 +1,28 @@
+# Machine-readable policy rules enforced by the Compliance Guard (agent/nodes/compliance.py).
+# The human-readable version is marketplace_policy.md. Adding a rule here needs no code change.
+version: "1.0"
+rules:
+  - id: no_contact_details
+    description: No off-platform contact details (emails, phone numbers, messaging apps).
+    type: forbid_regex
+    pattern: '[\w.+-]+@[\w-]+\.[\w.]+|\+?\d[\d\s().-]{8,}\d|whatsapp|telegram|skype|signal app'
+    action: remove
+  - id: no_off_platform_payment
+    description: No requests or offers to pay outside the platform.
+    type: forbid_regex
+    pattern: 'pay(ment)? (via|by|through|outside) (paypal|crypto|bitcoin|bank transfer|wire)|outside (the )?platform'
+    action: remove
+  - id: no_guarantees
+    description: Do not guarantee results that cannot be guaranteed.
+    type: forbid_regex
+    pattern: '\b(guarantee[ds]?|100% (success|satisfaction|accuracy)|risk[- ]free)\b'
+    action: remove
+  - id: no_invented_experience
+    description: Never claim years of experience, clients or results not in the portfolio (checked by claim verification).
+    type: verified_claims
+    action: block_if_unsupported
+  - id: no_free_work
+    description: Do not offer unpaid production work disguised as a trial.
+    type: forbid_regex
+    pattern: '\b(for free|free of charge|unpaid trial|free sample of the full)\b'
+    action: remove
