@@ -44,13 +44,14 @@ async def lifespan(app):
         for m in (portfolio.mcp, workspace.mcp, market.mcp):  # mounted apps don't get their own lifespan
             await stack.enter_async_context(m.session_manager.run())
         await stack.enter_async_context(_orig_lifespan(app))
-        from worker import main as worker
-        task = asyncio.create_task(worker.main()) if os.getenv("GIGBID_WORKER", "1") == "1" else None
-        try:
-            yield
-        finally:
-            if task:
-                task.cancel()
+        if os.getenv("GIGBID_WORKER", "1") == "1":
+            # the worker gets its own thread and event loop: its DB and graph work can never block the web server
+            # (and so the host's health probe), even on a 0.1-CPU instance
+            import threading
+
+            from worker import main as worker
+            threading.Thread(target=lambda: asyncio.run(worker.main()), name="gigbid-worker", daemon=True).start()
+        yield
 
 
 api.app.router.lifespan_context = lifespan

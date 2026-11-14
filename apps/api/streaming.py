@@ -26,7 +26,8 @@ async def run_events(run_id: str, token: str = Query(""), last_event_id: str | N
         last = int(last_event_id or 0)
         idle = 0
         while idle < 600:
-            evs = db.rows(select(db.events).where(db.events.c.run_id == run_id, db.events.c.id > last).order_by(db.events.c.id))
+            evs = await asyncio.to_thread(db.rows, select(db.events).where(db.events.c.run_id == run_id, db.events.c.id > last)
+                                          .order_by(db.events.c.id))
             for e in evs:
                 last = e["id"]
                 yield f"id: {e['id']}\ndata: {json.dumps(e['data'])}\n\n"

@@ -31,16 +31,17 @@ def main():
     env_vars = [{"key": k, "value": env[k]} for k in ("GROQ_API_KEYS", "DATABASE_URL", "LANGSMITH_API_KEY", "APP_SECRET_KEY",
                                                        "REVIEWER_PASSWORD", "MARKETPLACE_MCP_TOKEN", "GIGSIM_API_TOKEN") if env.get(k)]
     env_vars += [{"key": "PORT", "value": "7860"}, {"key": "LANGSMITH_PROJECT", "value": "gigbid"}]
-    existing = [s["service"] for s in httpx.get(f"{API}/services", headers=h, params={"name": "gigbid"}, timeout=30).json()]
+    name = os.getenv("RENDER_SERVICE_NAME", "gigbid")
+    existing = [s["service"] for s in httpx.get(f"{API}/services", headers=h, params={"name": name}, timeout=30).json()]
     if existing:
         sid = existing[0]["id"]
         httpx.put(f"{API}/services/{sid}/env-vars", headers=h, json=env_vars, timeout=30).raise_for_status()
         httpx.post(f"{API}/services/{sid}/deploys", headers=h, json={}, timeout=30).raise_for_status()
         url = existing[0]["serviceDetails"]["url"]
     else:
-        body = {"type": "web_service", "name": "gigbid", "ownerId": owner, "repo": REPO, "branch": "main", "autoDeploy": "yes",
+        body = {"type": "web_service", "name": name, "ownerId": owner, "repo": REPO, "branch": "main", "autoDeploy": "yes",
                 "envVars": env_vars,
-                "serviceDetails": {"runtime": "docker", "plan": "free", "region": "oregon", "healthCheckPath": "/healthz",
+                "serviceDetails": {"runtime": "docker", "plan": "free", "region": os.getenv("RENDER_REGION", "singapore"),  # next to the Neon DB "healthCheckPath": "/healthz",
                                    "envSpecificDetails": {"dockerfilePath": "./Dockerfile", "dockerContext": "."}}}
         r = httpx.post(f"{API}/services", headers=h, json=body, timeout=60)
         if r.status_code >= 400:

@@ -5,6 +5,9 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+import asyncio
+
+_by_loop: dict[int, tuple] = {}  # one checkpointer/store (and DB pool) per event loop: API loop + worker thread loop
 _saver = None
 _store = None
 _ctx = []
@@ -19,9 +22,16 @@ def is_postgres() -> bool:
 
 
 async def open_persistence():
+    key = id(asyncio.get_running_loop())
+    if key in _by_loop:
+        return _by_loop[key]
+    saver, store = await _open()
+    _by_loop[key] = (saver, store)
+    return saver, store
+
+
+async def _open():
     global _saver, _store
-    if _saver is not None:
-        return _saver, _store
     if is_postgres():
         from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
         from langgraph.store.postgres.aio import AsyncPostgresStore
@@ -40,12 +50,14 @@ async def open_persistence():
         path = Path(os.getenv("GIGBID_SQLITE", Path(__file__).resolve().parents[1] / "data" / "gigbid_graph.db"))
         path.parent.mkdir(parents=True, exist_ok=True)
         c1 = await aiosqlite.connect(str(path), isolation_level=None)
-        c2 = await aiosqlite.connect(str(path) + ".store", isolation_level=None)
+        c2 = await aiosqlite.connect(str(path) + ".store", isolation_level=None)  # noqa: ASYNC
         _ctx.extend([c1, c2])
         _saver, _store = AsyncSqliteSaver(c1), AsyncSqliteStore(c2)
     await _saver.setup()
     await _store.setup()
-    return _saver, _store
+    saver, store = _saver, _store
+    _saver = _store = None
+    return saver, store
 
 
 async def close_persistence():
