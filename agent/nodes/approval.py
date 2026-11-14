@@ -45,6 +45,7 @@ async def preview(state, store):
 async def approval(state, store):
     payload = {"kind": "proposal", "job_id": state["job_id"], "title": state["job"]["title"], "draft": state["draft"],
                "evidence": state.get("evidence"), "claim_checks": state.get("claim_checks"),
+               "unsupported_before": state.get("unsupported_before"), "unsupported_after": state.get("unsupported_after"),
                "risk_report": state.get("risk_report"), "fit_report": state.get("fit_report"),
                "price": state.get("price"), "compliance": state.get("compliance"),
                "critiques": state.get("critiques"), "dry_run": (state.get("submission") or {}).get("preview")}

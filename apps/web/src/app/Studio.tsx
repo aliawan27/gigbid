@@ -77,7 +77,10 @@ export default function Studio() {
             <ul>{(comp.violations || []).map((v: Any, i: number) => <li key={i}><b>{v.rule_id}</b>: {v.text}</li>)}</ul>
             {(comp.violations || []).length === 0 && <p>✔ no policy issues</p>}
             <h3>Claim verification</h3>
-            <ul className="claims">{checks.map((c, i) => <li key={i} className={c.label}>{c.label}: {c.claim}</li>)}</ul>
+            <ul className="claims">{checks.map((c, i) => <li key={i} className={c.label}>{c.label}
+              {c.label !== "supported" && !text.includes(c.claim) ? " (removed/rewritten before review)" : ""}: {c.claim}</li>)}</ul>
+            <p className="muted small">Unsupported claims: {Math.round((p.unsupported_before ?? 0) * 100)}% before verification →
+              {" "}{Math.round((p.unsupported_after ?? 0) * 100)}% after.</p>
           </div>
           <div className="card">
             <h3>Risk</h3>

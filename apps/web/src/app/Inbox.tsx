@@ -39,7 +39,7 @@ export default function Inbox() {
             <span className="title">{j.title}</span>
             <span className="badge">{j.fit != null ? `fit ${j.fit}` : "fit …"}</span>
             <RiskBadge j={j} />
-            <span className={`badge act-${j.action}`}>{j.status === "awaiting_approval" ? "APPROVE" : j.action ?? j.status}</span>
+            <span className={`badge act-${j.action}`}>{j.status === "awaiting_approval" ? "APPROVE" : ["submitted", "rejected", "queued", "analysing", "resuming", "parked", "dead_letter", "needs_attention"].includes(j.status) ? j.status : j.action ?? j.status}</span>
             <span className="num">{j.price ? `$${j.price}` : j.budget ? `budget $${j.budget}` : ""}</span>
             <span className="num">{j.connects_cost ?? "?"} Connects</span>
           </Link>

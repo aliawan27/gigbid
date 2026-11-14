@@ -24,9 +24,13 @@ class Verification(BaseModel):
     claims: list[ClaimCheck]
 
 
+PLAN = re.compile(r"\b(I will|I'll|I would|I'd|I can|I could|I plan|I propose|will be|happy to|let's|we can)\b", re.I)
+
+
 def split_claims(text: str) -> list[str]:
+    """Experience claims only: plans/offers ("I will start by...") are not claims about the past."""
     sents = [s.strip() for s in re.split(r"(?<=[.!?])\s+|\n+", text) if s.strip()]
-    return [s for s in sents if CLAIMY.search(s) and len(s.split()) > 3]
+    return [s for s in sents if CLAIMY.search(s) and not PLAN.search(s) and len(s.split()) > 3]
 
 
 def _lexical(claim: str, evidence: list[dict]) -> ClaimCheck:
@@ -62,8 +66,12 @@ def verify(text: str, evidence: list[dict]) -> list[ClaimCheck]:
 
 def apply_fixes(text: str, checks: list[ClaimCheck]) -> str:
     for c in checks:
-        if c.label in ("unsupported", "partial") and c.claim in text:
-            text = text.replace(c.claim, c.rewrite.strip() if c.label == "partial" or c.rewrite else "")
+        if c.claim not in text:
+            continue
+        if c.label == "unsupported":
+            text = text.replace(c.claim, c.rewrite.strip())  # rewrite to what evidence supports, or delete
+        elif c.label == "partial" and c.rewrite.strip():
+            text = text.replace(c.claim, c.rewrite.strip())
     return re.sub(r"[ \t]{2,}", " ", re.sub(r"\n{3,}", "\n\n", text)).strip()
 
 
