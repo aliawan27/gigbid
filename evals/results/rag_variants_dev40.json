@@ -1,0 +1,704 @@
+{
+ "generated_at": "2026-11-14T12:14:11",
+ "hypothesis": "Requirement decomposition plus hybrid BM25+dense retrieval raises evidence Recall@5 by >= 15 points over V0 on jobs with four or more requirements.",
+ "n_jobs": 93,
+ "variants": {
+  "v0_naive": {
+   "n": 93,
+   "recall@5": 0.798,
+   "mrr": 1.0,
+   "ndcg@10": 0.8481,
+   "p95_latency_s": 0.03,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8161,
+     "mrr": 1.0,
+     "ndcg@10": 0.8542,
+     "p95_latency_s": 0.043
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8032,
+     "mrr": 1.0,
+     "ndcg@10": 0.8597,
+     "p95_latency_s": 0.03
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.7747,
+     "mrr": 1.0,
+     "ndcg@10": 0.8304,
+     "p95_latency_s": 0.026
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9402,
+     "mrr": 1.0,
+     "ndcg@10": 0.9464,
+     "p95_latency_s": 0.025
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.5975,
+     "mrr": 1.0,
+     "ndcg@10": 0.7114,
+     "p95_latency_s": 0.043
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.752,
+     "mrr": 1.0,
+     "ndcg@10": 0.8109,
+     "p95_latency_s": 0.021
+    }
+   }
+  },
+  "v1_decompose": {
+   "n": 93,
+   "recall@5": 0.8027,
+   "mrr": 1.0,
+   "ndcg@10": 0.889,
+   "p95_latency_s": 0.046,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.7855,
+     "mrr": 1.0,
+     "ndcg@10": 0.886,
+     "p95_latency_s": 0.046
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8478,
+     "mrr": 1.0,
+     "ndcg@10": 0.9147,
+     "p95_latency_s": 0.043
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.7747,
+     "mrr": 1.0,
+     "ndcg@10": 0.8664,
+     "p95_latency_s": 0.054
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9402,
+     "mrr": 1.0,
+     "ndcg@10": 0.9647,
+     "p95_latency_s": 0.024
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.5832,
+     "mrr": 1.0,
+     "ndcg@10": 0.7682,
+     "p95_latency_s": 0.064
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8264,
+     "mrr": 1.0,
+     "ndcg@10": 0.9022,
+     "p95_latency_s": 0.038
+    }
+   }
+  },
+  "v2_hybrid": {
+   "n": 93,
+   "recall@5": 0.8326,
+   "mrr": 1.0,
+   "ndcg@10": 0.9122,
+   "p95_latency_s": 0.039,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8366,
+     "mrr": 1.0,
+     "ndcg@10": 0.9216,
+     "p95_latency_s": 0.037
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8544,
+     "mrr": 1.0,
+     "ndcg@10": 0.9353,
+     "p95_latency_s": 0.037
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.807,
+     "mrr": 1.0,
+     "ndcg@10": 0.8796,
+     "p95_latency_s": 0.041
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9776,
+     "mrr": 1.0,
+     "ndcg@10": 0.9876,
+     "p95_latency_s": 0.034
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.6148,
+     "mrr": 1.0,
+     "ndcg@10": 0.8115,
+     "p95_latency_s": 0.075
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8214,
+     "mrr": 1.0,
+     "ndcg@10": 0.8728,
+     "p95_latency_s": 0.024
+    }
+   }
+  },
+  "v3_rerank": {
+   "n": 93,
+   "recall@5": 0.8275,
+   "mrr": 1.0,
+   "ndcg@10": 0.901,
+   "p95_latency_s": 2.916,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8177,
+     "mrr": 1.0,
+     "ndcg@10": 0.9088,
+     "p95_latency_s": 2.481
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8417,
+     "mrr": 1.0,
+     "ndcg@10": 0.9252,
+     "p95_latency_s": 3.976
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8231,
+     "mrr": 1.0,
+     "ndcg@10": 0.8691,
+     "p95_latency_s": 3.268
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9845,
+     "mrr": 1.0,
+     "ndcg@10": 0.9775,
+     "p95_latency_s": 2.916
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.5817,
+     "mrr": 1.0,
+     "ndcg@10": 0.7946,
+     "p95_latency_s": 3.629
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8423,
+     "mrr": 1.0,
+     "ndcg@10": 0.8727,
+     "p95_latency_s": 2.026
+    }
+   }
+  },
+  "v4_outcome": {
+   "n": 93,
+   "recall@5": 0.8415,
+   "mrr": 0.9624,
+   "ndcg@10": 0.8894,
+   "p95_latency_s": 0.043,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.846,
+     "mrr": 0.9516,
+     "ndcg@10": 0.897,
+     "p95_latency_s": 0.043
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8617,
+     "mrr": 0.9839,
+     "ndcg@10": 0.9208,
+     "p95_latency_s": 0.047
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.817,
+     "mrr": 0.9516,
+     "ndcg@10": 0.8503,
+     "p95_latency_s": 0.042
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9755,
+     "mrr": 0.9592,
+     "ndcg@10": 0.9524,
+     "p95_latency_s": 0.04
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.6518,
+     "mrr": 0.9531,
+     "ndcg@10": 0.8045,
+     "p95_latency_s": 0.047
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8006,
+     "mrr": 1.0,
+     "ndcg@10": 0.8582,
+     "p95_latency_s": 0.03
+    }
+   }
+  },
+  "v5_multivector": {
+   "n": 93,
+   "recall@5": 0.8432,
+   "mrr": 1.0,
+   "ndcg@10": 0.9167,
+   "p95_latency_s": 0.043,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8419,
+     "mrr": 1.0,
+     "ndcg@10": 0.9212,
+     "p95_latency_s": 0.046
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.859,
+     "mrr": 1.0,
+     "ndcg@10": 0.9383,
+     "p95_latency_s": 0.043
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8288,
+     "mrr": 1.0,
+     "ndcg@10": 0.8908,
+     "p95_latency_s": 0.041
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9913,
+     "mrr": 1.0,
+     "ndcg@10": 0.9939,
+     "p95_latency_s": 0.036
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.6203,
+     "mrr": 1.0,
+     "ndcg@10": 0.8089,
+     "p95_latency_s": 0.052
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8333,
+     "mrr": 1.0,
+     "ndcg@10": 0.8892,
+     "p95_latency_s": 0.03
+    }
+   }
+  },
+  "v8_corrective": {
+   "n": 93,
+   "recall@5": 0.8022,
+   "mrr": 0.9892,
+   "ndcg@10": 0.8525,
+   "p95_latency_s": 3.348,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.7774,
+     "mrr": 0.9677,
+     "ndcg@10": 0.8288,
+     "p95_latency_s": 1.469
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8196,
+     "mrr": 1.0,
+     "ndcg@10": 0.8681,
+     "p95_latency_s": 3.348
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8097,
+     "mrr": 1.0,
+     "ndcg@10": 0.8606,
+     "p95_latency_s": 4.078
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.964,
+     "mrr": 1.0,
+     "ndcg@10": 0.9703,
+     "p95_latency_s": 3.559
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.5316,
+     "mrr": 0.9688,
+     "ndcg@10": 0.6549,
+     "p95_latency_s": 3.348
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8631,
+     "mrr": 1.0,
+     "ndcg@10": 0.8983,
+     "p95_latency_s": 3.168
+    }
+   }
+  },
+  "best": {
+   "n": 93,
+   "recall@5": 0.8432,
+   "mrr": 1.0,
+   "ndcg@10": 0.9167,
+   "p95_latency_s": 0.031,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8419,
+     "mrr": 1.0,
+     "ndcg@10": 0.9212,
+     "p95_latency_s": 0.039
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.859,
+     "mrr": 1.0,
+     "ndcg@10": 0.9383,
+     "p95_latency_s": 0.028
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8288,
+     "mrr": 1.0,
+     "ndcg@10": 0.8908,
+     "p95_latency_s": 0.026
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9913,
+     "mrr": 1.0,
+     "ndcg@10": 0.9939,
+     "p95_latency_s": 0.027
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.6203,
+     "mrr": 1.0,
+     "ndcg@10": 0.8089,
+     "p95_latency_s": 0.035
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8333,
+     "mrr": 1.0,
+     "ndcg@10": 0.8892,
+     "p95_latency_s": 0.018
+    }
+   }
+  }
+ },
+ "ablation_of_best": {
+  "-multivector": {
+   "n": 93,
+   "recall@5": 0.8326,
+   "mrr": 1.0,
+   "ndcg@10": 0.9122,
+   "p95_latency_s": 0.029,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8366,
+     "mrr": 1.0,
+     "ndcg@10": 0.9216,
+     "p95_latency_s": 0.028
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8544,
+     "mrr": 1.0,
+     "ndcg@10": 0.9353,
+     "p95_latency_s": 0.028
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.807,
+     "mrr": 1.0,
+     "ndcg@10": 0.8796,
+     "p95_latency_s": 0.032
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9776,
+     "mrr": 1.0,
+     "ndcg@10": 0.9876,
+     "p95_latency_s": 0.028
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.6148,
+     "mrr": 1.0,
+     "ndcg@10": 0.8115,
+     "p95_latency_s": 0.033
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8214,
+     "mrr": 1.0,
+     "ndcg@10": 0.8728,
+     "p95_latency_s": 0.015
+    }
+   }
+  },
+  "-hybrid": {
+   "n": 93,
+   "recall@5": 0.8115,
+   "mrr": 1.0,
+   "ndcg@10": 0.8645,
+   "p95_latency_s": 0.028,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8151,
+     "mrr": 1.0,
+     "ndcg@10": 0.8666,
+     "p95_latency_s": 0.032
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8213,
+     "mrr": 1.0,
+     "ndcg@10": 0.8844,
+     "p95_latency_s": 0.028
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.7982,
+     "mrr": 1.0,
+     "ndcg@10": 0.8425,
+     "p95_latency_s": 0.028
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9483,
+     "mrr": 1.0,
+     "ndcg@10": 0.9603,
+     "p95_latency_s": 0.028
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.594,
+     "mrr": 1.0,
+     "ndcg@10": 0.7067,
+     "p95_latency_s": 0.029
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8333,
+     "mrr": 1.0,
+     "ndcg@10": 0.894,
+     "p95_latency_s": 0.024
+    }
+   }
+  },
+  "+decompose": {
+   "n": 93,
+   "recall@5": 0.8189,
+   "mrr": 1.0,
+   "ndcg@10": 0.9094,
+   "p95_latency_s": 0.045,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8323,
+     "mrr": 1.0,
+     "ndcg@10": 0.9321,
+     "p95_latency_s": 0.048
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8156,
+     "mrr": 1.0,
+     "ndcg@10": 0.9239,
+     "p95_latency_s": 0.044
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8089,
+     "mrr": 1.0,
+     "ndcg@10": 0.8722,
+     "p95_latency_s": 0.045
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9708,
+     "mrr": 1.0,
+     "ndcg@10": 0.9831,
+     "p95_latency_s": 0.021
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.5653,
+     "mrr": 1.0,
+     "ndcg@10": 0.7802,
+     "p95_latency_s": 0.052
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.875,
+     "mrr": 1.0,
+     "ndcg@10": 0.9528,
+     "p95_latency_s": 0.035
+    }
+   }
+  },
+  "+outcome_boost": {
+   "n": 93,
+   "recall@5": 0.8502,
+   "mrr": 0.9839,
+   "ndcg@10": 0.9041,
+   "p95_latency_s": 0.031,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8567,
+     "mrr": 1.0,
+     "ndcg@10": 0.9139,
+     "p95_latency_s": 0.033
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8663,
+     "mrr": 1.0,
+     "ndcg@10": 0.9373,
+     "p95_latency_s": 0.031
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8277,
+     "mrr": 0.9516,
+     "ndcg@10": 0.8609,
+     "p95_latency_s": 0.027
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9862,
+     "mrr": 0.9796,
+     "ndcg@10": 0.9681,
+     "p95_latency_s": 0.028
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.6563,
+     "mrr": 0.9844,
+     "ndcg@10": 0.8132,
+     "p95_latency_s": 0.031
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8125,
+     "mrr": 1.0,
+     "ndcg@10": 0.8849,
+     "p95_latency_s": 0.02
+    }
+   }
+  },
+  "+rerank": {
+   "n": 93,
+   "recall@5": 0.8348,
+   "mrr": 1.0,
+   "ndcg@10": 0.9073,
+   "p95_latency_s": 2.948,
+   "by_persona": {
+    "ai_ml": {
+     "n": 31,
+     "recall@5": 0.8285,
+     "mrr": 1.0,
+     "ndcg@10": 0.9096,
+     "p95_latency_s": 1.781
+    },
+    "fullstack": {
+     "n": 31,
+     "recall@5": 0.8417,
+     "mrr": 1.0,
+     "ndcg@10": 0.9313,
+     "p95_latency_s": 3.402
+    },
+    "data_analyst": {
+     "n": 31,
+     "recall@5": 0.8342,
+     "mrr": 1.0,
+     "ndcg@10": 0.8811,
+     "p95_latency_s": 2.906
+    }
+   },
+   "by_job_type": {
+    "few_req(<4)": {
+     "n": 49,
+     "recall@5": 0.9913,
+     "mrr": 1.0,
+     "ndcg@10": 0.9859,
+     "p95_latency_s": 2.906
+    },
+    "multi_req(>=4)": {
+     "n": 32,
+     "recall@5": 0.5879,
+     "mrr": 1.0,
+     "ndcg@10": 0.7919,
+     "p95_latency_s": 3.111
+    },
+    "vague": {
+     "n": 12,
+     "recall@5": 0.8542,
+     "mrr": 1.0,
+     "ndcg@10": 0.8945,
+     "p95_latency_s": 2.365
+    }
+   }
+  }
+ },
+ "hypothesis_check": {
+  "v0_recall@5_multi_req": 0.5975,
+  "best_recall@5_multi_req": 0.6203,
+  "delta_points": 2.3,
+  "supported": false
+ }
+}

@@ -633,5 +633,2547 @@
   ],
   "kind": "inject",
   "injection": true
+ },
+ {
+  "job_id": "job-0311",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0312",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0313",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0314",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:api-gateway",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:api-gateway",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0315",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0316",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0317",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:sso-portal",
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0318",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0319",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0320",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:cs:api-gateway",
+   "fullstack:review:shopify-store",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0321",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0322",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0323",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:lms",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0324",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0325",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:review:saas-billing"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0326",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat",
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0327",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0328",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0329",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0330",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:review:perf-audit"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0331",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0332",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:logistics-admin",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0333",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0334",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:review:saas-billing"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0335",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0336",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0337",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0338",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0339",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0340",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0341",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:perf-audit",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0342",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0343",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0344",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:logistics-admin",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0345",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0346",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0347",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0348",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0349",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:review:saas-billing"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0350",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0351",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0352",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:sso-portal"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0353",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0354",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:review:saas-billing"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0355",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0356",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0357",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0358",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0359",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat",
+   "fullstack:review:saas-billing"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0360",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:api-gateway",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0361",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0362",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:saas-billing",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0363",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0364",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0365",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:cs:sso-portal",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0366",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0367",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0368",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0369",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:fitness-app"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0370",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0371",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0372",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0373",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0374",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:logistics-admin",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0375",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0376",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0377",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0378",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0379",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0380",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0381",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:fitness-app"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0382",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0383",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:cs:fitness-app",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0384",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0385",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0386",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0387",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0388",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0389",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:sso-portal",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0390",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0391",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0392",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:logistics-admin",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0393",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0394",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:review:saas-billing"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0395",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:cs:api-gateway",
+   "fullstack:review:lms",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0396",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0397",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0398",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:api-gateway",
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:api-gateway",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0399",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0400",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:review:perf-audit"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0401",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0402",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0403",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0404",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:api-gateway",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0405",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0406",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0407",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0408",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0409",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:sso-portal"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0410",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:fitness-app",
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0411",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0412",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0413",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0414",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0415",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0416",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0417",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0418",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0419",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0420",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0421",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0422",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0423",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0424",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0425",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0426",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0427",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0428",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:sso-portal"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0429",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0430",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0431",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp",
+   "fullstack:review:logistics-admin"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0432",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:review:perf-audit"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0433",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0434",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:cs:api-gateway",
+   "fullstack:review:saas-billing",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0435",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:api-gateway",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0436",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:fitness-app"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0437",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0438",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:chrome-extension",
+   "fullstack:readme:chrome-extension",
+   "fullstack:code:chrome-extension"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0439",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:review:perf-audit"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0440",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0441",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:inventory-system",
+   "fullstack:readme:inventory-system",
+   "fullstack:code:inventory-system",
+   "fullstack:review:inventory-system"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0442",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0443",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:logistics-admin",
+   "fullstack:readme:logistics-admin",
+   "fullstack:code:logistics-admin",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:logistics-admin",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0444",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:headless-cms",
+   "fullstack:readme:headless-cms",
+   "fullstack:code:headless-cms"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0445",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:fitness-app"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0446",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:saas-billing",
+   "fullstack:readme:saas-billing",
+   "fullstack:code:saas-billing",
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:saas-billing",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0447",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0448",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:api-gateway",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0449",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:cs:ci-migration",
+   "fullstack:review:perf-audit",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0450",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0451",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0452",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:sso-portal"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0453",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0454",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:api-gateway",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "fit",
+  "injection": false
+ },
+ {
+  "job_id": "job-0455",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0456",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0457",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   1480.0,
+   2400.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0458",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0459",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0460",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [],
+  "price_band": [
+   680.0,
+   1080.0
+  ],
+  "kind": "off",
+  "injection": false
+ },
+ {
+  "job_id": "job-0461",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:api-gateway",
+   "fullstack:review:api-gateway"
+  ],
+  "price_band": [
+   2650.0,
+   4480.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0462",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0463",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:ci-migration",
+   "fullstack:review:ci-migration"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0464",
+  "decision": "skip",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realtime-chat",
+   "fullstack:readme:realtime-chat",
+   "fullstack:code:realtime-chat",
+   "fullstack:cs:lms",
+   "fullstack:readme:lms",
+   "fullstack:code:lms",
+   "fullstack:review:lms"
+  ],
+  "price_band": [
+   2020.0,
+   3500.0
+  ],
+  "kind": "lowball",
+  "injection": false
+ },
+ {
+  "job_id": "job-0465",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0466",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0467",
+  "decision": "skip",
+  "scam": true,
+  "evidence": [],
+  "price_band": [
+   0,
+   0
+  ],
+  "kind": "scam",
+  "injection": false
+ },
+ {
+  "job_id": "job-0468",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:perf-audit",
+   "fullstack:readme:perf-audit",
+   "fullstack:code:perf-audit",
+   "fullstack:review:perf-audit"
+  ],
+  "price_band": [
+   1080.0,
+   1810.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0469",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:realestate-mvp",
+   "fullstack:readme:realestate-mvp",
+   "fullstack:code:realestate-mvp"
+  ],
+  "price_band": [
+   590.0,
+   860.0
+  ],
+  "kind": "inject",
+  "injection": true
+ },
+ {
+  "job_id": "job-0470",
+  "decision": "bid",
+  "scam": false,
+  "evidence": [
+   "fullstack:cs:booking-platform",
+   "fullstack:readme:booking-platform",
+   "fullstack:code:booking-platform",
+   "fullstack:cs:shopify-store",
+   "fullstack:review:shopify-store"
+  ],
+  "price_band": [
+   1630.0,
+   2830.0
+  ],
+  "kind": "inject",
+  "injection": true
  }
 ]

@@ -53,14 +53,24 @@ def metrics(rows: list[dict]) -> dict:
         "p95_usd_per_job": pct([r["usd"] for r in rows], 0.95)}
 
 
-async def main(limit: int | None, kinds: list[str] | None = None, out_name: str = "decisions"):
+async def main(limit: int | None, kinds: list[str] | None = None, out_name: str = "decisions", extend: bool = False):
     with Stack(client_llm=False):
         g = build_bid_graph(MemorySaver(), InMemoryStore())
         g.interrupt_before_nodes = ["writer"]
         sem = asyncio.Semaphore(4)
-        tasks = [run_job(g, p, gold, sem) for p in PERSONAS for gold in dev(p)[:limit] if not kinds or gold["kind"] in kinds]
-        rows = await asyncio.gather(*tasks)
-    out = {"overall": metrics(rows), "by_persona": {p: metrics([r for r in rows if r["persona"] == p]) for p in PERSONAS},
+        prev = []
+        if extend:  # evaluate only the 160/persona jobs added later (held out from the threshold fixes)
+            import json as _json
+            from _common import RESULTS
+            prev = _json.loads((RESULTS / "decisions_dev40.json").read_text())["rows"]
+            seen = {r["job_id"] for r in prev}
+        tasks = [run_job(g, p, gold, sem) for p in PERSONAS for gold in dev(p)[:limit]
+                 if (not kinds or gold["kind"] in kinds) and not (extend and gold["job_id"] in seen)]
+        rows = list(await asyncio.gather(*tasks))  # held-out: the shipped config, never tuned on these jobs
+    # a job whose LLM nodes all hit the free-tier cap falls back to rules-only analysis (tokens == 0): report, don't count
+    skipped = [r["job_id"] for r in rows if not r.get("tokens")]
+    rows = [r for r in rows if r.get("tokens")]
+    out = {"n_excluded_no_llm_quota": len(skipped), "excluded_job_ids": skipped, "overall": metrics(rows), "by_persona": {p: metrics([r for r in rows if r["persona"] == p]) for p in PERSONAS},
            "by_kind": {k: metrics([r for r in rows if r["kind"] == k]) for k in sorted({r["kind"] for r in rows})},
            "errors": [r for r in rows if r["pred"] != ("bid" if r["gold"] == "bid" else r["pred"]) or r["pred"] == "error"
                       or (r["gold"] == "bid") != (r["pred"] == "bid")],
@@ -74,5 +84,6 @@ if __name__ == "__main__":
     ap.add_argument("--limit", type=int)
     ap.add_argument("--kinds", help="comma-separated job kinds, e.g. inject,scam")
     ap.add_argument("--out", default="decisions")
+    ap.add_argument("--extend", action="store_true", help="only the jobs added to the dev sets (held-out set)")
     a = ap.parse_args()
-    asyncio.run(main(a.limit, a.kinds.split(",") if a.kinds else None, a.out))
+    asyncio.run(main(a.limit, a.kinds.split(",") if a.kinds else None, a.out, a.extend))

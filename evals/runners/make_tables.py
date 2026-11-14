@@ -44,7 +44,7 @@ def main():
             out.append(f"| {label} | {f(v['recall@5'])} | {f(v['ndcg@10'])} | {f(s.get('unsupported_claims_per_proposal_after'), 2)} "
                        f"| {f(s.get('judge_score'), 2)} | {f(s.get('reply_rate'))} | {f(s.get('p95_latency_s_per_proposal'), 1)} | {f(s.get('usd_per_proposal'), 4)} |")
     if rag:
-        out.append("\n### All retrieval variants\n")
+        out.append(f"\n### All retrieval variants ({rag['n_jobs']} dev jobs with gold evidence)\n")
         out.append("| Variant | Recall@5 | MRR | nDCG@10 | multi-req R@5 | vague R@5 | p95 query latency (s) |")
         out.append("|---|---|---|---|---|---|---|")
         for k, v in rag["variants"].items():
@@ -78,12 +78,29 @@ def main():
             (RESULTS / "ab_test.json").write_text(json.dumps({"A_replies": ra, "A_n": na, "B_replies": rb, "B_n": nb,
                                                               "fisher_p_two_sided": pv}, indent=1))
     if dec:
-        out.append("\n### Decisions (all dev jobs)\n")
+        out.append("\n### Decisions (original 120 dev jobs; thresholds were then tuned on these, see failure analysis)\n")
         out.append("| Slice | n | Bid/skip F1 | Accuracy | Scam precision | Scam recall | Price in fair band | p95 latency / job (s) | USD / job |")
         out.append("|---|---|---|---|---|---|---|---|---|")
         for k, m in [("overall", dec["overall"])] + list(dec["by_persona"].items()) + list(dec["by_kind"].items()):
             out.append(f"| {k} | {m['n']} | {f(m['bid_skip_f1'])} | {f(m['accuracy'])} | {f(m['scam_precision'])} | {f(m['scam_recall'])} "
                        f"| {f(m['price_in_fair_band'])} | {f(m['p95_latency_s_per_job'], 1)} | {f(m['mean_usd_per_job'], 5)} |")
+    held = load("decisions_heldout")
+    if held:
+        out.append("\n### Decisions — held-out jobs (shipped config, never used for tuning)\n")
+        out.append(f"Excluded for lack of free-tier LLM quota: {held.get('n_excluded_no_llm_quota', 0)} jobs.\n")
+        out.append("| Slice | n | Bid/skip F1 | Accuracy | Scam precision | Scam recall | Price in fair band | p95 latency / job (s) | USD / job |")
+        out.append("|---|---|---|---|---|---|---|---|---|")
+        for k, m in [("overall", held["overall"])] + list(held["by_persona"].items()) + list(held["by_kind"].items()):
+            out.append(f"| {k} | {m['n']} | {f(m['bid_skip_f1'])} | {f(m['accuracy'])} | {f(m['scam_precision'])} | {f(m['scam_recall'])} "
+                       f"| {f(m['price_in_fair_band'])} | {f(m['p95_latency_s_per_job'], 1)} | {f(m['mean_usd_per_job'], 5)} |")
+    panel = load("pairwise_panel")
+    if panel and panel.get("n_votes"):
+        out.append(f"\n### Blind pairwise human panel ({panel['n_votes']} votes, {panel['n_raters']} raters)\n")
+        out.append("| Comparison | Votes | First wins | Second wins | Ties | First win rate (excl. ties) | Sign test p |")
+        out.append("|---|---|---|---|---|---|---|")
+        for k, c in panel["comparisons"].items():
+            out.append(f"| {k} | {c['votes']} | {c['a_wins']} | {c['b_wins']} | {c['ties']} | {f(c['a_win_rate_excl_ties'])} "
+                       f"| {f(c['sign_test_p_two_sided'])} |")
     if tools:
         out.append("\n### R&D A — tool granularity (40 tasks)\n\n| Tool set | Tools | Selection accuracy | Argument accuracy | Tokens / task |\n|---|---|---|---|---|")
         for k, s in tools["sets"].items():

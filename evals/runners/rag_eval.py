@@ -45,7 +45,16 @@ def main():
         for g in dev(p):
             if g["decision"] == "bid" or g["kind"] == "lowball":
                 items.append((p, JOBS[g["job_id"]], set(g["evidence"])))
-    results = {v: evaluate(load_variant(v), items) for v in VARIANTS}
+    import json as _json
+    from _common import RESULTS
+    # V8 grades evidence with an LLM (one call per job); to stay inside free-tier quotas it is evaluated on the original
+    # 40-jobs-per-persona subset (evals/results/rag_variants_dev40.json) and reported as such.
+    results = {v: evaluate(load_variant(v), items) for v in VARIANTS if v != "v8_corrective"}
+    sub = RESULTS / "rag_variants_dev40.json"
+    if sub.exists():
+        r8 = _json.loads(sub.read_text())["variants"].get("v8_corrective")
+        if r8:
+            results["v8_corrective (dev40 subset)"] = r8
     for v, r in results.items():
         print(f"{v:16} R@5 {r['recall@5']:.3f}  MRR {r['mrr']:.3f}  nDCG@10 {r['ndcg@10']:.3f}")
     # ablation of the shipped pipeline: remove one component at a time

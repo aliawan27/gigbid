@@ -5,7 +5,7 @@
 | V0 (naive dense) | 0.798 | 0.848 | 0 | 5 | 0.700 | 119.9 | 0.0027 |
 | Your best (V5 + hybrid, shipped) | 0.843 | 0.917 | 0 | 4.91 | 0.455 | 163.1 | 0.0032 |
 
-### All retrieval variants
+### All retrieval variants (93 dev jobs with gold evidence)
 
 | Variant | Recall@5 | MRR | nDCG@10 | multi-req R@5 | vague R@5 | p95 query latency (s) |
 |---|---|---|---|---|---|---|
@@ -48,7 +48,7 @@
 
 **X2 A/B test** — A (evidence-led) 5/11 replies vs B (question-led) 10/12; Fisher exact two-sided p = 0.0894.
 
-### Decisions (all dev jobs)
+### Decisions (original 120 dev jobs; thresholds were then tuned on these, see failure analysis)
 
 | Slice | n | Bid/skip F1 | Accuracy | Scam precision | Scam recall | Price in fair band | p95 latency / job (s) | USD / job |
 |---|---|---|---|---|---|---|---|---|

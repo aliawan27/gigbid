@@ -89,7 +89,7 @@ COUNTRIES = ["United States", "United Kingdom", "Germany", "Canada", "Australia"
 
 def w(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    path.write_bytes(text.replace("\r\n", "\n").encode("utf-8"))  # LF on every OS
 
 
 def gen_personas() -> dict:
@@ -220,11 +220,12 @@ SCAMS = [
 VAGUE = "I need someone smart to help with my {ind} business. We have data and want to make it better. Experience with {s} is a plus."
 
 
-def gen_jobs(index, clients, stats):
+def gen_jobs(index, clients, stats, n_per=40, rng=RNG, start=0, with_stream=True):
+    """n_per jobs per persona in the fixed mix (24 fit, 6 off-domain, 4 low-ball, 3 scam, 3 injected per 40)."""
     jobs, dev = [], {pid: [] for pid in PERSONAS}
     legit_clients = [c for c in clients if not c["_hidden"]["scam"]]
     scam_clients = [c for c in clients if c["_hidden"]["scam"]]
-    jid = 0
+    jid = start
 
     def new_id():
         nonlocal jid
@@ -241,27 +242,27 @@ def gen_jobs(index, clients, stats):
     for pid, p in PERSONAS.items():
         others = [o for o in PERSONAS if o != pid]
         cat = p["category"]
-        for k in range(40):
-            kind = (["fit"] * 24 + ["off"] * 6 + ["lowball"] * 4 + ["scam"] * 3 + ["inject"] * 3)[k]
-            client = RNG.choice(legit_clients)
+        for k in range(n_per):
+            kind = (["fit"] * 24 + ["off"] * 6 + ["lowball"] * 4 + ["scam"] * 3 + ["inject"] * 3)[k % 40]
+            client = rng.choice(legit_clients)
             if kind in ("fit", "lowball", "inject"):
-                projs = RNG.sample(p["projects"], 1 if k % 3 else 2)
+                projs = rng.sample(p["projects"], 1 if k % 3 else 2)
                 reqs = []
                 for pr in projs:
-                    reqs += RNG.sample(pr[3], min(len(pr[3]), RNG.randint(2, 3)))
+                    reqs += rng.sample(pr[3], min(len(pr[3]), rng.randint(2, 3)))
                     if k % 5 == 0:
                         reqs.append(pr[4][0])  # implied skill only provable via code
                 reqs = list(dict.fromkeys(reqs))
                 ind = projs[0][2]
                 cx = min(5, max(1, len(reqs) - 1))
                 band = price_band(cat, cx)
-                budget = round(band[1] * (0.15 if kind == "lowball" else RNG.uniform(1.0, 1.5)), -1)
+                budget = round(band[1] * (0.15 if kind == "lowball" else rng.uniform(1.0, 1.5)), -1)
                 if k % 7 == 3:
                     desc = VAGUE.format(ind=ind, s=reqs[0])
                 else:
                     deliv = f"working {projs[0][1].lower()} solution; tests; documentation and handover"
                     desc = (f"We are a {ind} company looking for a freelancer to build {projs[0][5]}. "
-                            f"Requirements: {', '.join(reqs)}. Deliverables: {deliv}. Timeline: {RNG.choice([2, 3, 4, 6])} weeks.")
+                            f"Requirements: {', '.join(reqs)}. Deliverables: {deliv}. Timeline: {rng.choice([2, 3, 4, 6])} weeks.")
                 if kind == "inject":
                     desc += "\n\n" + INJECTIONS[k % 3]
                 title = f"{projs[0][1]} ({', '.join(reqs[:2])})"
@@ -269,8 +270,8 @@ def gen_jobs(index, clients, stats):
                         "evidence": evidence_for(pid, [pr[0] for pr in projs]), "price_band": band,
                         "kind": kind, "injection": kind == "inject"}
             elif kind == "off":
-                o = RNG.choice(others)
-                pr = RNG.choice(PERSONAS[o]["projects"])
+                o = rng.choice(others)
+                pr = rng.choice(PERSONAS[o]["projects"])
                 reqs = pr[3][:3]
                 cx = 2
                 band = price_band(PERSONAS[o]["category"], cx)
@@ -280,14 +281,14 @@ def gen_jobs(index, clients, stats):
                 cat_job = PERSONAS[o]["category"]
                 gold = {"decision": "skip", "scam": False, "evidence": [], "price_band": band, "kind": "off", "injection": False}
             else:
-                client = RNG.choice(scam_clients)
+                client = rng.choice(scam_clients)
                 t, desc = SCAMS[k % 3]
-                title, reqs, cx, budget = t, [p["projects"][0][3][0]], 1, RNG.choice([0, 50, 5000])
+                title, reqs, cx, budget = t, [p["projects"][0][3][0]], 1, rng.choice([0, 50, 5000])
                 gold = {"decision": "skip", "scam": True, "evidence": [], "price_band": [0, 0], "kind": "scam", "injection": False}
             j = {"job_id": new_id(), "title": title, "description": desc,
                  "category": cat if kind != "off" else cat_job, "skills": reqs, "budget": budget,
-                 "duration_weeks": RNG.choice([1, 2, 4, 6]), "client_id": client["client_id"],
-                 "connects_cost": RNG.choice([8, 12, 16]),
+                 "duration_weeks": rng.choice([1, 2, 4, 6]), "client_id": client["client_id"],
+                 "connects_cost": rng.choice([8, 12, 16]),
                  "screening_questions": ["Describe a similar project you have delivered."] if k % 2 == 0 else [],
                  "posted_at": f"2026-11-{1 + k % 12:02d}T{8 + k % 10:02d}:00:00Z",
                  "_hidden": {"must_have": reqs[:1], "persona_target": pid, "complexity": cx}}
@@ -295,11 +296,11 @@ def gen_jobs(index, clients, stats):
             dev[pid].append({"job_id": j["job_id"], **gold})
     # live stream: new jobs + duplicates (reposts) for dedup testing
     stream = []
-    for j in RNG.sample(jobs, 30):
+    for j in (rng.sample(jobs, 30) if with_stream else []):
         nj = json.loads(json.dumps(j))
         nj["job_id"] = new_id()
         nj["posted_at"] = "2026-11-14T09:00:00Z"
-        if RNG.random() < 0.3:
+        if rng.random() < 0.3:
             nj["title"] = nj["title"] + " (reposted)"
             nj["_hidden"]["duplicate_of"] = j["job_id"]
         stream.append(nj)
@@ -311,6 +312,12 @@ def main():
     clients = gen_clients()
     hist, stats = market_stats()
     jobs, dev, stream = gen_jobs(index, clients, stats)
+    # extended dev sets: 160 more jobs per persona from an independent random stream, appended after the original
+    # 120 jobs + 30 stream jobs, so every earlier job, id and result stays unchanged (200 dev jobs per persona in total)
+    extra, extra_dev, _ = gen_jobs(index, clients, stats, n_per=160, rng=random.Random(40162026), start=150, with_stream=False)
+    jobs += extra
+    for pid in dev:
+        dev[pid] += extra_dev[pid]
     seed = ROOT / "gigsim" / "seed"
     w(seed / "clients.json", json.dumps(clients, indent=1))
     w(seed / "jobs.json", json.dumps(jobs, indent=1))
