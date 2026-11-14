@@ -1,7 +1,7 @@
 # GigBid configuration. Rules, prompts, models and thresholds live here (never hard-coded).
 marketplace:
   mode: gigsim              # gigsim | upwork_live  (switches the adapter behind agent/marketplace_port.py)
-  max_requests_per_minute: 30
+  max_requests_per_minute: 100
   scout_interval_minutes: 60      # gigsim; live mode uses live_scout_interval_minutes (see docs/RUNBOOK.md)
   live_scout_interval_minutes: 240
 

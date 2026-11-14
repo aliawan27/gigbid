@@ -60,7 +60,7 @@ def load_item_texts(owner: str, root: Path | None = None) -> list[dict]:
         return [load_file(f, owner) for f in sorted(Path(own_dir).rglob("*"))
                 if f.is_file() and f.suffix.lower() in (".md", ".txt", ".pdf", ".py", ".js", ".ts")]
     base = (root or PERSONA_ROOT) / owner
-    index = json.loads((PERSONA_ROOT / "index.json").read_text())[owner] if (root is None and (PERSONA_ROOT / "index.json").exists()) else []
+    index = json.loads((PERSONA_ROOT / "index.json").read_text()).get(owner, []) if (root is None and (PERSONA_ROOT / "index.json").exists()) else []
     meta = {m["id"]: m for m in index}
     items = []
     reviews = {r["id"]: r for r in json.loads((base / "reviews.json").read_text())} if (base / "reviews.json").exists() else {}

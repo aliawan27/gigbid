@@ -64,14 +64,14 @@ def audit(user_id: str, tool: str, args: dict, result, trace_id: str) -> None:
         f.write(json.dumps(rec, default=str)[:4000] + "\n")
 
 
-async def _read(tool: str, user_id: str, trace_id: str, coro_fn, **args):
-    _limit(user_id)
+async def _read(_tool: str, _user: str, _trace: str, coro_fn, **args):
+    _limit(_user)
     try:
         res = await coro_fn(**args)
     except MarketplaceUnavailable as e:
-        audit(user_id, tool, args, {"error": str(e)}, trace_id)
+        audit(_user, _tool, args, {"error": str(e)}, _trace)
         raise ValueError(f"MARKETPLACE_UNAVAILABLE: {e}") from e
-    audit(user_id, tool, args, {"ok": True, "n": len(res) if isinstance(res, list) else 1}, trace_id)
+    audit(_user, _tool, args, {"ok": True, "n": len(res) if isinstance(res, list) else 1}, _trace)
     return res
 
 

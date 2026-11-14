@@ -88,7 +88,10 @@ async def call(agent: str, tool: str, args: dict, timeout: float = 30, retries: 
                 await asyncio.sleep(5)
             elif attempt < retries:
                 await asyncio.sleep(0.5 * 2 ** attempt)
-    if server == "marketplace":
+    msg = str(last)
+    outage = ("MARKETPLACE_UNAVAILABLE" in msg or "rate limit" in msg or "TaskGroup" in msg
+              or "onnect" in msg or isinstance(last, (asyncio.TimeoutError, OSError)))
+    if server == "marketplace" and outage:
         raise MarketplaceUnavailable(f"{tool}: {last}")
     raise RuntimeError(f"MCP {server}.{tool} failed: {last}")
 
