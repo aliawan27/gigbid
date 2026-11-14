@@ -1,0 +1,625 @@
+{
+ "generated_at": "2026-11-14T12:55:57",
+ "job_set": [
+  [
+   "ai_ml",
+   "job-0001"
+  ],
+  [
+   "ai_ml",
+   "job-0002"
+  ],
+  [
+   "ai_ml",
+   "job-0003"
+  ],
+  [
+   "ai_ml",
+   "job-0004"
+  ],
+  [
+   "fullstack",
+   "job-0041"
+  ],
+  [
+   "fullstack",
+   "job-0042"
+  ],
+  [
+   "fullstack",
+   "job-0043"
+  ],
+  [
+   "fullstack",
+   "job-0044"
+  ],
+  [
+   "data_analyst",
+   "job-0081"
+  ],
+  [
+   "data_analyst",
+   "job-0082"
+  ],
+  [
+   "data_analyst",
+   "job-0083"
+  ],
+  [
+   "data_analyst",
+   "job-0084"
+  ]
+ ],
+ "configs": {
+  "v0_open": {
+   "summary": {
+    "n_jobs": 12,
+    "n_submitted": 10,
+    "unsupported_claims_per_proposal_before": 0.4,
+    "unsupported_claims_per_proposal_after": 0,
+    "judge_score": 5,
+    "reply_rate": 0.7,
+    "hire_rate": 0.0,
+    "p50_latency_s_per_proposal": 66.11,
+    "p95_latency_s_per_proposal": 119.88,
+    "usd_per_proposal": 0.0027,
+    "p95_usd_per_proposal": 0.004,
+    "tokens_per_proposal": 9318,
+    "mean_revisions": 0.9,
+    "mean_words": 123.9
+   },
+   "rows": [
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0001",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 18.91,
+     "tokens": 6094,
+     "usd": 0.0018067900000000002,
+     "revisions": 0,
+     "unsupported_before": 0.5,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 1,
+     "letter": "You need a reliable entity extraction pipeline for de\u2011identified clinical notes that leverages modern transformer\u2011based NER and integrates with your annotation workflow. I designed and built entity extraction from de-identified clinical notes for a healthcare client in 2023 using NLP, spaCy, transformers, and NER, with a codebase and documentation available. The project included a pipeline that combined spaCy with transformer models and was ready for annotation in Prodigy, as shown in the core module code example and the accompanying readme outlining the stack and quickstart steps. I can extend this foundation with LoRA/PEFT fine\u2011tuning, Llama models, and vLLM for efficient inference, and I will supply comprehensive tests, documentation, and hand\u2011over guidance for deployment.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 121,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Specific experience with clinical NER, concrete tech stack, clear deliverables and next steps"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0002",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 72.87,
+     "tokens": 13330,
+     "usd": 0.00382363,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a reliable LoRA\u2011fine\u2011tuned model that can accurately classify contract clauses within a four\u2011week window, complete with tests, documentation, and handover. I have delivered a legal document classifier built with PEFT, LoRA, and Llama that classifies contract clauses. The solution included a full data preprocessing pipeline for legal texts, evaluation metrics for classification accuracy, and clear deployment instructions, ensuring privacy and security of sensitive documents. My codebase uses Python and vLLM, and is packaged with a quickstart script for easy handover. I will start by reviewing your clause taxonomy, set up a reproducible training environment, and deliver a validated model with comprehensive documentation well before the four\u2011week deadline. This approach aligns directly with your deliverables and timeline, minimizing risk and accelerating your legal AI capabilities.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 134,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "The proposal directly addresses the job with concrete experience, clear steps, timeline, and relevant technical details."
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0003",
+     "config": "v0_open",
+     "status": "needs_attention",
+     "latency_s": 58.43,
+     "tokens": 10962,
+     "usd": 0.0031925099999999995,
+     "revisions": 1,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.3333333333333333,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0
+    },
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0004",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 58.75,
+     "tokens": 5313,
+     "usd": 0.0014512499999999998,
+     "revisions": 0,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "Your hospitality business needs a reliable voice booking agent that can turn raw call data into accurate table reservations. I have built a phone agent for a hospitality client that integrates Whisper for speech\u2011to\u2011text, LangGraph for workflow orchestration, and Twilio for telephony, delivering a seamless booking experience. The core module code demonstrates the full pipeline with these technologies and WebSockets for real\u2011time handling. My background includes Python development and experience with tools such as Prophet and LightGBM for forecasting.. I would start by reviewing your existing data, extending the current voice\u2011agent architecture, and adding thorough documentation for non\u2011technical staff, automated tests, and a production\u2011ready deployment plan to meet your hidden needs.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 119,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, mentions Whisper, LangGraph, clear plan and relevant experience"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0041",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 66.11,
+     "tokens": 9310,
+     "usd": 0.0026412,
+     "revisions": 1,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 4,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a reliable inventory and purchase\u2011order system that fits your manufacturing workflows and can be delivered quickly. I have built a full\u2011stack inventory management solution for a manufacturing client using Angular, .NET and SQL Server, deployed on Azure, which matches your core stack. The project included comprehensive unit and integration tests, detailed documentation, and a smooth handover to the client\u2019s team. I also have hands\u2011on experience creating Chrome extensions with TypeScript, the Chrome Extensions API, and IndexedDB, as demonstrated in a tab\u2011and\u2011notes manager project. My approach will incorporate data migration from your legacy system, integrate with existing workflows, and provide user training to ensure rapid adoption. I will deliver a tested, documented solution within the two\u2011week timeline, ready for production on Azure.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 131,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, addresses all required technologies, outlines concrete steps and timeline, and is concise"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0042",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 51.15,
+     "tokens": 6005,
+     "usd": 0.0018311399999999998,
+     "revisions": 0,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "Your storefront\u2019s slow load times are hurting conversions, especially on key metrics like LCP. I have directly tackled that problem for an e\u2011commerce client, delivering a full performance audit and fix that cut LCP from 4.1\u202fs to 1.6\u202fs while aligning with Core Web Vitals and Lighthouse standards. The project used a webpack-based build pipeline and incorporated Core Web Vitals monitoring, as described in the case study and code repository. My experience includes clear communication during the web performance overhaul project. I will start with a baseline Lighthouse report, identify e\u2011commerce\u2011specific bottlenecks, refactor the webpack config, and implement progressive enhancements such as lazy loading and resource prioritization. Documentation and testing will be delivered alongside a clear migration plan within the six\u2011week timeline you outlined.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 133,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, concrete achievements, clear plan and timeline matching the job"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0043",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 119.88,
+     "tokens": 12376,
+     "usd": 0.00353187,
+     "revisions": 2,
+     "unsupported_before": 0.6666666666666666,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 2,
+     "letter": "You need a reliable booking engine that can serve live availability across 80 properties while staying scalable and maintainable. I have built a hotel booking platform that delivered exactly that, handling live availability for 80 properties and processing 25k bookings in its first season. Throughout the three\u2011week timeline I will keep you updated with regular demos and address any scalability concerns as we add properties. Let\u2019s discuss how to align milestones with your launch schedule.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 83,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Specific, concrete experience, clear next steps, concise"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0044",
+     "config": "v0_open",
+     "status": "needs_attention",
+     "latency_s": 130.27,
+     "tokens": 12502,
+     "usd": 0.0036122799999999994,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.3333333333333333,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0081",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 48.3,
+     "tokens": 11798,
+     "usd": 0.0036463699999999995,
+     "revisions": 1,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "Your fintech team needs a reliable experimentation framework that integrates with existing BigQuery and Looker pipelines while delivering statistically rigorous power analysis. I have built an A/B testing framework using Python, statsmodels, and SciPy. I have also worked with pipelines involving BigQuery, SQL, and Looker for cohort analysis. My fintech case study from 2025 demonstrates an experimentation framework with power analysis. The underlying codebase includes a reusable A/B testing module and a BigQuery\u2011driven data flow that aligns with your infrastructure. I will deliver a production\u2011ready solution, comprehensive tests, and clear handover documentation within the six\u2011week timeline, ensuring your internal team can maintain and extend the system confidently.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 115,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "The proposal directly addresses all required technologies, outlines concrete deliverables and timeline, and provides clear next steps, showing strong relevance and specificity."
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0082",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 105.95,
+     "tokens": 9426,
+     "usd": 0.00270154,
+     "revisions": 1,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a reliable KPI stack that turns raw data into clear, actionable dashboards for your seed\u2011stage startup, and you need it delivered quickly with Metabase and SQL expertise. I have built a KPI stack for a seed-stage startup using Metabase, PostgreSQL and SQL, and the result became the source for board reporting. The project included end\u2011to\u2011end pipeline code, tests, and comprehensive documentation, ensuring smooth handover to the client\u2019s team. My approach starts with a discovery of your data sources, followed by a logical data model aligned to your key metrics, then constructing Metabase dashboards that surface those metrics in real time. I will also implement automated tests for data integrity and provide clear user guides for ongoing maintenance. With a four\u2011week timeline, I can deliver a production\u2011ready KPI stack, complete with documentation and training, so you can focus on growth without worrying about data reliability.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 154,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, concrete experience, clear steps and timeline, concise"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0083",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 88.91,
+     "tokens": 13054,
+     "usd": 0.0037588999999999995,
+     "revisions": 2,
+     "unsupported_before": 1.0,
+     "unsupported_after": 0.0,
+     "n_claims": 1,
+     "decision": "bid",
+     "unsupported_claims_before": 1,
+     "letter": "You need a reproducible R workflow that cleans, models, and visualizes a 5,000\u2011response donor survey for nonprofit stakeholders. The codebase follows tidyverse best practices and includes automated tests and clear documentation for hand\u2011over. A client praised the reproducibility and clarity of the notebook, noting the results were directly used in their fundraising strategy. I will start with an exploratory data audit, set up a reproducible R project, implement cleaning scripts, conduct the required statistical models, and produce stakeholder\u2011ready ggplot2 visualizations within the four\u2011week timeline. Regular checkpoints will keep the project aligned with your goals and ensure a smooth handover.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 107,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, concrete plan with clear steps, timeline, and relevant technical details"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0084",
+     "config": "v0_open",
+     "status": "awaiting_approval",
+     "latency_s": 33.57,
+     "tokens": 6474,
+     "usd": 0.0020001,
+     "revisions": 0,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "Your e\u2011commerce business needs a clear view of how each marketing touch contributes to sales and how to test changes efficiently. I have built a multi-touch attribution model across 6 channels using Python and pandas, with a pipeline that also integrates Google Analytics 4 and BigQuery.. My work also included A/B testing frameworks built with statsmodels and SciPy, ensuring statistically sound experiment results. I routinely clean and preprocess large datasets, as demonstrated in a research data\u2011cleaning project using pandas and Jupyter notebooks, and I have experience writing and optimizing SQL queries for data extraction and analysis. For your project, I would start by auditing the raw data, applying systematic cleaning, then constructing the attribution model and visualizing the outcomes to guide marketing strategy. This approach ensures reliable metrics and clear recommendations for budget optimization.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 142,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "The proposal is directly tailored, cites concrete relevant experience, and outlines clear next steps concisely."
+     },
+     "unsupported_claims_after": 0
+    }
+   ]
+  },
+  "best_open": {
+   "summary": {
+    "n_jobs": 12,
+    "n_submitted": 11,
+    "unsupported_claims_per_proposal_before": 0.2727,
+    "unsupported_claims_per_proposal_after": 0,
+    "judge_score": 4.9091,
+    "reply_rate": 0.455,
+    "hire_rate": 0.0,
+    "p50_latency_s_per_proposal": 112.3,
+    "p95_latency_s_per_proposal": 163.13,
+    "usd_per_proposal": 0.0032,
+    "p95_usd_per_proposal": 0.004,
+    "tokens_per_proposal": 10890.2727,
+    "mean_revisions": 1.5455,
+    "mean_words": 132.7273
+   },
+   "rows": [
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0001",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 63.82,
+     "tokens": 6525,
+     "usd": 0.0020765099999999997,
+     "revisions": 0,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a secure, end\u2011to\u2011end pipeline that extracts entities from de\u2011identified clinical notes and delivers a production\u2011ready model with tests and documentation. I have built a clinical notes NER solution using spaCy, transformers and Prodigy, documented in a case study that highlights work for a healthcare client in 2023. I designed and built a LoRA fine-tuned open model classifying contract clauses using fine-tuning, LoRA, Llama and PEFT, and worked directly with the client's team to write documentation and hand over tests. I will securely handle the de\u2011identified data, create a labeled dataset with Prodigy, fine\u2011tune the model using LoRA/PEFT, and serve it with vLLM, ensuring reproducible tests and clear documentation for your team. The four\u2011week timeline aligns with my recent project delivery pace, and I will keep communication transparent throughout the engagement.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 140,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Specific, concrete experience with required tools and clear delivery plan"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0002",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 135.37,
+     "tokens": 12460,
+     "usd": 0.0036266899999999993,
+     "revisions": 2,
+     "unsupported_before": 0.5,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 1,
+     "letter": "You need a reliable classifier that can distinguish contract clauses while respecting the sensitivity of legal data. I have built a LoRA\u2011fine\u2011tuned open model for a legal document classifier, delivering accurate clause categorization using PEFT and Llama. The same codebase includes a focused fine\u2011tuning stack with LoRA support. I will then fine\u2011tune the model in PyTorch using Hugging Face Transformers, applying LoRA adapters via PEFT to keep training efficient. Evaluation will use classification accuracy and confusion\u2011matrix metrics, and I will provide test scripts, documentation, and hand\u2011over instructions for deployment. The four\u2011week timeline aligns with the project scope, and I will maintain regular updates to ensure transparency and compliance throughout.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 117,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "The proposal directly addresses the job with concrete technical details, clear deliverables, timeline, and next steps."
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0003",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 112.3,
+     "tokens": 12477,
+     "usd": 0.0035655499999999994,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 1,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a fast, reliable RAG\u2011based support assistant that can ingest 12k help\u2011centre articles, serve queries via FastAPI and deliver accurate answers using OpenAI models. I have delivered a RAG customer-support assistant for an e-commerce client using LangChain, Pinecone, FastAPI, and the OpenAI API. The solution included automated ingestion, evaluation metrics for retrieval quality, and full test coverage, all documented for smooth handover. My experience with FastAPI, OpenAI API, LangChain, and vector databases ensures I can meet the 4\u2011week timeline while maintaining code quality and scalability. I will start by reviewing the article corpus, defining a chunking strategy, and setting up the vector store, then integrate the retrieval layer and API endpoints, followed by testing and deployment configuration. Let\u2019s discuss milestones and deliverables to get your support bot operational quickly.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 138,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, concrete experience, clear plan and next steps matching the job requirements"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "ai_ml",
+     "job_id": "job-0004",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 93.61,
+     "tokens": 7601,
+     "usd": 0.0021834099999999998,
+     "revisions": 1,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a voice\u2011driven booking agent that can ingest your hospitality data, understand guest requests, and trigger actions through Twilio while delivering accurate forecasts for demand planning. I have built a complete voice\u2011agent pipeline that combines Whisper for speech\u2011to\u2011text, LangGraph for orchestrating multi\u2011step workflows, and Twilio for call handling, all documented in the code base. My experience includes a hospitality\u2011focused case study where the same stack was applied to a voice booking system, confirming relevance to your industry. For demand forecasting components, I have delivered pipelines using LightGBM and Prophet, validated in production\u2011grade code and documented in the demand\u2011forecast module. I would start by mapping your existing data sources to the agent\u2019s input schema, then integrate the Whisper\u2011LangGraph\u2011Twilio flow, and finally add LightGBM/Prophet models for predictive insights, ensuring thorough testing and a user\u2011friendly interface. This approach leverages proven components to meet your hidden needs of integration, usability, and validation.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 157,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, concrete claims, clear next steps, concise and directly addresses the job requirements"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0041",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 141.3,
+     "tokens": 12169,
+     "usd": 0.00362439,
+     "revisions": 2,
+     "unsupported_before": 0.5,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 1,
+     "letter": "You need a fast, reliable inventory and purchase\u2011order system that fits your existing manufacturing workflows and migrates legacy data. I have delivered a full-stack inventory management solution for a manufacturing client using Angular, .NET, SQL Server, and Azure. The codebase includes TypeScript\u2011based Chrome extensions that store temporary data in IndexedDB, ensuring offline capability for field staff. Azure services will be leveraged for secure hosting, CI/CD pipelines, and scalable storage. I will align the system with your current workflows, perform data migration from legacy systems, and provide on\u2011site training to ensure smooth adoption. The two\u2011week timeline is realistic given the reusable components and proven patterns from prior projects.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 115,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, addresses all required technologies, outlines concrete steps and realistic timeline"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0042",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 48.39,
+     "tokens": 3882,
+     "usd": 0.0010835799999999998,
+     "revisions": 0,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "Your storefront\u2019s slow load times are hurting conversions, especially on key Core Web Vitals metrics. I have delivered a full web performance overhaul for an e\u2011commerce site, improving LCP from 4.1\u202fs to 1.6\u202fs and meeting Lighthouse targets, as highlighted in a client review. My case study demonstrates hands\u2011on work with Core Web Vitals, Lighthouse, and webpack in an e\u2011commerce context, and my codebase includes a dedicated performance audit module built on the same stack. I also list Core Web Vitals and Lighthouse among my core skills and have documented the audit process in a public readme that outlines the tooling used. I would start with a baseline Lighthouse audit, implement code\u2011splitting, lazy loading, image optimization, and a caching strategy, then validate improvements against Core Web Vitals thresholds. Documentation and a handover plan will be provided to ensure your team can maintain the performance gains.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 154,
+     "marketplace_status": "replied",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, cites concrete results, outlines clear steps and deliverables, and matches the job requirements"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0043",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 111.58,
+     "tokens": 14061,
+     "usd": 0.004149519999999999,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a hotel booking engine that can handle live availability across 80 properties, scale in real\u2011time and integrate with your existing tech stack. I have worked on a hotel booking platform for a hospitality client using React, Node.js, Express, and MongoDB, with Socket.io listed in the associated code skills. The solution included comprehensive automated tests, clear documentation and a smooth handover process. My approach will start with a quick audit of your data model, then implement the availability logic with real\u2011time synchronization via Socket.io, followed by authentication, payment integration and UI/UX refinements to ensure a seamless booking flow. I will keep the project on track for the three\u2011week timeline with regular updates and milestone reviews.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 124,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Specific, concrete claims, clear plan and timeline, no filler"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "fullstack",
+     "job_id": "job-0044",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 148.23,
+     "tokens": 12845,
+     "usd": 0.0037298099999999996,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a logistics admin dashboard that consolidates data, improves operational insight, and offers a clean interface for daily tasks. I have built a logistics admin panel using Laravel and MySQL, delivering a robust backend and reliable data handling for a logistics client in 2025. My experience includes Vue.js front-ends used in a logistics admin dashboard project alongside Laravel and MySQL.. For the broader tech stack, I have worked with Strapi and GraphQL to create flexible headless CMS solutions, and with Next.js for modern, server\u2011rendered interfaces, as demonstrated in recent projects. I would start by mapping your existing data structures, optimizing queries, and designing a user\u2011friendly dashboard that meets your operational needs while keeping the system maintainable and scalable. Let\u2019s discuss how to align milestones with your business goals and deliver a solution that streamlines logistics workflows.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 145,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 4,
+      "reason": "Specific to the logistics dashboard with concrete Laravel/MySQL experience and clear next steps, though includes some extra filler"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0081",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 163.13,
+     "tokens": 11693,
+     "usd": 0.00317334,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 2,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a robust experimentation framework that delivers reliable power analysis, integrates with your data stack, and includes thorough testing, documentation, and handover for your internal team. I have worked on A/B testing programmes in fintech using Python, statsmodels, and SciPy, with results including running 22 experiments in one quarter. My skills include SQL and Looker, and I have experience with cohort retention analysis using SQL and Looker. I will design the framework to connect to BigQuery via standard Python connectors, implement power calculations with statsmodels, and set up automated test suites. Documentation will cover architecture, usage guides, and a training session for your team, ensuring smooth handover. The project will be scoped to complete within six weeks, aligning with your timeline.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 130,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Highly specific, mentions all required technologies, clear deliverables and timeline, and provides concrete next steps"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0082",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 50.16,
+     "tokens": 13097,
+     "usd": 0.0041496499999999995,
+     "revisions": 2,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.0,
+     "n_claims": 5,
+     "decision": "bid",
+     "unsupported_claims_before": 0,
+     "letter": "You need a reliable KPI stack built in Metabase with robust SQL data models, integrated dashboards, and clear handover documentation within four weeks. I have delivered a Metabase-PostgreSQL KPI stack for a startup, which became the source for board reporting. My approach starts with mapping your key metrics, designing the underlying data model, and setting up automated tests to ensure data quality. I will then create intuitive Metabase dashboards, document the architecture, and provide a handover session for your team. Throughout the project I maintain transparent communication and iterative reviews to align with your timeline and goals. I\u2019m ready to begin immediately and deliver a production\u2011ready KPI stack on schedule.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 118,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "The proposal directly addresses the job with concrete experience, clear step\u2011by\u2011step plan, timeline alignment, and concise delivery details."
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0083",
+     "config": "best_open",
+     "status": "awaiting_approval",
+     "latency_s": 162.32,
+     "tokens": 12983,
+     "usd": 0.00384542,
+     "revisions": 2,
+     "unsupported_before": 0.3333333333333333,
+     "unsupported_after": 0.0,
+     "n_claims": 3,
+     "decision": "bid",
+     "unsupported_claims_before": 1,
+     "letter": "You need a reproducible, end\u2011to\u2011end analysis of a 5,000\u2011response donor survey that delivers clean data, statistical insights, and clear visualizations within four weeks. I have built a donor-survey analysis for a nonprofit using R, statistics, ggplot2, and the tidyverse. The project included systematic data cleaning, statistical testing, and a suite of ggplot2 visualizations that highlighted key donor segments and response trends. I delivered a reproducible notebook for research data cleaning with clear communication. My experience with large\u2011scale survey data and nonprofit reporting means I can prioritize insight generation for your stakeholders while meeting the four\u2011week deadline. I look forward to discussing milestones and delivering a solution that turns your survey responses into actionable strategy.\n\nDrafted with AI assistance and reviewed by me.",
+     "words": 122,
+     "marketplace_status": "ignored",
+     "judge": {
+      "score": 5,
+      "reason": "Specific to the job, concrete experience with ggplot2 and survey analysis, clear next steps and timeline"
+     },
+     "unsupported_claims_after": 0
+    },
+    {
+     "persona": "data_analyst",
+     "job_id": "job-0084",
+     "config": "best_open",
+     "status": "needs_attention",
+     "latency_s": 116.57,
+     "tokens": 8325,
+     "usd": 0.00245145,
+     "revisions": 1,
+     "unsupported_before": 0.0,
+     "unsupported_after": 0.6,
+     "n_claims": 5,
+     "decision": "bid",
+     "unsupported_claims_before": 0
+    }
+   ]
+  }
+ },
+ "judge_model": "openai/gpt-oss-120b",
+ "note": "Proposals auto-approved by the harness; GigSim clients are LLM-simulated (gpt-oss-20b)."
+}
