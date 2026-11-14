@@ -1,0 +1,8241 @@
+{
+ "ai_ml": [
+  {
+   "id": "ai_ml:cs:churn-predictor",
+   "type": "case_study",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2021-06-01",
+   "path": "case_studies/churn-predictor.md"
+  },
+  {
+   "id": "ai_ml:readme:churn-predictor",
+   "type": "readme",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn"
+   ],
+   "industry": "telecom",
+   "date": "2021-05-01",
+   "path": "repos/churn-predictor/README.md"
+  },
+  {
+   "id": "ai_ml:code:churn-predictor",
+   "type": "code",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering",
+    "imbalanced-learn"
+   ],
+   "industry": "telecom",
+   "date": "2021-05-01",
+   "path": "repos/churn-predictor/main.py"
+  },
+  {
+   "id": "ai_ml:cs:rag-support-bot",
+   "type": "case_study",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-06-01",
+   "path": "case_studies/rag-support-bot.md"
+  },
+  {
+   "id": "ai_ml:readme:rag-support-bot",
+   "type": "readme",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-01",
+   "path": "repos/rag-support-bot/README.md"
+  },
+  {
+   "id": "ai_ml:code:rag-support-bot",
+   "type": "code",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API",
+    "Redis"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-01",
+   "path": "repos/rag-support-bot/main.py"
+  },
+  {
+   "id": "ai_ml:cs:invoice-ocr",
+   "type": "case_study",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-06-01",
+   "path": "case_studies/invoice-ocr.md"
+  },
+  {
+   "id": "ai_ml:cs:demand-forecast",
+   "type": "case_study",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2024-06-01",
+   "path": "case_studies/demand-forecast.md"
+  },
+  {
+   "id": "ai_ml:readme:demand-forecast",
+   "type": "readme",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM"
+   ],
+   "industry": "retail",
+   "date": "2024-05-01",
+   "path": "repos/demand-forecast/README.md"
+  },
+  {
+   "id": "ai_ml:code:demand-forecast",
+   "type": "code",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow",
+    "dbt"
+   ],
+   "industry": "retail",
+   "date": "2024-05-01",
+   "path": "repos/demand-forecast/main.py"
+  },
+  {
+   "id": "ai_ml:cs:llm-eval-harness",
+   "type": "case_study",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2025-06-01",
+   "path": "case_studies/llm-eval-harness.md"
+  },
+  {
+   "id": "ai_ml:readme:llm-eval-harness",
+   "type": "readme",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python"
+   ],
+   "industry": "SaaS",
+   "date": "2025-05-01",
+   "path": "repos/llm-eval-harness/README.md"
+  },
+  {
+   "id": "ai_ml:code:llm-eval-harness",
+   "type": "code",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith",
+    "Ragas"
+   ],
+   "industry": "SaaS",
+   "date": "2025-05-01",
+   "path": "repos/llm-eval-harness/main.py"
+  },
+  {
+   "id": "ai_ml:cs:cv-defect",
+   "type": "case_study",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2021-06-01",
+   "path": "case_studies/cv-defect.md"
+  },
+  {
+   "id": "ai_ml:cs:recsys",
+   "type": "case_study",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2022-06-01",
+   "path": "case_studies/recsys.md"
+  },
+  {
+   "id": "ai_ml:readme:recsys",
+   "type": "readme",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark"
+   ],
+   "industry": "media",
+   "date": "2022-05-01",
+   "path": "repos/recsys/README.md"
+  },
+  {
+   "id": "ai_ml:code:recsys",
+   "type": "code",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python",
+    "Feast"
+   ],
+   "industry": "media",
+   "date": "2022-05-01",
+   "path": "repos/recsys/main.py"
+  },
+  {
+   "id": "ai_ml:cs:medical-ner",
+   "type": "case_study",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2023-06-01",
+   "path": "case_studies/medical-ner.md"
+  },
+  {
+   "id": "ai_ml:readme:medical-ner",
+   "type": "readme",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy"
+   ],
+   "industry": "healthcare",
+   "date": "2023-05-01",
+   "path": "repos/medical-ner/README.md"
+  },
+  {
+   "id": "ai_ml:code:medical-ner",
+   "type": "code",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER",
+    "Prodigy"
+   ],
+   "industry": "healthcare",
+   "date": "2023-05-01",
+   "path": "repos/medical-ner/main.py"
+  },
+  {
+   "id": "ai_ml:cs:fraud-graph",
+   "type": "case_study",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2024-06-01",
+   "path": "case_studies/fraud-graph.md"
+  },
+  {
+   "id": "ai_ml:cs:voice-agent",
+   "type": "case_study",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio"
+   ],
+   "industry": "hospitality",
+   "date": "2025-06-01",
+   "path": "case_studies/voice-agent.md"
+  },
+  {
+   "id": "ai_ml:readme:voice-agent",
+   "type": "readme",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper"
+   ],
+   "industry": "hospitality",
+   "date": "2025-05-01",
+   "path": "repos/voice-agent/README.md"
+  },
+  {
+   "id": "ai_ml:code:voice-agent",
+   "type": "code",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio",
+    "WebSockets"
+   ],
+   "industry": "hospitality",
+   "date": "2025-05-01",
+   "path": "repos/voice-agent/main.py"
+  },
+  {
+   "id": "ai_ml:cs:mlops-pipeline",
+   "type": "case_study",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2021-06-01",
+   "path": "case_studies/mlops-pipeline.md"
+  },
+  {
+   "id": "ai_ml:readme:mlops-pipeline",
+   "type": "readme",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes"
+   ],
+   "industry": "logistics",
+   "date": "2021-05-01",
+   "path": "repos/mlops-pipeline/README.md"
+  },
+  {
+   "id": "ai_ml:code:mlops-pipeline",
+   "type": "code",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD",
+    "Terraform"
+   ],
+   "industry": "logistics",
+   "date": "2021-05-01",
+   "path": "repos/mlops-pipeline/main.py"
+  },
+  {
+   "id": "ai_ml:cs:sentiment-dash",
+   "type": "case_study",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2022-06-01",
+   "path": "case_studies/sentiment-dash.md"
+  },
+  {
+   "id": "ai_ml:cs:price-bandits",
+   "type": "case_study",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2023-06-01",
+   "path": "case_studies/price-bandits.md"
+  },
+  {
+   "id": "ai_ml:readme:price-bandits",
+   "type": "readme",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python"
+   ],
+   "industry": "travel",
+   "date": "2023-05-01",
+   "path": "repos/price-bandits/README.md"
+  },
+  {
+   "id": "ai_ml:code:price-bandits",
+   "type": "code",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits",
+    "NumPy"
+   ],
+   "industry": "travel",
+   "date": "2023-05-01",
+   "path": "repos/price-bandits/main.py"
+  },
+  {
+   "id": "ai_ml:cs:legal-finetune",
+   "type": "case_study",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2024-06-01",
+   "path": "case_studies/legal-finetune.md"
+  },
+  {
+   "id": "ai_ml:readme:legal-finetune",
+   "type": "readme",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA"
+   ],
+   "industry": "legal",
+   "date": "2024-05-01",
+   "path": "repos/legal-finetune/README.md"
+  },
+  {
+   "id": "ai_ml:code:legal-finetune",
+   "type": "code",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT",
+    "vLLM"
+   ],
+   "industry": "legal",
+   "date": "2024-05-01",
+   "path": "repos/legal-finetune/main.py"
+  },
+  {
+   "id": "ai_ml:cs:claims-agents",
+   "type": "case_study",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2025-06-01",
+   "path": "case_studies/claims-agents.md"
+  },
+  {
+   "id": "ai_ml:cv",
+   "type": "cv",
+   "project": null,
+   "skills": [
+    "Airflow",
+    "CI/CD",
+    "Docker",
+    "FastAPI",
+    "Hugging Face",
+    "Kubernetes",
+    "LLM evaluation",
+    "LangChain",
+    "LangGraph",
+    "LangSmith",
+    "LayoutLM",
+    "LightGBM",
+    "Llama",
+    "LoRA",
+    "MLflow",
+    "NER",
+    "NLP",
+    "Neo4j",
+    "OCR",
+    "OpenAI API",
+    "OpenCV",
+    "PEFT",
+    "Pinecone",
+    "Prophet",
+    "PySpark",
+    "PyTorch",
+    "PyTorch Geometric",
+    "Python",
+    "RAG",
+    "Streamlit",
+    "Twilio",
+    "Whisper",
+    "XGBoost",
+    "YOLOv8",
+    "computer vision",
+    "feature engineering",
+    "fine-tuning",
+    "graph neural networks",
+    "multi-agent systems",
+    "multi-armed bandits",
+    "pytest",
+    "recommender systems",
+    "reinforcement learning",
+    "scikit-learn",
+    "sentiment analysis",
+    "spaCy",
+    "speech-to-text",
+    "time series",
+    "tool calling",
+    "transformers"
+   ],
+   "industry": null,
+   "date": "2026-01-01",
+   "path": "cv.md"
+  },
+  {
+   "id": "ai_ml:review:churn-predictor",
+   "type": "review",
+   "project": "churn-predictor",
+   "skills": [],
+   "industry": "telecom",
+   "date": "2021-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:invoice-ocr",
+   "type": "review",
+   "project": "invoice-ocr",
+   "skills": [],
+   "industry": "fintech",
+   "date": "2023-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:llm-eval-harness",
+   "type": "review",
+   "project": "llm-eval-harness",
+   "skills": [],
+   "industry": "SaaS",
+   "date": "2025-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:recsys",
+   "type": "review",
+   "project": "recsys",
+   "skills": [],
+   "industry": "media",
+   "date": "2022-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:fraud-graph",
+   "type": "review",
+   "project": "fraud-graph",
+   "skills": [],
+   "industry": "fintech",
+   "date": "2024-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:mlops-pipeline",
+   "type": "review",
+   "project": "mlops-pipeline",
+   "skills": [],
+   "industry": "logistics",
+   "date": "2021-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:price-bandits",
+   "type": "review",
+   "project": "price-bandits",
+   "skills": [],
+   "industry": "travel",
+   "date": "2023-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:review:claims-agents",
+   "type": "review",
+   "project": "claims-agents",
+   "skills": [],
+   "industry": "insurance",
+   "date": "2025-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "ai_ml:proposal:000",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:001",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:002",
+   "type": "proposal",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:003",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:004",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:005",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:006",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:007",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:008",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:009",
+   "type": "proposal",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:010",
+   "type": "proposal",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:011",
+   "type": "proposal",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:012",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:013",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:014",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:015",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:016",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:017",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:018",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:019",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:020",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:021",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:022",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:023",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:024",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:025",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:026",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:027",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:028",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:029",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:030",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:031",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:032",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:033",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:034",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:035",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:036",
+   "type": "proposal",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:037",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:038",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:039",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:040",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:041",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:042",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:043",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:044",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:045",
+   "type": "proposal",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio"
+   ],
+   "industry": "hospitality",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:046",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:047",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:048",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:049",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:050",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:051",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:052",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:053",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:054",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:055",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:056",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:057",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:058",
+   "type": "proposal",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio"
+   ],
+   "industry": "hospitality",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:059",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:060",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:061",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:062",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:063",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:064",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:065",
+   "type": "proposal",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:066",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:067",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:068",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:069",
+   "type": "proposal",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:070",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:071",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:072",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:073",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:074",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:075",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:076",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:077",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:078",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:079",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:080",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:081",
+   "type": "proposal",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:082",
+   "type": "proposal",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio"
+   ],
+   "industry": "hospitality",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:083",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:084",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:085",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:086",
+   "type": "proposal",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:087",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:088",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:089",
+   "type": "proposal",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:090",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:091",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:092",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:093",
+   "type": "proposal",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:094",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:095",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:096",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:097",
+   "type": "proposal",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:098",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:099",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:100",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:101",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:102",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:103",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:104",
+   "type": "proposal",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:105",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:106",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:107",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:108",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:109",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:110",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:111",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:112",
+   "type": "proposal",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:113",
+   "type": "proposal",
+   "project": "claims-agents",
+   "skills": [
+    "LangGraph",
+    "multi-agent systems",
+    "tool calling",
+    "FastAPI"
+   ],
+   "industry": "insurance",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:114",
+   "type": "proposal",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio"
+   ],
+   "industry": "hospitality",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:115",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:116",
+   "type": "proposal",
+   "project": "llm-eval-harness",
+   "skills": [
+    "LLM evaluation",
+    "Python",
+    "pytest",
+    "LangSmith"
+   ],
+   "industry": "SaaS",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:117",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:118",
+   "type": "proposal",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:119",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:120",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:121",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:122",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:123",
+   "type": "proposal",
+   "project": "invoice-ocr",
+   "skills": [
+    "PyTorch",
+    "OCR",
+    "LayoutLM",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:124",
+   "type": "proposal",
+   "project": "demand-forecast",
+   "skills": [
+    "time series",
+    "LightGBM",
+    "Prophet",
+    "Airflow"
+   ],
+   "industry": "retail",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:125",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:126",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:127",
+   "type": "proposal",
+   "project": "mlops-pipeline",
+   "skills": [
+    "MLflow",
+    "Kubernetes",
+    "Docker",
+    "CI/CD"
+   ],
+   "industry": "logistics",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:128",
+   "type": "proposal",
+   "project": "voice-agent",
+   "skills": [
+    "speech-to-text",
+    "Whisper",
+    "LangGraph",
+    "Twilio"
+   ],
+   "industry": "hospitality",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:129",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:130",
+   "type": "proposal",
+   "project": "fraud-graph",
+   "skills": [
+    "graph neural networks",
+    "PyTorch Geometric",
+    "Neo4j"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:131",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:132",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:133",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:134",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:135",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:136",
+   "type": "proposal",
+   "project": "cv-defect",
+   "skills": [
+    "computer vision",
+    "YOLOv8",
+    "OpenCV",
+    "PyTorch"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:137",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:138",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:139",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:140",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:141",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:142",
+   "type": "proposal",
+   "project": "churn-predictor",
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "XGBoost",
+    "feature engineering"
+   ],
+   "industry": "telecom",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "ai_ml:proposal:143",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:144",
+   "type": "proposal",
+   "project": "price-bandits",
+   "skills": [
+    "reinforcement learning",
+    "Python",
+    "multi-armed bandits"
+   ],
+   "industry": "travel",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:145",
+   "type": "proposal",
+   "project": "recsys",
+   "skills": [
+    "recommender systems",
+    "PySpark",
+    "Python"
+   ],
+   "industry": "media",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "ai_ml:proposal:146",
+   "type": "proposal",
+   "project": "sentiment-dash",
+   "skills": [
+    "NLP",
+    "Hugging Face",
+    "sentiment analysis",
+    "Streamlit"
+   ],
+   "industry": "marketing",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:147",
+   "type": "proposal",
+   "project": "rag-support-bot",
+   "skills": [
+    "LangChain",
+    "RAG",
+    "Pinecone",
+    "FastAPI",
+    "OpenAI API"
+   ],
+   "industry": "e-commerce",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:148",
+   "type": "proposal",
+   "project": "legal-finetune",
+   "skills": [
+    "fine-tuning",
+    "LoRA",
+    "Llama",
+    "PEFT"
+   ],
+   "industry": "legal",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "ai_ml:proposal:149",
+   "type": "proposal",
+   "project": "medical-ner",
+   "skills": [
+    "NLP",
+    "spaCy",
+    "transformers",
+    "NER"
+   ],
+   "industry": "healthcare",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  }
+ ],
+ "fullstack": [
+  {
+   "id": "fullstack:cs:saas-billing",
+   "type": "case_study",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2021-06-01",
+   "path": "case_studies/saas-billing.md"
+  },
+  {
+   "id": "fullstack:readme:saas-billing",
+   "type": "readme",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe"
+   ],
+   "industry": "SaaS",
+   "date": "2021-05-01",
+   "path": "repos/saas-billing/README.md"
+  },
+  {
+   "id": "fullstack:code:saas-billing",
+   "type": "code",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript",
+    "Prisma"
+   ],
+   "industry": "SaaS",
+   "date": "2021-05-01",
+   "path": "repos/saas-billing/main.py"
+  },
+  {
+   "id": "fullstack:cs:booking-platform",
+   "type": "case_study",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2022-06-01",
+   "path": "case_studies/booking-platform.md"
+  },
+  {
+   "id": "fullstack:readme:booking-platform",
+   "type": "readme",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js"
+   ],
+   "industry": "hospitality",
+   "date": "2022-05-01",
+   "path": "repos/booking-platform/README.md"
+  },
+  {
+   "id": "fullstack:code:booking-platform",
+   "type": "code",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Socket.io"
+   ],
+   "industry": "hospitality",
+   "date": "2022-05-01",
+   "path": "repos/booking-platform/main.py"
+  },
+  {
+   "id": "fullstack:cs:shopify-store",
+   "type": "case_study",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2023-06-01",
+   "path": "case_studies/shopify-store.md"
+  },
+  {
+   "id": "fullstack:cs:realtime-chat",
+   "type": "case_study",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2024-06-01",
+   "path": "case_studies/realtime-chat.md"
+  },
+  {
+   "id": "fullstack:readme:realtime-chat",
+   "type": "readme",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis"
+   ],
+   "industry": "social",
+   "date": "2024-05-01",
+   "path": "repos/realtime-chat/README.md"
+  },
+  {
+   "id": "fullstack:code:realtime-chat",
+   "type": "code",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go",
+    "Docker"
+   ],
+   "industry": "social",
+   "date": "2024-05-01",
+   "path": "repos/realtime-chat/main.py"
+  },
+  {
+   "id": "fullstack:cs:logistics-admin",
+   "type": "case_study",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2025-06-01",
+   "path": "case_studies/logistics-admin.md"
+  },
+  {
+   "id": "fullstack:readme:logistics-admin",
+   "type": "readme",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel"
+   ],
+   "industry": "logistics",
+   "date": "2025-05-01",
+   "path": "repos/logistics-admin/README.md"
+  },
+  {
+   "id": "fullstack:code:logistics-admin",
+   "type": "code",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL",
+    "Tailwind CSS"
+   ],
+   "industry": "logistics",
+   "date": "2025-05-01",
+   "path": "repos/logistics-admin/main.py"
+  },
+  {
+   "id": "fullstack:cs:fitness-app",
+   "type": "case_study",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2021-06-01",
+   "path": "case_studies/fitness-app.md"
+  },
+  {
+   "id": "fullstack:cs:lms",
+   "type": "case_study",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2022-06-01",
+   "path": "case_studies/lms.md"
+  },
+  {
+   "id": "fullstack:readme:lms",
+   "type": "readme",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL"
+   ],
+   "industry": "education",
+   "date": "2022-05-01",
+   "path": "repos/lms/README.md"
+  },
+  {
+   "id": "fullstack:code:lms",
+   "type": "code",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3",
+    "Docker"
+   ],
+   "industry": "education",
+   "date": "2022-05-01",
+   "path": "repos/lms/main.py"
+  },
+  {
+   "id": "fullstack:cs:realestate-mvp",
+   "type": "case_study",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2023-06-01",
+   "path": "case_studies/realestate-mvp.md"
+  },
+  {
+   "id": "fullstack:readme:realestate-mvp",
+   "type": "readme",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase"
+   ],
+   "industry": "real estate",
+   "date": "2023-05-01",
+   "path": "repos/realestate-mvp/README.md"
+  },
+  {
+   "id": "fullstack:code:realestate-mvp",
+   "type": "code",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox",
+    "PostGIS"
+   ],
+   "industry": "real estate",
+   "date": "2023-05-01",
+   "path": "repos/realestate-mvp/main.py"
+  },
+  {
+   "id": "fullstack:cs:api-gateway",
+   "type": "case_study",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2024-06-01",
+   "path": "case_studies/api-gateway.md"
+  },
+  {
+   "id": "fullstack:cs:headless-cms",
+   "type": "case_study",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2025-06-01",
+   "path": "case_studies/headless-cms.md"
+  },
+  {
+   "id": "fullstack:readme:headless-cms",
+   "type": "readme",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL"
+   ],
+   "industry": "media",
+   "date": "2025-05-01",
+   "path": "repos/headless-cms/README.md"
+  },
+  {
+   "id": "fullstack:code:headless-cms",
+   "type": "code",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js",
+    "Vercel"
+   ],
+   "industry": "media",
+   "date": "2025-05-01",
+   "path": "repos/headless-cms/main.py"
+  },
+  {
+   "id": "fullstack:cs:perf-audit",
+   "type": "case_study",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2021-06-01",
+   "path": "case_studies/perf-audit.md"
+  },
+  {
+   "id": "fullstack:readme:perf-audit",
+   "type": "readme",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse"
+   ],
+   "industry": "e-commerce",
+   "date": "2021-05-01",
+   "path": "repos/perf-audit/README.md"
+  },
+  {
+   "id": "fullstack:code:perf-audit",
+   "type": "code",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack",
+    "React"
+   ],
+   "industry": "e-commerce",
+   "date": "2021-05-01",
+   "path": "repos/perf-audit/main.py"
+  },
+  {
+   "id": "fullstack:cs:sso-portal",
+   "type": "case_study",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2022-06-01",
+   "path": "case_studies/sso-portal.md"
+  },
+  {
+   "id": "fullstack:cs:inventory-system",
+   "type": "case_study",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-06-01",
+   "path": "case_studies/inventory-system.md"
+  },
+  {
+   "id": "fullstack:readme:inventory-system",
+   "type": "readme",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-05-01",
+   "path": "repos/inventory-system/README.md"
+  },
+  {
+   "id": "fullstack:code:inventory-system",
+   "type": "code",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server",
+    "Azure"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-05-01",
+   "path": "repos/inventory-system/main.py"
+  },
+  {
+   "id": "fullstack:cs:chrome-extension",
+   "type": "case_study",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2024-06-01",
+   "path": "case_studies/chrome-extension.md"
+  },
+  {
+   "id": "fullstack:readme:chrome-extension",
+   "type": "readme",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2024-05-01",
+   "path": "repos/chrome-extension/README.md"
+  },
+  {
+   "id": "fullstack:code:chrome-extension",
+   "type": "code",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API",
+    "IndexedDB"
+   ],
+   "industry": "productivity",
+   "date": "2024-05-01",
+   "path": "repos/chrome-extension/main.py"
+  },
+  {
+   "id": "fullstack:cs:ci-migration",
+   "type": "case_study",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2025-06-01",
+   "path": "case_studies/ci-migration.md"
+  },
+  {
+   "id": "fullstack:cv",
+   "type": "cv",
+   "project": null,
+   "skills": [
+    ".NET",
+    "AWS",
+    "AWS S3",
+    "Angular",
+    "Celery",
+    "Chrome Extensions API",
+    "Core Web Vitals",
+    "Django",
+    "Docker",
+    "Expo",
+    "Express",
+    "FastAPI",
+    "Firebase",
+    "GitHub Actions",
+    "Go",
+    "GraphQL",
+    "JavaScript",
+    "Keycloak",
+    "Laravel",
+    "Lighthouse",
+    "Liquid",
+    "Mapbox",
+    "MongoDB",
+    "MySQL",
+    "Next.js",
+    "Node.js",
+    "OAuth2",
+    "PostgreSQL",
+    "React",
+    "React Native",
+    "Redis",
+    "SAML",
+    "SQL Server",
+    "Shopify",
+    "Strapi",
+    "Stripe",
+    "Supabase",
+    "Tailwind CSS",
+    "Terraform",
+    "TypeScript",
+    "Vue.js",
+    "WebSockets",
+    "webpack"
+   ],
+   "industry": null,
+   "date": "2026-01-01",
+   "path": "cv.md"
+  },
+  {
+   "id": "fullstack:review:saas-billing",
+   "type": "review",
+   "project": "saas-billing",
+   "skills": [],
+   "industry": "SaaS",
+   "date": "2021-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:shopify-store",
+   "type": "review",
+   "project": "shopify-store",
+   "skills": [],
+   "industry": "retail",
+   "date": "2023-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:logistics-admin",
+   "type": "review",
+   "project": "logistics-admin",
+   "skills": [],
+   "industry": "logistics",
+   "date": "2025-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:lms",
+   "type": "review",
+   "project": "lms",
+   "skills": [],
+   "industry": "education",
+   "date": "2022-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:api-gateway",
+   "type": "review",
+   "project": "api-gateway",
+   "skills": [],
+   "industry": "fintech",
+   "date": "2024-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:perf-audit",
+   "type": "review",
+   "project": "perf-audit",
+   "skills": [],
+   "industry": "e-commerce",
+   "date": "2021-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:inventory-system",
+   "type": "review",
+   "project": "inventory-system",
+   "skills": [],
+   "industry": "manufacturing",
+   "date": "2023-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:review:ci-migration",
+   "type": "review",
+   "project": "ci-migration",
+   "skills": [],
+   "industry": "SaaS",
+   "date": "2025-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "fullstack:proposal:000",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:001",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:002",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:003",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:004",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:005",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:006",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:007",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:008",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:009",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:010",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:011",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:012",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:013",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:014",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:015",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:016",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:017",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:018",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:019",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:020",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:021",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:022",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:023",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:024",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:025",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:026",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:027",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:028",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:029",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:030",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:031",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:032",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:033",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:034",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:035",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:036",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:037",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:038",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:039",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:040",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:041",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:042",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:043",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:044",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:045",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:046",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:047",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:048",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:049",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:050",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:051",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:052",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:053",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:054",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:055",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:056",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:057",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:058",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:059",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:060",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:061",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:062",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:063",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:064",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:065",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:066",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:067",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:068",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:069",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:070",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:071",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:072",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:073",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:074",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:075",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:076",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:077",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:078",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:079",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:080",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:081",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:082",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:083",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:084",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:085",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:086",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:087",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:088",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:089",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:090",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:091",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:092",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:093",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:094",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:095",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:096",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:097",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:098",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:099",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:100",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:101",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:102",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:103",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:104",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:105",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:106",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:107",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:108",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:109",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:110",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:111",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:112",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:113",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:114",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:115",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:116",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:117",
+   "type": "proposal",
+   "project": "fitness-app",
+   "skills": [
+    "React Native",
+    "Expo",
+    "Firebase"
+   ],
+   "industry": "fitness",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:118",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:119",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:120",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:121",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:122",
+   "type": "proposal",
+   "project": "saas-billing",
+   "skills": [
+    "Next.js",
+    "Stripe",
+    "PostgreSQL",
+    "TypeScript"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:123",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:124",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:125",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:126",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:127",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:128",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:129",
+   "type": "proposal",
+   "project": "lms",
+   "skills": [
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "AWS S3"
+   ],
+   "industry": "education",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:130",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:131",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:132",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:133",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:134",
+   "type": "proposal",
+   "project": "ci-migration",
+   "skills": [
+    "GitHub Actions",
+    "Terraform",
+    "AWS"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:135",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:136",
+   "type": "proposal",
+   "project": "sso-portal",
+   "skills": [
+    "React",
+    "Keycloak",
+    "SAML"
+   ],
+   "industry": "healthcare",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:137",
+   "type": "proposal",
+   "project": "chrome-extension",
+   "skills": [
+    "TypeScript",
+    "Chrome Extensions API"
+   ],
+   "industry": "productivity",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:138",
+   "type": "proposal",
+   "project": "headless-cms",
+   "skills": [
+    "Strapi",
+    "GraphQL",
+    "Next.js"
+   ],
+   "industry": "media",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:139",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "fullstack:proposal:140",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:141",
+   "type": "proposal",
+   "project": "booking-platform",
+   "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+   ],
+   "industry": "hospitality",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:142",
+   "type": "proposal",
+   "project": "logistics-admin",
+   "skills": [
+    "Vue.js",
+    "Laravel",
+    "MySQL"
+   ],
+   "industry": "logistics",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:143",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:144",
+   "type": "proposal",
+   "project": "realestate-mvp",
+   "skills": [
+    "Next.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Mapbox"
+   ],
+   "industry": "real estate",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:145",
+   "type": "proposal",
+   "project": "api-gateway",
+   "skills": [
+    "FastAPI",
+    "OAuth2",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "fintech",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:146",
+   "type": "proposal",
+   "project": "realtime-chat",
+   "skills": [
+    "WebSockets",
+    "Redis",
+    "Go"
+   ],
+   "industry": "social",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "fullstack:proposal:147",
+   "type": "proposal",
+   "project": "perf-audit",
+   "skills": [
+    "Core Web Vitals",
+    "Lighthouse",
+    "webpack"
+   ],
+   "industry": "e-commerce",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:148",
+   "type": "proposal",
+   "project": "inventory-system",
+   "skills": [
+    "Angular",
+    ".NET",
+    "SQL Server"
+   ],
+   "industry": "manufacturing",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "fullstack:proposal:149",
+   "type": "proposal",
+   "project": "shopify-store",
+   "skills": [
+    "Shopify",
+    "Liquid",
+    "JavaScript"
+   ],
+   "industry": "retail",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  }
+ ],
+ "data_analyst": [
+  {
+   "id": "data_analyst:cs:sales-dashboard",
+   "type": "case_study",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2021-06-01",
+   "path": "case_studies/sales-dashboard.md"
+  },
+  {
+   "id": "data_analyst:readme:sales-dashboard",
+   "type": "readme",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX"
+   ],
+   "industry": "retail",
+   "date": "2021-05-01",
+   "path": "repos/sales-dashboard/README.md"
+  },
+  {
+   "id": "data_analyst:code:sales-dashboard",
+   "type": "code",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server",
+    "Power Query"
+   ],
+   "industry": "retail",
+   "date": "2021-05-01",
+   "path": "repos/sales-dashboard/main.py"
+  },
+  {
+   "id": "data_analyst:cs:attribution",
+   "type": "case_study",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-06-01",
+   "path": "case_studies/attribution.md"
+  },
+  {
+   "id": "data_analyst:readme:attribution",
+   "type": "readme",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-01",
+   "path": "repos/attribution/README.md"
+  },
+  {
+   "id": "data_analyst:code:attribution",
+   "type": "code",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4",
+    "BigQuery"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-01",
+   "path": "repos/attribution/main.py"
+  },
+  {
+   "id": "data_analyst:cs:dbt-warehouse",
+   "type": "case_study",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2023-06-01",
+   "path": "case_studies/dbt-warehouse.md"
+  },
+  {
+   "id": "data_analyst:cs:survey-analysis",
+   "type": "case_study",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2024-06-01",
+   "path": "case_studies/survey-analysis.md"
+  },
+  {
+   "id": "data_analyst:readme:survey-analysis",
+   "type": "readme",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics"
+   ],
+   "industry": "nonprofit",
+   "date": "2024-05-01",
+   "path": "repos/survey-analysis/README.md"
+  },
+  {
+   "id": "data_analyst:code:survey-analysis",
+   "type": "code",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2",
+    "tidyverse"
+   ],
+   "industry": "nonprofit",
+   "date": "2024-05-01",
+   "path": "repos/survey-analysis/main.py"
+  },
+  {
+   "id": "data_analyst:cs:ab-testing",
+   "type": "case_study",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2025-06-01",
+   "path": "case_studies/ab-testing.md"
+  },
+  {
+   "id": "data_analyst:readme:ab-testing",
+   "type": "readme",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python"
+   ],
+   "industry": "fintech",
+   "date": "2025-05-01",
+   "path": "repos/ab-testing/README.md"
+  },
+  {
+   "id": "data_analyst:code:ab-testing",
+   "type": "code",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels",
+    "SciPy"
+   ],
+   "industry": "fintech",
+   "date": "2025-05-01",
+   "path": "repos/ab-testing/main.py"
+  },
+  {
+   "id": "data_analyst:cs:tableau-exec",
+   "type": "case_study",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2021-06-01",
+   "path": "case_studies/tableau-exec.md"
+  },
+  {
+   "id": "data_analyst:cs:excel-automation",
+   "type": "case_study",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2022-06-01",
+   "path": "case_studies/excel-automation.md"
+  },
+  {
+   "id": "data_analyst:readme:excel-automation",
+   "type": "readme",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA"
+   ],
+   "industry": "logistics",
+   "date": "2022-05-01",
+   "path": "repos/excel-automation/README.md"
+  },
+  {
+   "id": "data_analyst:code:excel-automation",
+   "type": "code",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query",
+    "Power Automate"
+   ],
+   "industry": "logistics",
+   "date": "2022-05-01",
+   "path": "repos/excel-automation/main.py"
+  },
+  {
+   "id": "data_analyst:cs:cohort-retention",
+   "type": "case_study",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-06-01",
+   "path": "case_studies/cohort-retention.md"
+  },
+  {
+   "id": "data_analyst:readme:cohort-retention",
+   "type": "readme",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-05-01",
+   "path": "repos/cohort-retention/README.md"
+  },
+  {
+   "id": "data_analyst:code:cohort-retention",
+   "type": "code",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis",
+    "BigQuery"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-05-01",
+   "path": "repos/cohort-retention/main.py"
+  },
+  {
+   "id": "data_analyst:cs:financial-model",
+   "type": "case_study",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2024-06-01",
+   "path": "case_studies/financial-model.md"
+  },
+  {
+   "id": "data_analyst:cs:etl-pipeline",
+   "type": "case_study",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-06-01",
+   "path": "case_studies/etl-pipeline.md"
+  },
+  {
+   "id": "data_analyst:readme:etl-pipeline",
+   "type": "readme",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-05-01",
+   "path": "repos/etl-pipeline/README.md"
+  },
+  {
+   "id": "data_analyst:code:etl-pipeline",
+   "type": "code",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-05-01",
+   "path": "repos/etl-pipeline/main.py"
+  },
+  {
+   "id": "data_analyst:cs:metabase-kpis",
+   "type": "case_study",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2021-06-01",
+   "path": "case_studies/metabase-kpis.md"
+  },
+  {
+   "id": "data_analyst:readme:metabase-kpis",
+   "type": "readme",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL"
+   ],
+   "industry": "startup",
+   "date": "2021-05-01",
+   "path": "repos/metabase-kpis/README.md"
+  },
+  {
+   "id": "data_analyst:code:metabase-kpis",
+   "type": "code",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL",
+    "dbt"
+   ],
+   "industry": "startup",
+   "date": "2021-05-01",
+   "path": "repos/metabase-kpis/main.py"
+  },
+  {
+   "id": "data_analyst:cs:telecom-churn",
+   "type": "case_study",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2022-06-01",
+   "path": "case_studies/telecom-churn.md"
+  },
+  {
+   "id": "data_analyst:cs:sheets-reporting",
+   "type": "case_study",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2023-06-01",
+   "path": "case_studies/sheets-reporting.md"
+  },
+  {
+   "id": "data_analyst:readme:sheets-reporting",
+   "type": "readme",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script"
+   ],
+   "industry": "agency",
+   "date": "2023-05-01",
+   "path": "repos/sheets-reporting/README.md"
+  },
+  {
+   "id": "data_analyst:code:sheets-reporting",
+   "type": "code",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio",
+    "Google Ads API"
+   ],
+   "industry": "agency",
+   "date": "2023-05-01",
+   "path": "repos/sheets-reporting/main.py"
+  },
+  {
+   "id": "data_analyst:cs:supply-forecast",
+   "type": "case_study",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2024-06-01",
+   "path": "case_studies/supply-forecast.md"
+  },
+  {
+   "id": "data_analyst:readme:supply-forecast",
+   "type": "readme",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel"
+   ],
+   "industry": "CPG",
+   "date": "2024-05-01",
+   "path": "repos/supply-forecast/README.md"
+  },
+  {
+   "id": "data_analyst:code:supply-forecast",
+   "type": "code",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python",
+    "Prophet"
+   ],
+   "industry": "CPG",
+   "date": "2024-05-01",
+   "path": "repos/supply-forecast/main.py"
+  },
+  {
+   "id": "data_analyst:cs:data-cleaning",
+   "type": "case_study",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2025-06-01",
+   "path": "case_studies/data-cleaning.md"
+  },
+  {
+   "id": "data_analyst:cv",
+   "type": "cv",
+   "project": null,
+   "skills": [
+    "A/B testing",
+    "Airflow",
+    "Apps Script",
+    "DAX",
+    "Excel",
+    "Google Analytics 4",
+    "Google Sheets",
+    "Jupyter",
+    "Looker",
+    "Looker Studio",
+    "Metabase",
+    "PostgreSQL",
+    "Power BI",
+    "Power Query",
+    "Python",
+    "R",
+    "SQL",
+    "SQL Server",
+    "Snowflake",
+    "Tableau",
+    "VBA",
+    "cohort analysis",
+    "data cleaning",
+    "dbt",
+    "financial modeling",
+    "ggplot2",
+    "logistic regression",
+    "pandas",
+    "statistics",
+    "statsmodels",
+    "time series"
+   ],
+   "industry": null,
+   "date": "2026-01-01",
+   "path": "cv.md"
+  },
+  {
+   "id": "data_analyst:review:sales-dashboard",
+   "type": "review",
+   "project": "sales-dashboard",
+   "skills": [],
+   "industry": "retail",
+   "date": "2021-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:dbt-warehouse",
+   "type": "review",
+   "project": "dbt-warehouse",
+   "skills": [],
+   "industry": "SaaS",
+   "date": "2023-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:ab-testing",
+   "type": "review",
+   "project": "ab-testing",
+   "skills": [],
+   "industry": "fintech",
+   "date": "2025-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:excel-automation",
+   "type": "review",
+   "project": "excel-automation",
+   "skills": [],
+   "industry": "logistics",
+   "date": "2022-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:financial-model",
+   "type": "review",
+   "project": "financial-model",
+   "skills": [],
+   "industry": "real estate",
+   "date": "2024-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:metabase-kpis",
+   "type": "review",
+   "project": "metabase-kpis",
+   "skills": [],
+   "industry": "startup",
+   "date": "2021-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:sheets-reporting",
+   "type": "review",
+   "project": "sheets-reporting",
+   "skills": [],
+   "industry": "agency",
+   "date": "2023-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:review:data-cleaning",
+   "type": "review",
+   "project": "data-cleaning",
+   "skills": [],
+   "industry": "research",
+   "date": "2025-07-01",
+   "path": "reviews.json"
+  },
+  {
+   "id": "data_analyst:proposal:000",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:001",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:002",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:003",
+   "type": "proposal",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:004",
+   "type": "proposal",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:005",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:006",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:007",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:008",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:009",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:010",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:011",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:012",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:013",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:014",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:015",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:016",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:017",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:018",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:019",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:020",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:021",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:022",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:023",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:024",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:025",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:026",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:027",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:028",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:029",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:030",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:031",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:032",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:033",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:034",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:035",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:036",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:037",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:038",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:039",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:040",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:041",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:042",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:043",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:044",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:045",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:046",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:047",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:048",
+   "type": "proposal",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:049",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:050",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:051",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:052",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:053",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:054",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:055",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:056",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:057",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:058",
+   "type": "proposal",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:059",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:060",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:061",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:062",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:063",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:064",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:065",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:066",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:067",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:068",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:069",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:070",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:071",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:072",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:073",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:074",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:075",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:076",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:077",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:078",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:079",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:080",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:081",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:082",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:083",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:084",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:085",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:086",
+   "type": "proposal",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:087",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:088",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:089",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:090",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:091",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:092",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:093",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:094",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:095",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:096",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:097",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:098",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:099",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:100",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:101",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:102",
+   "type": "proposal",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:103",
+   "type": "proposal",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:104",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:105",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:106",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:107",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:108",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:109",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:110",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:111",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:112",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:113",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:114",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:115",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:116",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:117",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:118",
+   "type": "proposal",
+   "project": "excel-automation",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Power Query"
+   ],
+   "industry": "logistics",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:119",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:120",
+   "type": "proposal",
+   "project": "sheets-reporting",
+   "skills": [
+    "Google Sheets",
+    "Apps Script",
+    "Looker Studio"
+   ],
+   "industry": "agency",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:121",
+   "type": "proposal",
+   "project": "supply-forecast",
+   "skills": [
+    "time series",
+    "Excel",
+    "Python"
+   ],
+   "industry": "CPG",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:122",
+   "type": "proposal",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:123",
+   "type": "proposal",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:124",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:125",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:126",
+   "type": "proposal",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:127",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:128",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:129",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:130",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:131",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:132",
+   "type": "proposal",
+   "project": "dbt-warehouse",
+   "skills": [
+    "dbt",
+    "Snowflake",
+    "SQL"
+   ],
+   "industry": "SaaS",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:133",
+   "type": "proposal",
+   "project": "etl-pipeline",
+   "skills": [
+    "Python",
+    "Airflow",
+    "PostgreSQL"
+   ],
+   "industry": "manufacturing",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:134",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:135",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "won"
+  },
+  {
+   "id": "data_analyst:proposal:136",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:137",
+   "type": "proposal",
+   "project": "survey-analysis",
+   "skills": [
+    "R",
+    "statistics",
+    "ggplot2"
+   ],
+   "industry": "nonprofit",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:138",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2024-07-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:139",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2025-08-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:140",
+   "type": "proposal",
+   "project": "financial-model",
+   "skills": [
+    "Excel",
+    "financial modeling",
+    "Python"
+   ],
+   "industry": "real estate",
+   "date": "2022-09-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:141",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2023-10-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:142",
+   "type": "proposal",
+   "project": "cohort-retention",
+   "skills": [
+    "SQL",
+    "Looker",
+    "cohort analysis"
+   ],
+   "industry": "mobile apps",
+   "date": "2024-11-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:143",
+   "type": "proposal",
+   "project": "sales-dashboard",
+   "skills": [
+    "Power BI",
+    "DAX",
+    "SQL Server"
+   ],
+   "industry": "retail",
+   "date": "2025-12-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:144",
+   "type": "proposal",
+   "project": "metabase-kpis",
+   "skills": [
+    "Metabase",
+    "PostgreSQL",
+    "SQL"
+   ],
+   "industry": "startup",
+   "date": "2022-01-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:145",
+   "type": "proposal",
+   "project": "data-cleaning",
+   "skills": [
+    "pandas",
+    "data cleaning",
+    "Jupyter"
+   ],
+   "industry": "research",
+   "date": "2023-02-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:146",
+   "type": "proposal",
+   "project": "tableau-exec",
+   "skills": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "industry": "healthcare",
+   "date": "2024-03-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:147",
+   "type": "proposal",
+   "project": "attribution",
+   "skills": [
+    "Python",
+    "pandas",
+    "SQL",
+    "Google Analytics 4"
+   ],
+   "industry": "e-commerce",
+   "date": "2025-04-15",
+   "path": "proposals.json",
+   "outcome": "replied"
+  },
+  {
+   "id": "data_analyst:proposal:148",
+   "type": "proposal",
+   "project": "telecom-churn",
+   "skills": [
+    "Python",
+    "pandas",
+    "logistic regression"
+   ],
+   "industry": "telecom",
+   "date": "2022-05-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  },
+  {
+   "id": "data_analyst:proposal:149",
+   "type": "proposal",
+   "project": "ab-testing",
+   "skills": [
+    "A/B testing",
+    "Python",
+    "statsmodels"
+   ],
+   "industry": "fintech",
+   "date": "2023-06-15",
+   "path": "proposals.json",
+   "outcome": "ignored"
+  }
+ ]
+}

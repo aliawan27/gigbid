@@ -1,0 +1,1996 @@
+[
+ {
+  "id": "fullstack:proposal:000",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your media job with Strapi. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:001",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your healthcare job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:002",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs React, Node.js. I recently built a booking engine with live availability for 80 properties for a hospitality client, which handled 25k bookings in the first season. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:003",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your healthcare job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:004",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs React, Keycloak. I recently built a patient portal with single sign-on for 4 clinics for a healthcare client, which passed an external security audit first time. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:005",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs FastAPI, OAuth2. I recently built a partner API gateway with OAuth2 client credentials for a fintech client, which kept p95 latency under 120 ms. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:006",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:007",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your retail job with Shopify. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:008",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:009",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with GitHub Actions. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:010",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs React, Node.js. I recently built a booking engine with live availability for 80 properties for a hospitality client, which handled 25k bookings in the first season. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:011",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:012",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs Vue.js, Laravel. I recently built an admin panel for dispatch and fleet tracking for a logistics client, which replaced 6 spreadsheets used daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:013",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs Vue.js, Laravel. I recently built an admin panel for dispatch and fleet tracking for a logistics client, which replaced 6 spreadsheets used daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:014",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:015",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs WebSockets, Redis. I recently built a horizontally scaled chat backend for a social client, which served 40k concurrent connections. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:016",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your logistics job with Vue.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:017",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Core Web Vitals, Lighthouse. I recently built a performance audit and fix of a slow storefront for a e-commerce client, which improved LCP from 4.1s to 1.6s. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:018",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:019",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs Next.js, Supabase. I recently built a listing marketplace with map search for a real estate client, which launched in 5 weeks and raised a pre-seed round. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:020",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs React, Node.js. I recently built a booking engine with live availability for 80 properties for a hospitality client, which handled 25k bookings in the first season. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:021",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs TypeScript, Chrome Extensions API. I recently built a tab and notes manager extension for a productivity client, which reached 15k weekly active users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:022",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:023",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with GitHub Actions. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:024",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs Shopify, Liquid. I recently built a custom Shopify theme with bundles and subscriptions for a retail client, which raised conversion rate from 1.4% to 2.3%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:025",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your hospitality job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:026",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:027",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:028",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your education job with Django. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:029",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with GitHub Actions. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:030",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:031",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs TypeScript, Chrome Extensions API. I recently built a tab and notes manager extension for a productivity client, which reached 15k weekly active users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:032",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:033",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:034",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs React Native, Expo. I recently built a cross-platform workout tracker with offline sync for a fitness client, which reached 4.7 stars with 10k installs. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:035",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your retail job with Shopify. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:036",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:037",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:038",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your e-commerce job with Core Web Vitals. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:039",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your social job with WebSockets. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:040",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:041",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Strapi, GraphQL. I recently built a headless news site with incremental static regeneration for a media client, which cut page build time by 80%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:042",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your logistics job with Vue.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:043",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:044",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Vue.js, Laravel. I recently built an admin panel for dispatch and fleet tracking for a logistics client, which replaced 6 spreadsheets used daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:045",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your media job with Strapi. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:046",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fitness job with React Native. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:047",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs Django, PostgreSQL. I recently built an LMS with video courses, quizzes and certificates for a education client, which onboarded 3,000 students in the first term. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:048",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs React, Keycloak. I recently built a patient portal with single sign-on for 4 clinics for a healthcare client, which passed an external security audit first time. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:049",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:050",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Next.js, Supabase. I recently built a listing marketplace with map search for a real estate client, which launched in 5 weeks and raised a pre-seed round. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:051",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs React Native, Expo. I recently built a cross-platform workout tracker with offline sync for a fitness client, which reached 4.7 stars with 10k installs. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:052",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs Core Web Vitals, Lighthouse. I recently built a performance audit and fix of a slow storefront for a e-commerce client, which improved LCP from 4.1s to 1.6s. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:053",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs React, Keycloak. I recently built a patient portal with single sign-on for 4 clinics for a healthcare client, which passed an external security audit first time. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:054",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:055",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:056",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your media job with Strapi. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:057",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs TypeScript, Chrome Extensions API. I recently built a tab and notes manager extension for a productivity client, which reached 15k weekly active users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:058",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your e-commerce job with Core Web Vitals. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:059",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:060",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:061",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your retail job with Shopify. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:062",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your education job with Django. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:063",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with GitHub Actions. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:064",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your logistics job with Vue.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:065",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your productivity job with TypeScript. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:066",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your e-commerce job with Core Web Vitals. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:067",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs WebSockets, Redis. I recently built a horizontally scaled chat backend for a social client, which served 40k concurrent connections. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:068",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs React, Keycloak. I recently built a patient portal with single sign-on for 4 clinics for a healthcare client, which passed an external security audit first time. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:069",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Django, PostgreSQL. I recently built an LMS with video courses, quizzes and certificates for a education client, which onboarded 3,000 students in the first term. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:070",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:071",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs WebSockets, Redis. I recently built a horizontally scaled chat backend for a social client, which served 40k concurrent connections. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:072",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs React, Node.js. I recently built a booking engine with live availability for 80 properties for a hospitality client, which handled 25k bookings in the first season. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:073",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs WebSockets, Redis. I recently built a horizontally scaled chat backend for a social client, which served 40k concurrent connections. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:074",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:075",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with GitHub Actions. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:076",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your media job with Strapi. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:077",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your healthcare job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:078",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:079",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs Next.js, Supabase. I recently built a listing marketplace with map search for a real estate client, which launched in 5 weeks and raised a pre-seed round. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:080",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:081",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:082",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your retail job with Shopify. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:083",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs React, Node.js. I recently built a booking engine with live availability for 80 properties for a hospitality client, which handled 25k bookings in the first season. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:084",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fitness job with React Native. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:085",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs React Native, Expo. I recently built a cross-platform workout tracker with offline sync for a fitness client, which reached 4.7 stars with 10k installs. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:086",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs TypeScript, Chrome Extensions API. I recently built a tab and notes manager extension for a productivity client, which reached 15k weekly active users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:087",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:088",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs React Native, Expo. I recently built a cross-platform workout tracker with offline sync for a fitness client, which reached 4.7 stars with 10k installs. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:089",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:090",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Strapi, GraphQL. I recently built a headless news site with incremental static regeneration for a media client, which cut page build time by 80%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:091",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your healthcare job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:092",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Shopify, Liquid. I recently built a custom Shopify theme with bundles and subscriptions for a retail client, which raised conversion rate from 1.4% to 2.3%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:093",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Strapi, GraphQL. I recently built a headless news site with incremental static regeneration for a media client, which cut page build time by 80%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:094",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your social job with WebSockets. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:095",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs Strapi, GraphQL. I recently built a headless news site with incremental static regeneration for a media client, which cut page build time by 80%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:096",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your social job with WebSockets. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:097",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs Next.js, Stripe. I recently built subscription billing with metered usage and dunning for a SaaS client, which recovered 12% of failed payments. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:098",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Shopify, Liquid. I recently built a custom Shopify theme with bundles and subscriptions for a retail client, which raised conversion rate from 1.4% to 2.3%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:099",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Vue.js, Laravel. I recently built an admin panel for dispatch and fleet tracking for a logistics client, which replaced 6 spreadsheets used daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:100",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your social job with WebSockets. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:101",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your retail job with Shopify. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:102",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:103",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your healthcare job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:104",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your education job with Django. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:105",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Vue.js, Laravel. I recently built an admin panel for dispatch and fleet tracking for a logistics client, which replaced 6 spreadsheets used daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:106",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:107",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs WebSockets, Redis. I recently built a horizontally scaled chat backend for a social client, which served 40k concurrent connections. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:108",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs Core Web Vitals, Lighthouse. I recently built a performance audit and fix of a slow storefront for a e-commerce client, which improved LCP from 4.1s to 1.6s. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:109",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your logistics job with Vue.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:110",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Next.js, Stripe. I recently built subscription billing with metered usage and dunning for a SaaS client, which recovered 12% of failed payments. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:111",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your logistics job with Vue.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:112",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs React, Node.js. I recently built a booking engine with live availability for 80 properties for a hospitality client, which handled 25k bookings in the first season. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:113",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs FastAPI, OAuth2. I recently built a partner API gateway with OAuth2 client credentials for a fintech client, which kept p95 latency under 120 ms. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:114",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Next.js, Supabase. I recently built a listing marketplace with map search for a real estate client, which launched in 5 weeks and raised a pre-seed round. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:115",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:116",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs TypeScript, Chrome Extensions API. I recently built a tab and notes manager extension for a productivity client, which reached 15k weekly active users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:117",
+  "project": "fitness-app",
+  "skills": [
+   "React Native",
+   "Expo",
+   "Firebase"
+  ],
+  "industry": "fitness",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs React Native, Expo. I recently built a cross-platform workout tracker with offline sync for a fitness client, which reached 4.7 stars with 10k installs. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:118",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs Core Web Vitals, Lighthouse. I recently built a performance audit and fix of a slow storefront for a e-commerce client, which improved LCP from 4.1s to 1.6s. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:119",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs TypeScript, Chrome Extensions API. I recently built a tab and notes manager extension for a productivity client, which reached 15k weekly active users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:120",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your retail job with Shopify. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:121",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs React, Keycloak. I recently built a patient portal with single sign-on for 4 clinics for a healthcare client, which passed an external security audit first time. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:122",
+  "project": "saas-billing",
+  "skills": [
+   "Next.js",
+   "Stripe",
+   "PostgreSQL",
+   "TypeScript"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Next.js, Stripe. I recently built subscription billing with metered usage and dunning for a SaaS client, which recovered 12% of failed payments. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:123",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your hospitality job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:124",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your SaaS job with GitHub Actions. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:125",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:126",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:127",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your education job with Django. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:128",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:129",
+  "project": "lms",
+  "skills": [
+   "Django",
+   "PostgreSQL",
+   "Celery",
+   "AWS S3"
+  ],
+  "industry": "education",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your education job with Django. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:130",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:131",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs Shopify, Liquid. I recently built a custom Shopify theme with bundles and subscriptions for a retail client, which raised conversion rate from 1.4% to 2.3%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:132",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:133",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs FastAPI, OAuth2. I recently built a partner API gateway with OAuth2 client credentials for a fintech client, which kept p95 latency under 120 ms. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:134",
+  "project": "ci-migration",
+  "skills": [
+   "GitHub Actions",
+   "Terraform",
+   "AWS"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs GitHub Actions, Terraform. I recently built a migration from Jenkins to GitHub Actions with IaC for a SaaS client, which cut deploy time from 40 to 8 minutes. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:135",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs FastAPI, OAuth2. I recently built a partner API gateway with OAuth2 client credentials for a fintech client, which kept p95 latency under 120 ms. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:136",
+  "project": "sso-portal",
+  "skills": [
+   "React",
+   "Keycloak",
+   "SAML"
+  ],
+  "industry": "healthcare",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your healthcare job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:137",
+  "project": "chrome-extension",
+  "skills": [
+   "TypeScript",
+   "Chrome Extensions API"
+  ],
+  "industry": "productivity",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your productivity job with TypeScript. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:138",
+  "project": "headless-cms",
+  "skills": [
+   "Strapi",
+   "GraphQL",
+   "Next.js"
+  ],
+  "industry": "media",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Strapi, GraphQL. I recently built a headless news site with incremental static regeneration for a media client, which cut page build time by 80%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:139",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs FastAPI, OAuth2. I recently built a partner API gateway with OAuth2 client credentials for a fintech client, which kept p95 latency under 120 ms. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "fullstack:proposal:140",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:141",
+  "project": "booking-platform",
+  "skills": [
+   "React",
+   "Node.js",
+   "Express",
+   "MongoDB"
+  ],
+  "industry": "hospitality",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your hospitality job with React. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:142",
+  "project": "logistics-admin",
+  "skills": [
+   "Vue.js",
+   "Laravel",
+   "MySQL"
+  ],
+  "industry": "logistics",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs Vue.js, Laravel. I recently built an admin panel for dispatch and fleet tracking for a logistics client, which replaced 6 spreadsheets used daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:143",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your fintech job with FastAPI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:144",
+  "project": "realestate-mvp",
+  "skills": [
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Mapbox"
+  ],
+  "industry": "real estate",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your real estate job with Next.js. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:145",
+  "project": "api-gateway",
+  "skills": [
+   "FastAPI",
+   "OAuth2",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs FastAPI, OAuth2. I recently built a partner API gateway with OAuth2 client credentials for a fintech client, which kept p95 latency under 120 ms. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:146",
+  "project": "realtime-chat",
+  "skills": [
+   "WebSockets",
+   "Redis",
+   "Go"
+  ],
+  "industry": "social",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your social job with WebSockets. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "fullstack:proposal:147",
+  "project": "perf-audit",
+  "skills": [
+   "Core Web Vitals",
+   "Lighthouse",
+   "webpack"
+  ],
+  "industry": "e-commerce",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your e-commerce job with Core Web Vitals. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:148",
+  "project": "inventory-system",
+  "skills": [
+   "Angular",
+   ".NET",
+   "SQL Server"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking full-stack web developer with many years of experience. I can do your manufacturing job with Angular. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "fullstack:proposal:149",
+  "project": "shopify-store",
+  "skills": [
+   "Shopify",
+   "Liquid",
+   "JavaScript"
+  ],
+  "industry": "retail",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Shopify, Liquid. I recently built a custom Shopify theme with bundles and subscriptions for a retail client, which raised conversion rate from 1.4% to 2.3%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ }
+]

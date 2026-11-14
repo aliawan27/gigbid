@@ -1,0 +1,1960 @@
+[
+ {
+  "id": "data_analyst:proposal:000",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:001",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs Python, pandas. I recently built an analysis of churn drivers with an interpretable model for a telecom client, which targeted retention offers saved 3% of base. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:002",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your research job with pandas. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:003",
+  "project": "tableau-exec",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel"
+  ],
+  "industry": "healthcare",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your healthcare job with Tableau. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:004",
+  "project": "dbt-warehouse",
+  "skills": [
+   "dbt",
+   "Snowflake",
+   "SQL"
+  ],
+  "industry": "SaaS",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs dbt, Snowflake. I recently built a modelled warehouse with 60 tested dbt models for a SaaS client, which cut dashboard query cost by 45%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:005",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Excel, financial modeling. I recently built a 10-year cash-flow model for a property portfolio for a real estate client, which supported a $4M refinancing decision. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:006",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:007",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:008",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:009",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:010",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your logistics job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:011",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your manufacturing job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:012",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:013",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs Python, pandas. I recently built an analysis of churn drivers with an interpretable model for a telecom client, which targeted retention offers saved 3% of base. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:014",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Python, Airflow. I recently built ETL of machine sensor data into a reporting database for a manufacturing client, which made OEE reporting available hourly. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:015",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Power BI, DAX. I recently built a sales dashboard used by 40 regional managers for a retail client, which replaced a 2-day monthly reporting process. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:016",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:017",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Metabase, PostgreSQL. I recently built a KPI stack for a seed-stage startup for a startup client, which became the source for board reporting. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:018",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your logistics job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:019",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your mobile apps job with SQL. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:020",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Excel, financial modeling. I recently built a 10-year cash-flow model for a property portfolio for a real estate client, which supported a $4M refinancing decision. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:021",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Python, pandas. I recently built an analysis of churn drivers with an interpretable model for a telecom client, which targeted retention offers saved 3% of base. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:022",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:023",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs pandas, data cleaning. I recently built cleaning of a messy 30-file research dataset for a research client, which delivered a reproducible notebook used in a paper. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:024",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your mobile apps job with SQL. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:025",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:026",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your logistics job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:027",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:028",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs Metabase, PostgreSQL. I recently built a KPI stack for a seed-stage startup for a startup client, which became the source for board reporting. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:029",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:030",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:031",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:032",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your real estate job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:033",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:034",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:035",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your manufacturing job with Python. Please check my profile.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:036",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:037",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:038",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Python, Airflow. I recently built ETL of machine sensor data into a reporting database for a manufacturing client, which made OEE reporting available hourly. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:039",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your mobile apps job with SQL. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:040",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:041",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:042",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:043",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs Power BI, DAX. I recently built a sales dashboard used by 40 regional managers for a retail client, which replaced a 2-day monthly reporting process. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:044",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Power BI, DAX. I recently built a sales dashboard used by 40 regional managers for a retail client, which replaced a 2-day monthly reporting process. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:045",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:046",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your mobile apps job with SQL. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:047",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs Python, pandas. I recently built an analysis of churn drivers with an interpretable model for a telecom client, which targeted retention offers saved 3% of base. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:048",
+  "project": "dbt-warehouse",
+  "skills": [
+   "dbt",
+   "Snowflake",
+   "SQL"
+  ],
+  "industry": "SaaS",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs dbt, Snowflake. I recently built a modelled warehouse with 60 tested dbt models for a SaaS client, which cut dashboard query cost by 45%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:049",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your CPG job with time series. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:050",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Excel, financial modeling. I recently built a 10-year cash-flow model for a property portfolio for a real estate client, which supported a $4M refinancing decision. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:051",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:052",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:053",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:054",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:055",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:056",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:057",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:058",
+  "project": "tableau-exec",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel"
+  ],
+  "industry": "healthcare",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your healthcare job with Tableau. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:059",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:060",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs Excel, financial modeling. I recently built a 10-year cash-flow model for a property portfolio for a real estate client, which supported a $4M refinancing decision. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:061",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your manufacturing job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:062",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your startup job with Metabase. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:063",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your startup job with Metabase. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:064",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:065",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:066",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:067",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs Metabase, PostgreSQL. I recently built a KPI stack for a seed-stage startup for a startup client, which became the source for board reporting. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:068",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your startup job with Metabase. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:069",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs pandas, data cleaning. I recently built cleaning of a messy 30-file research dataset for a research client, which delivered a reproducible notebook used in a paper. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:070",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:071",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs Metabase, PostgreSQL. I recently built a KPI stack for a seed-stage startup for a startup client, which became the source for board reporting. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:072",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your agency job with Google Sheets. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:073",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your mobile apps job with SQL. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:074",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your agency job with Google Sheets. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:075",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Power BI, DAX. I recently built a sales dashboard used by 40 regional managers for a retail client, which replaced a 2-day monthly reporting process. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:076",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:077",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Power BI, DAX. I recently built a sales dashboard used by 40 regional managers for a retail client, which replaced a 2-day monthly reporting process. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:078",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your nonprofit job with R. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:079",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:080",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:081",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:082",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:083",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your research job with pandas. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:084",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:085",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your real estate job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:086",
+  "project": "dbt-warehouse",
+  "skills": [
+   "dbt",
+   "Snowflake",
+   "SQL"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs dbt, Snowflake. I recently built a modelled warehouse with 60 tested dbt models for a SaaS client, which cut dashboard query cost by 45%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:087",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:088",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:089",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your startup job with Metabase. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:090",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:091",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your research job with pandas. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:092",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your e-commerce job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:093",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Excel, financial modeling. I recently built a 10-year cash-flow model for a property portfolio for a real estate client, which supported a $4M refinancing decision. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:094",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:095",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:096",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs pandas, data cleaning. I recently built cleaning of a messy 30-file research dataset for a research client, which delivered a reproducible notebook used in a paper. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:097",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:098",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:099",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Python, Airflow. I recently built ETL of machine sensor data into a reporting database for a manufacturing client, which made OEE reporting available hourly. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:100",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:101",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:102",
+  "project": "tableau-exec",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel"
+  ],
+  "industry": "healthcare",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your healthcare job with Tableau. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:103",
+  "project": "tableau-exec",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel"
+  ],
+  "industry": "healthcare",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your healthcare job with Tableau. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:104",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your logistics job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:105",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:106",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your research job with pandas. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:107",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:108",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your research job with pandas. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:109",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:110",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:111",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:112",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:113",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your startup job with Metabase. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:114",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Python, Airflow. I recently built ETL of machine sensor data into a reporting database for a manufacturing client, which made OEE reporting available hourly. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:115",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:116",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your nonprofit job with R. Please check my profile.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:117",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs time series, Excel. I recently built monthly supply forecasts for 120 products for a CPG client, which reduced overstock by 15%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:118",
+  "project": "excel-automation",
+  "skills": [
+   "Excel",
+   "VBA",
+   "Power Query"
+  ],
+  "industry": "logistics",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs Excel, VBA. I recently built automated weekly shipment reports for a logistics client, which saved 10 hours per week. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:119",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:120",
+  "project": "sheets-reporting",
+  "skills": [
+   "Google Sheets",
+   "Apps Script",
+   "Looker Studio"
+  ],
+  "industry": "agency",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs Google Sheets, Apps Script. I recently built automated client reports for a marketing agency for a agency client, which cut reporting time per client from 3h to 20 min. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:121",
+  "project": "supply-forecast",
+  "skills": [
+   "time series",
+   "Excel",
+   "Python"
+  ],
+  "industry": "CPG",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your CPG job with time series. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:122",
+  "project": "dbt-warehouse",
+  "skills": [
+   "dbt",
+   "Snowflake",
+   "SQL"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your SaaS job with dbt. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:123",
+  "project": "dbt-warehouse",
+  "skills": [
+   "dbt",
+   "Snowflake",
+   "SQL"
+  ],
+  "industry": "SaaS",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs dbt, Snowflake. I recently built a modelled warehouse with 60 tested dbt models for a SaaS client, which cut dashboard query cost by 45%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:124",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:125",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs Python, Airflow. I recently built ETL of machine sensor data into a reporting database for a manufacturing client, which made OEE reporting available hourly. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:126",
+  "project": "tableau-exec",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel"
+  ],
+  "industry": "healthcare",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Tableau, SQL. I recently built bed-occupancy and wait-time dashboards for a healthcare client, which reduced ER wait-time reporting lag to daily. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:127",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your nonprofit job with R. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:128",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your fintech job with A/B testing. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:129",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:130",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your real estate job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:131",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs pandas, data cleaning. I recently built cleaning of a messy 30-file research dataset for a research client, which delivered a reproducible notebook used in a paper. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:132",
+  "project": "dbt-warehouse",
+  "skills": [
+   "dbt",
+   "Snowflake",
+   "SQL"
+  ],
+  "industry": "SaaS",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your SaaS job with dbt. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:133",
+  "project": "etl-pipeline",
+  "skills": [
+   "Python",
+   "Airflow",
+   "PostgreSQL"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs Python, Airflow. I recently built ETL of machine sensor data into a reporting database for a manufacturing client, which made OEE reporting available hourly. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:134",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:135",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "data_analyst:proposal:136",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:137",
+  "project": "survey-analysis",
+  "skills": [
+   "R",
+   "statistics",
+   "ggplot2"
+  ],
+  "industry": "nonprofit",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs R, statistics. I recently built analysis of a 5,000-response donor survey for a nonprofit client, which informed a campaign that grew donations 12%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:138",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:139",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your research job with pandas. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:140",
+  "project": "financial-model",
+  "skills": [
+   "Excel",
+   "financial modeling",
+   "Python"
+  ],
+  "industry": "real estate",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your real estate job with Excel. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:141",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:142",
+  "project": "cohort-retention",
+  "skills": [
+   "SQL",
+   "Looker",
+   "cohort analysis"
+  ],
+  "industry": "mobile apps",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs SQL, Looker. I recently built retention and LTV cohorts for a subscription app for a mobile apps client, which identified the onboarding step losing 30% of users. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:143",
+  "project": "sales-dashboard",
+  "skills": [
+   "Power BI",
+   "DAX",
+   "SQL Server"
+  ],
+  "industry": "retail",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your retail job with Power BI. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:144",
+  "project": "metabase-kpis",
+  "skills": [
+   "Metabase",
+   "PostgreSQL",
+   "SQL"
+  ],
+  "industry": "startup",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your startup job with Metabase. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:145",
+  "project": "data-cleaning",
+  "skills": [
+   "pandas",
+   "data cleaning",
+   "Jupyter"
+  ],
+  "industry": "research",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs pandas, data cleaning. I recently built cleaning of a messy 30-file research dataset for a research client, which delivered a reproducible notebook used in a paper. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:146",
+  "project": "tableau-exec",
+  "skills": [
+   "Tableau",
+   "SQL",
+   "Excel"
+  ],
+  "industry": "healthcare",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your healthcare job with Tableau. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:147",
+  "project": "attribution",
+  "skills": [
+   "Python",
+   "pandas",
+   "SQL",
+   "Google Analytics 4"
+  ],
+  "industry": "e-commerce",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs Python, pandas. I recently built a multi-touch attribution model across 6 channels for a e-commerce client, which reallocated 18% of ad spend. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "data_analyst:proposal:148",
+  "project": "telecom-churn",
+  "skills": [
+   "Python",
+   "pandas",
+   "logistic regression"
+  ],
+  "industry": "telecom",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking data analyst with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "data_analyst:proposal:149",
+  "project": "ab-testing",
+  "skills": [
+   "A/B testing",
+   "Python",
+   "statsmodels"
+  ],
+  "industry": "fintech",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs A/B testing, Python. I recently built an experimentation framework with power analysis for a fintech client, which ran 22 experiments in one quarter. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ }
+]

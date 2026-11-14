@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "effective": "2026-10-27",
+  "summary": "Base marketplace rules.",
+  "proposal_rules": [
+    {"id": "no_contact_details", "type": "forbid_regex", "pattern": "[\\w.+-]+@[\\w-]+\\.[\\w.]+|\\+?\\d[\\d\\s-]{8,}\\d|whatsapp|telegram"}
+  ],
+  "connects_rules": []
+}

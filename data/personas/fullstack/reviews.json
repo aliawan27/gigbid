@@ -1,0 +1,66 @@
+[
+ {
+  "id": "fullstack:review:saas-billing",
+  "project": "saas-billing",
+  "rating": 5.0,
+  "industry": "SaaS",
+  "date": "2021-07-01",
+  "text": "Great work on saas subscription billing. Communication was clear and the result recovered 12% of failed payments."
+ },
+ {
+  "id": "fullstack:review:shopify-store",
+  "project": "shopify-store",
+  "rating": 5.0,
+  "industry": "retail",
+  "date": "2023-07-01",
+  "text": "Great work on shopify store rebuild. Communication was clear and the result raised conversion rate from 1.4% to 2.3%."
+ },
+ {
+  "id": "fullstack:review:logistics-admin",
+  "project": "logistics-admin",
+  "rating": 5.0,
+  "industry": "logistics",
+  "date": "2025-07-01",
+  "text": "Great work on logistics admin dashboard. Communication was clear and the result replaced 6 spreadsheets used daily."
+ },
+ {
+  "id": "fullstack:review:lms",
+  "project": "lms",
+  "rating": 4.9,
+  "industry": "education",
+  "date": "2022-07-01",
+  "text": "Great work on learning management system. Communication was clear and the result onboarded 3,000 students in the first term."
+ },
+ {
+  "id": "fullstack:review:api-gateway",
+  "project": "api-gateway",
+  "rating": 5.0,
+  "industry": "fintech",
+  "date": "2024-07-01",
+  "text": "Great work on payments api gateway. Communication was clear and the result kept p95 latency under 120 ms."
+ },
+ {
+  "id": "fullstack:review:perf-audit",
+  "project": "perf-audit",
+  "rating": 4.8,
+  "industry": "e-commerce",
+  "date": "2021-07-01",
+  "text": "Great work on web performance overhaul. Communication was clear and the result improved LCP from 4.1s to 1.6s."
+ },
+ {
+  "id": "fullstack:review:inventory-system",
+  "project": "inventory-system",
+  "rating": 5.0,
+  "industry": "manufacturing",
+  "date": "2023-07-01",
+  "text": "Great work on inventory management system. Communication was clear and the result cut stock-outs by 30%."
+ },
+ {
+  "id": "fullstack:review:ci-migration",
+  "project": "ci-migration",
+  "rating": 4.8,
+  "industry": "SaaS",
+  "date": "2025-07-01",
+  "text": "Great work on ci/cd and infra migration. Communication was clear and the result cut deploy time from 40 to 8 minutes."
+ }
+]

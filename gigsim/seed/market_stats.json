@@ -1,0 +1,347 @@
+{
+ "by_category_complexity": {
+  "ai_ml:1": {
+   "n": 95,
+   "p25": 700.0,
+   "median": 890.0,
+   "p75": 1130.0
+  },
+  "ai_ml:2": {
+   "n": 90,
+   "p25": 1480.0,
+   "median": 1800.0,
+   "p75": 2400.0
+  },
+  "ai_ml:3": {
+   "n": 113,
+   "p25": 2160.0,
+   "median": 2730.0,
+   "p75": 3440.0
+  },
+  "ai_ml:4": {
+   "n": 118,
+   "p25": 2660.0,
+   "median": 3390.0,
+   "p75": 4370.0
+  },
+  "ai_ml:5": {
+   "n": 107,
+   "p25": 3340.0,
+   "median": 4310.0,
+   "p75": 5400.0
+  },
+  "web:1": {
+   "n": 87,
+   "p25": 590.0,
+   "median": 720.0,
+   "p75": 860.0
+  },
+  "web:2": {
+   "n": 89,
+   "p25": 1080.0,
+   "median": 1340.0,
+   "p75": 1810.0
+  },
+  "web:3": {
+   "n": 108,
+   "p25": 1630.0,
+   "median": 2180.0,
+   "p75": 2830.0
+  },
+  "web:4": {
+   "n": 99,
+   "p25": 2020.0,
+   "median": 2590.0,
+   "p75": 3500.0
+  },
+  "web:5": {
+   "n": 106,
+   "p25": 2650.0,
+   "median": 3320.0,
+   "p75": 4480.0
+  },
+  "data:1": {
+   "n": 97,
+   "p25": 370.0,
+   "median": 440.0,
+   "p75": 590.0
+  },
+  "data:2": {
+   "n": 117,
+   "p25": 680.0,
+   "median": 860.0,
+   "p75": 1080.0
+  },
+  "data:3": {
+   "n": 95,
+   "p25": 1080.0,
+   "median": 1340.0,
+   "p75": 1610.0
+  },
+  "data:4": {
+   "n": 88,
+   "p25": 1600.0,
+   "median": 1980.0,
+   "p75": 2510.0
+  },
+  "data:5": {
+   "n": 91,
+   "p25": 1940.0,
+   "median": 2420.0,
+   "p75": 2970.0
+  }
+ },
+ "history_sample": [
+  {
+   "category": "ai_ml",
+   "complexity": 1,
+   "price": 790.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 2,
+   "price": 1700.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 5,
+   "price": 2530.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 5,
+   "price": 5520.0
+  },
+  {
+   "category": "data",
+   "complexity": 2,
+   "price": 760.0
+  },
+  {
+   "category": "data",
+   "complexity": 2,
+   "price": 360.0
+  },
+  {
+   "category": "data",
+   "complexity": 4,
+   "price": 2640.0
+  },
+  {
+   "category": "web",
+   "complexity": 3,
+   "price": 1690.0
+  },
+  {
+   "category": "web",
+   "complexity": 4,
+   "price": 1770.0
+  },
+  {
+   "category": "web",
+   "complexity": 4,
+   "price": 5310.0
+  },
+  {
+   "category": "web",
+   "complexity": 3,
+   "price": 3060.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 2,
+   "price": 1890.0
+  },
+  {
+   "category": "data",
+   "complexity": 2,
+   "price": 1190.0
+  },
+  {
+   "category": "data",
+   "complexity": 1,
+   "price": 410.0
+  },
+  {
+   "category": "web",
+   "complexity": 1,
+   "price": 890.0
+  },
+  {
+   "category": "web",
+   "complexity": 2,
+   "price": 1840.0
+  },
+  {
+   "category": "web",
+   "complexity": 5,
+   "price": 4220.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 1,
+   "price": 930.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 3,
+   "price": 4230.0
+  },
+  {
+   "category": "web",
+   "complexity": 3,
+   "price": 1640.0
+  },
+  {
+   "category": "data",
+   "complexity": 4,
+   "price": 1420.0
+  },
+  {
+   "category": "data",
+   "complexity": 3,
+   "price": 1580.0
+  },
+  {
+   "category": "web",
+   "complexity": 2,
+   "price": 800.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 2,
+   "price": 2820.0
+  },
+  {
+   "category": "web",
+   "complexity": 4,
+   "price": 2070.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 3,
+   "price": 2860.0
+  },
+  {
+   "category": "data",
+   "complexity": 4,
+   "price": 2680.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 4,
+   "price": 5610.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 5,
+   "price": 4350.0
+  },
+  {
+   "category": "data",
+   "complexity": 4,
+   "price": 2450.0
+  },
+  {
+   "category": "web",
+   "complexity": 3,
+   "price": 1630.0
+  },
+  {
+   "category": "web",
+   "complexity": 2,
+   "price": 960.0
+  },
+  {
+   "category": "data",
+   "complexity": 1,
+   "price": 550.0
+  },
+  {
+   "category": "data",
+   "complexity": 4,
+   "price": 2180.0
+  },
+  {
+   "category": "data",
+   "complexity": 2,
+   "price": 710.0
+  },
+  {
+   "category": "web",
+   "complexity": 2,
+   "price": 980.0
+  },
+  {
+   "category": "data",
+   "complexity": 2,
+   "price": 630.0
+  },
+  {
+   "category": "web",
+   "complexity": 3,
+   "price": 3730.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 3,
+   "price": 4320.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 4,
+   "price": 3260.0
+  },
+  {
+   "category": "web",
+   "complexity": 2,
+   "price": 1350.0
+  },
+  {
+   "category": "web",
+   "complexity": 4,
+   "price": 1720.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 1,
+   "price": 1370.0
+  },
+  {
+   "category": "web",
+   "complexity": 4,
+   "price": 3960.0
+  },
+  {
+   "category": "web",
+   "complexity": 4,
+   "price": 1650.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 1,
+   "price": 1370.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 3,
+   "price": 3000.0
+  },
+  {
+   "category": "data",
+   "complexity": 3,
+   "price": 1830.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 1,
+   "price": 520.0
+  },
+  {
+   "category": "ai_ml",
+   "complexity": 5,
+   "price": 5250.0
+  }
+ ],
+ "n_history": 1500
+}

@@ -1,0 +1,1187 @@
+[
+ {
+  "client_id": "c000",
+  "name": "Acme Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 8412,
+  "hires": 24,
+  "avg_rating_given": 3.9,
+  "member_since": "2016-01-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.1
+  }
+ },
+ {
+  "client_id": "c001",
+  "name": "Northwind Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 2271,
+  "hires": 23,
+  "avg_rating_given": 4.6,
+  "member_since": "2017-07-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.39
+  }
+ },
+ {
+  "client_id": "c002",
+  "name": "Bluepeak Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 27545,
+  "hires": 36,
+  "avg_rating_given": 3.7,
+  "member_since": "2017-06-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.02
+  }
+ },
+ {
+  "client_id": "c003",
+  "name": "Orbit Retail",
+  "country": "Canada",
+  "payment_verified": true,
+  "total_spent": 73949,
+  "hires": 35,
+  "avg_rating_given": 4.4,
+  "member_since": "2016-05-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.32
+  }
+ },
+ {
+  "client_id": "c004",
+  "name": "Granite Systems",
+  "country": "Australia",
+  "payment_verified": false,
+  "total_spent": 9102,
+  "hires": 25,
+  "avg_rating_given": 4.5,
+  "member_since": "2019-08-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 0.94
+  }
+ },
+ {
+  "client_id": "c005",
+  "name": "Maple Capital",
+  "country": "UAE",
+  "payment_verified": true,
+  "total_spent": 2236,
+  "hires": 4,
+  "avg_rating_given": 4.5,
+  "member_since": "2018-04-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.27
+  }
+ },
+ {
+  "client_id": "c006",
+  "name": "Helix Studio",
+  "country": "Netherlands",
+  "payment_verified": true,
+  "total_spent": 2315,
+  "hires": 20,
+  "avg_rating_given": 4.6,
+  "member_since": "2019-08-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 0.99
+  }
+ },
+ {
+  "client_id": "c007",
+  "name": "Nimbus Logistics",
+  "country": "Singapore",
+  "payment_verified": true,
+  "total_spent": 440,
+  "hires": 36,
+  "avg_rating_given": 3.8,
+  "member_since": "2017-08-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.05
+  }
+ },
+ {
+  "client_id": "c008",
+  "name": "Quanta Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 6624,
+  "hires": 10,
+  "avg_rating_given": 4.4,
+  "member_since": "2025-04-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.27
+  }
+ },
+ {
+  "client_id": "c009",
+  "name": "Rivet Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 531,
+  "hires": 25,
+  "avg_rating_given": 4.5,
+  "member_since": "2018-01-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.39
+  }
+ },
+ {
+  "client_id": "c010",
+  "name": "Summit Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 8834,
+  "hires": 17,
+  "avg_rating_given": 3.7,
+  "member_since": "2017-02-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.18
+  }
+ },
+ {
+  "client_id": "c011",
+  "name": "Tidal Retail",
+  "country": "Canada",
+  "payment_verified": false,
+  "total_spent": 0,
+  "hires": 0,
+  "avg_rating_given": null,
+  "member_since": "2026-03-01",
+  "reviews_from_freelancers": [],
+  "_hidden": {
+   "scam": true,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.06
+  }
+ },
+ {
+  "client_id": "c012",
+  "name": "Vertex Systems",
+  "country": "Australia",
+  "payment_verified": false,
+  "total_spent": 28678,
+  "hires": 20,
+  "avg_rating_given": 3.7,
+  "member_since": "2020-03-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 0.91
+  }
+ },
+ {
+  "client_id": "c013",
+  "name": "Willow Capital",
+  "country": "UAE",
+  "payment_verified": true,
+  "total_spent": 20653,
+  "hires": 36,
+  "avg_rating_given": 5.0,
+  "member_since": "2025-02-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.37
+  }
+ },
+ {
+  "client_id": "c014",
+  "name": "Zephyr Studio",
+  "country": "Netherlands",
+  "payment_verified": false,
+  "total_spent": 84602,
+  "hires": 29,
+  "avg_rating_given": 4.6,
+  "member_since": "2015-07-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.17
+  }
+ },
+ {
+  "client_id": "c015",
+  "name": "Cobalt Logistics",
+  "country": "Singapore",
+  "payment_verified": true,
+  "total_spent": 25820,
+  "hires": 15,
+  "avg_rating_given": 4.1,
+  "member_since": "2022-09-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.4
+  }
+ },
+ {
+  "client_id": "c016",
+  "name": "Ember Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 87732,
+  "hires": 32,
+  "avg_rating_given": 4.6,
+  "member_since": "2017-08-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.12
+  }
+ },
+ {
+  "client_id": "c017",
+  "name": "Falcon Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 27718,
+  "hires": 23,
+  "avg_rating_given": 3.9,
+  "member_since": "2020-02-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.07
+  }
+ },
+ {
+  "client_id": "c018",
+  "name": "Juniper Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 492,
+  "hires": 18,
+  "avg_rating_given": 4.6,
+  "member_since": "2020-05-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.08
+  }
+ },
+ {
+  "client_id": "c019",
+  "name": "Lumen Retail",
+  "country": "Canada",
+  "payment_verified": true,
+  "total_spent": 598,
+  "hires": 33,
+  "avg_rating_given": 3.9,
+  "member_since": "2016-07-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.24
+  }
+ },
+ {
+  "client_id": "c020",
+  "name": "Acme Systems",
+  "country": "Australia",
+  "payment_verified": true,
+  "total_spent": 91091,
+  "hires": 12,
+  "avg_rating_given": 3.7,
+  "member_since": "2018-07-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.12
+  }
+ },
+ {
+  "client_id": "c021",
+  "name": "Northwind Capital",
+  "country": "UAE",
+  "payment_verified": true,
+  "total_spent": 2012,
+  "hires": 24,
+  "avg_rating_given": 4.8,
+  "member_since": "2022-03-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.23
+  }
+ },
+ {
+  "client_id": "c022",
+  "name": "Bluepeak Studio",
+  "country": "Netherlands",
+  "payment_verified": true,
+  "total_spent": 426,
+  "hires": 2,
+  "avg_rating_given": 3.8,
+  "member_since": "2018-01-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.13
+  }
+ },
+ {
+  "client_id": "c023",
+  "name": "Orbit Logistics",
+  "country": "Singapore",
+  "payment_verified": false,
+  "total_spent": 0,
+  "hires": 0,
+  "avg_rating_given": null,
+  "member_since": "2026-04-01",
+  "reviews_from_freelancers": [],
+  "_hidden": {
+   "scam": true,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.12
+  }
+ },
+ {
+  "client_id": "c024",
+  "name": "Granite Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 1846,
+  "hires": 5,
+  "avg_rating_given": 4.7,
+  "member_since": "2025-01-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.24
+  }
+ },
+ {
+  "client_id": "c025",
+  "name": "Maple Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 9229,
+  "hires": 8,
+  "avg_rating_given": 4.4,
+  "member_since": "2017-01-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.99
+  }
+ },
+ {
+  "client_id": "c026",
+  "name": "Helix Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 106658,
+  "hires": 29,
+  "avg_rating_given": 4.9,
+  "member_since": "2021-04-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.26
+  }
+ },
+ {
+  "client_id": "c027",
+  "name": "Nimbus Retail",
+  "country": "Canada",
+  "payment_verified": true,
+  "total_spent": 2255,
+  "hires": 25,
+  "avg_rating_given": 4.2,
+  "member_since": "2024-04-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.98
+  }
+ },
+ {
+  "client_id": "c028",
+  "name": "Quanta Systems",
+  "country": "Australia",
+  "payment_verified": true,
+  "total_spent": 74988,
+  "hires": 22,
+  "avg_rating_given": 4.4,
+  "member_since": "2016-03-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.02
+  }
+ },
+ {
+  "client_id": "c029",
+  "name": "Rivet Capital",
+  "country": "UAE",
+  "payment_verified": false,
+  "total_spent": 416,
+  "hires": 22,
+  "avg_rating_given": 3.8,
+  "member_since": "2022-08-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.24
+  }
+ },
+ {
+  "client_id": "c030",
+  "name": "Summit Studio",
+  "country": "Netherlands",
+  "payment_verified": true,
+  "total_spent": 462,
+  "hires": 38,
+  "avg_rating_given": 4.3,
+  "member_since": "2019-07-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.39
+  }
+ },
+ {
+  "client_id": "c031",
+  "name": "Tidal Logistics",
+  "country": "Singapore",
+  "payment_verified": true,
+  "total_spent": 449,
+  "hires": 39,
+  "avg_rating_given": 4.2,
+  "member_since": "2024-03-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.23
+  }
+ },
+ {
+  "client_id": "c032",
+  "name": "Vertex Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 1775,
+  "hires": 28,
+  "avg_rating_given": 4.1,
+  "member_since": "2016-06-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.99
+  }
+ },
+ {
+  "client_id": "c033",
+  "name": "Willow Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 428,
+  "hires": 8,
+  "avg_rating_given": 4.3,
+  "member_since": "2019-02-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.05
+  }
+ },
+ {
+  "client_id": "c034",
+  "name": "Zephyr Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 1830,
+  "hires": 12,
+  "avg_rating_given": 4.6,
+  "member_since": "2025-08-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.95
+  }
+ },
+ {
+  "client_id": "c035",
+  "name": "Cobalt Retail",
+  "country": "Canada",
+  "payment_verified": false,
+  "total_spent": 0,
+  "hires": 0,
+  "avg_rating_given": null,
+  "member_since": "2026-07-01",
+  "reviews_from_freelancers": [],
+  "_hidden": {
+   "scam": true,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.24
+  }
+ },
+ {
+  "client_id": "c036",
+  "name": "Ember Systems",
+  "country": "Australia",
+  "payment_verified": true,
+  "total_spent": 100998,
+  "hires": 10,
+  "avg_rating_given": 4.0,
+  "member_since": "2022-04-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.14
+  }
+ },
+ {
+  "client_id": "c037",
+  "name": "Falcon Capital",
+  "country": "UAE",
+  "payment_verified": true,
+  "total_spent": 85473,
+  "hires": 16,
+  "avg_rating_given": 4.5,
+  "member_since": "2018-04-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.33
+  }
+ },
+ {
+  "client_id": "c038",
+  "name": "Juniper Studio",
+  "country": "Netherlands",
+  "payment_verified": false,
+  "total_spent": 85321,
+  "hires": 17,
+  "avg_rating_given": 5.0,
+  "member_since": "2023-09-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.06
+  }
+ },
+ {
+  "client_id": "c039",
+  "name": "Lumen Logistics",
+  "country": "Singapore",
+  "payment_verified": true,
+  "total_spent": 83545,
+  "hires": 4,
+  "avg_rating_given": 3.7,
+  "member_since": "2017-02-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.35
+  }
+ },
+ {
+  "client_id": "c040",
+  "name": "Acme Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 88455,
+  "hires": 34,
+  "avg_rating_given": 5.0,
+  "member_since": "2018-07-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.29
+  }
+ },
+ {
+  "client_id": "c041",
+  "name": "Northwind Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 20094,
+  "hires": 1,
+  "avg_rating_given": 4.7,
+  "member_since": "2020-08-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.16
+  }
+ },
+ {
+  "client_id": "c042",
+  "name": "Bluepeak Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 463,
+  "hires": 23,
+  "avg_rating_given": 4.0,
+  "member_since": "2022-08-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.93
+  }
+ },
+ {
+  "client_id": "c043",
+  "name": "Orbit Retail",
+  "country": "Canada",
+  "payment_verified": true,
+  "total_spent": 22252,
+  "hires": 5,
+  "avg_rating_given": 4.1,
+  "member_since": "2020-01-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.94
+  }
+ },
+ {
+  "client_id": "c044",
+  "name": "Granite Systems",
+  "country": "Australia",
+  "payment_verified": true,
+  "total_spent": 84688,
+  "hires": 35,
+  "avg_rating_given": 4.6,
+  "member_since": "2019-05-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.3
+  }
+ },
+ {
+  "client_id": "c045",
+  "name": "Maple Capital",
+  "country": "UAE",
+  "payment_verified": true,
+  "total_spent": 545,
+  "hires": 8,
+  "avg_rating_given": 4.1,
+  "member_since": "2018-03-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 0.97
+  }
+ },
+ {
+  "client_id": "c046",
+  "name": "Helix Studio",
+  "country": "Netherlands",
+  "payment_verified": false,
+  "total_spent": 8060,
+  "hires": 12,
+  "avg_rating_given": 4.8,
+  "member_since": "2018-08-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.01
+  }
+ },
+ {
+  "client_id": "c047",
+  "name": "Nimbus Logistics",
+  "country": "Singapore",
+  "payment_verified": false,
+  "total_spent": 0,
+  "hires": 0,
+  "avg_rating_given": null,
+  "member_since": "2026-01-01",
+  "reviews_from_freelancers": [],
+  "_hidden": {
+   "scam": true,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.04
+  }
+ },
+ {
+  "client_id": "c048",
+  "name": "Quanta Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 7635,
+  "hires": 12,
+  "avg_rating_given": 3.9,
+  "member_since": "2023-04-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.15
+  }
+ },
+ {
+  "client_id": "c049",
+  "name": "Rivet Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 7629,
+  "hires": 33,
+  "avg_rating_given": 4.2,
+  "member_since": "2019-07-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.35
+  }
+ },
+ {
+  "client_id": "c050",
+  "name": "Summit Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 535,
+  "hires": 36,
+  "avg_rating_given": 4.9,
+  "member_since": "2020-08-01",
+  "reviews_from_freelancers": [
+   "Clear requirements, paid promptly.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.0
+  }
+ },
+ {
+  "client_id": "c051",
+  "name": "Tidal Retail",
+  "country": "Canada",
+  "payment_verified": true,
+  "total_spent": 467,
+  "hires": 30,
+  "avg_rating_given": 5.0,
+  "member_since": "2017-03-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.02
+  }
+ },
+ {
+  "client_id": "c052",
+  "name": "Vertex Systems",
+  "country": "Australia",
+  "payment_verified": true,
+  "total_spent": 2227,
+  "hires": 37,
+  "avg_rating_given": 4.5,
+  "member_since": "2025-02-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Clear requirements, paid promptly."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.22
+  }
+ },
+ {
+  "client_id": "c053",
+  "name": "Willow Capital",
+  "country": "UAE",
+  "payment_verified": true,
+  "total_spent": 26560,
+  "hires": 31,
+  "avg_rating_given": 4.9,
+  "member_since": "2016-08-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.12
+  }
+ },
+ {
+  "client_id": "c054",
+  "name": "Zephyr Studio",
+  "country": "Netherlands",
+  "payment_verified": true,
+  "total_spent": 2382,
+  "hires": 3,
+  "avg_rating_given": 4.8,
+  "member_since": "2023-02-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.27
+  }
+ },
+ {
+  "client_id": "c055",
+  "name": "Cobalt Logistics",
+  "country": "Singapore",
+  "payment_verified": true,
+  "total_spent": 102965,
+  "hires": 30,
+  "avg_rating_given": 5.0,
+  "member_since": "2019-01-01",
+  "reviews_from_freelancers": [
+   "Scope changed often.",
+   "Slow to give feedback but paid on time."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 0.94
+  }
+ },
+ {
+  "client_id": "c056",
+  "name": "Ember Labs",
+  "country": "United States",
+  "payment_verified": true,
+  "total_spent": 445,
+  "hires": 6,
+  "avg_rating_given": 3.6,
+  "member_since": "2025-04-01",
+  "reviews_from_freelancers": [
+   "Slow to give feedback but paid on time.",
+   "Great client, would work again."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": true,
+   "budget_ceiling_mult": 0.96
+  }
+ },
+ {
+  "client_id": "c057",
+  "name": "Falcon Analytics",
+  "country": "United Kingdom",
+  "payment_verified": true,
+  "total_spent": 465,
+  "hires": 32,
+  "avg_rating_given": 3.6,
+  "member_since": "2024-08-01",
+  "reviews_from_freelancers": [
+   "Responsive and fair.",
+   "Scope changed often."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": false,
+   "prefers_short": false,
+   "budget_ceiling_mult": 0.94
+  }
+ },
+ {
+  "client_id": "c058",
+  "name": "Juniper Health",
+  "country": "Germany",
+  "payment_verified": true,
+  "total_spent": 579,
+  "hires": 7,
+  "avg_rating_given": 4.2,
+  "member_since": "2024-05-01",
+  "reviews_from_freelancers": [
+   "Great client, would work again.",
+   "Responsive and fair."
+  ],
+  "_hidden": {
+   "scam": false,
+   "dislikes_generic": true,
+   "prefers_short": true,
+   "budget_ceiling_mult": 1.38
+  }
+ },
+ {
+  "client_id": "c059",
+  "name": "Lumen Retail",
+  "country": "Canada",
+  "payment_verified": false,
+  "total_spent": 0,
+  "hires": 0,
+  "avg_rating_given": null,
+  "member_since": "2026-05-01",
+  "reviews_from_freelancers": [],
+  "_hidden": {
+   "scam": true,
+   "dislikes_generic": true,
+   "prefers_short": false,
+   "budget_ceiling_mult": 1.04
+  }
+ }
+]

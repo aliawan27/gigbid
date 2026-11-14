@@ -1,0 +1,2067 @@
+[
+ {
+  "id": "ai_ml:proposal:000",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs LangChain, RAG. I recently built a retrieval-augmented support bot over 12k help-centre articles for a e-commerce client, which deflected 34% of tickets. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:001",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your e-commerce job with LangChain. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:002",
+  "project": "claims-agents",
+  "skills": [
+   "LangGraph",
+   "multi-agent systems",
+   "tool calling",
+   "FastAPI"
+  ],
+  "industry": "insurance",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your insurance job with LangGraph. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:003",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs fine-tuning, LoRA. I recently built a LoRA fine-tuned open model classifying contract clauses for a legal client, which matched GPT-4 accuracy at 1/20th the cost. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:004",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:005",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your media job with recommender systems. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:006",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:007",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:008",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:009",
+  "project": "claims-agents",
+  "skills": [
+   "LangGraph",
+   "multi-agent systems",
+   "tool calling",
+   "FastAPI"
+  ],
+  "industry": "insurance",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs LangGraph, multi-agent systems. I recently built a multi-agent triage workflow for insurance claims with human review for a insurance client, which reduced triage time by 55%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:010",
+  "project": "fraud-graph",
+  "skills": [
+   "graph neural networks",
+   "PyTorch Geometric",
+   "Neo4j"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs graph neural networks, PyTorch Geometric. I recently built a GNN over transaction graphs to flag mule accounts for a fintech client, which caught 23% more fraud at the same alert volume. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:011",
+  "project": "fraud-graph",
+  "skills": [
+   "graph neural networks",
+   "PyTorch Geometric",
+   "Neo4j"
+  ],
+  "industry": "fintech",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your fintech job with graph neural networks. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:012",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:013",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs MLflow, Kubernetes. I recently built model training and deployment pipelines for 12 models for a logistics client, which cut release time from 2 weeks to 1 day. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:014",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:015",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:016",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:017",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:018",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs LLM evaluation, Python. I recently built a regression-test harness for prompt and model changes for a SaaS client, which caught 14 regressions before release. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:019",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:020",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:021",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:022",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:023",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your SaaS job with LLM evaluation. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:024",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs reinforcement learning, Python. I recently built a contextual-bandit price tester for hotel rooms for a travel client, which added 4.1% revenue per room. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:025",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:026",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:027",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:028",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs reinforcement learning, Python. I recently built a contextual-bandit price tester for hotel rooms for a travel client, which added 4.1% revenue per room. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:029",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your SaaS job with LLM evaluation. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:030",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:031",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your media job with recommender systems. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:032",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:033",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:034",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your marketing job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:035",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:036",
+  "project": "fraud-graph",
+  "skills": [
+   "graph neural networks",
+   "PyTorch Geometric",
+   "Neo4j"
+  ],
+  "industry": "fintech",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs graph neural networks, PyTorch Geometric. I recently built a GNN over transaction graphs to flag mule accounts for a fintech client, which caught 23% more fraud at the same alert volume. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:037",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your telecom job with Python. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:038",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your legal job with fine-tuning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:039",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs NLP, spaCy. I recently built entity extraction from de-identified clinical notes for a healthcare client, which achieved F1 of 0.88. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:040",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs reinforcement learning, Python. I recently built a contextual-bandit price tester for hotel rooms for a travel client, which added 4.1% revenue per room. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:041",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your marketing job with NLP. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:042",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your fintech job with PyTorch. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:043",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:044",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:045",
+  "project": "voice-agent",
+  "skills": [
+   "speech-to-text",
+   "Whisper",
+   "LangGraph",
+   "Twilio"
+  ],
+  "industry": "hospitality",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs speech-to-text, Whisper. I recently built a phone agent that books restaurant tables for a hospitality client, which handled 61% of calls end to end. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:046",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:047",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your logistics job with MLflow. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:048",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:049",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs NLP, spaCy. I recently built entity extraction from de-identified clinical notes for a healthcare client, which achieved F1 of 0.88. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:050",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:051",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your media job with recommender systems. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:052",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your media job with recommender systems. Please check my profile.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:053",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your healthcare job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:054",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:055",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your legal job with fine-tuning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:056",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs LLM evaluation, Python. I recently built a regression-test harness for prompt and model changes for a SaaS client, which caught 14 regressions before release. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:057",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your e-commerce job with LangChain. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:058",
+  "project": "voice-agent",
+  "skills": [
+   "speech-to-text",
+   "Whisper",
+   "LangGraph",
+   "Twilio"
+  ],
+  "industry": "hospitality",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs speech-to-text, Whisper. I recently built a phone agent that books restaurant tables for a hospitality client, which handled 61% of calls end to end. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:059",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs NLP, Hugging Face. I recently built aspect-level sentiment over 400k product reviews for a marketing client, which surfaced 3 product issues adopted by the client. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:060",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your logistics job with MLflow. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:061",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs MLflow, Kubernetes. I recently built model training and deployment pipelines for 12 models for a logistics client, which cut release time from 2 weeks to 1 day. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:062",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs NLP, Hugging Face. I recently built aspect-level sentiment over 400k product reviews for a marketing client, which surfaced 3 product issues adopted by the client. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:063",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs LLM evaluation, Python. I recently built a regression-test harness for prompt and model changes for a SaaS client, which caught 14 regressions before release. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:064",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:065",
+  "project": "demand-forecast",
+  "skills": [
+   "time series",
+   "LightGBM",
+   "Prophet",
+   "Airflow"
+  ],
+  "industry": "retail",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs time series, LightGBM. I recently built SKU-level weekly demand forecasts for 300 stores for a retail client, which reduced MAPE from 18% to 11%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:066",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs fine-tuning, LoRA. I recently built a LoRA fine-tuned open model classifying contract clauses for a legal client, which matched GPT-4 accuracy at 1/20th the cost. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:067",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs NLP, Hugging Face. I recently built aspect-level sentiment over 400k product reviews for a marketing client, which surfaced 3 product issues adopted by the client. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:068",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2022-09-15",
+  "text": "Hi, your project needs Python, scikit-learn. I recently built a churn model over 2M subscriber records with SHAP explanations for a telecom client, which lifted recall from 0.61 to 0.78. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:069",
+  "project": "demand-forecast",
+  "skills": [
+   "time series",
+   "LightGBM",
+   "Prophet",
+   "Airflow"
+  ],
+  "industry": "retail",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs time series, LightGBM. I recently built SKU-level weekly demand forecasts for 300 stores for a retail client, which reduced MAPE from 18% to 11%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:070",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:071",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:072",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs Python, scikit-learn. I recently built a churn model over 2M subscriber records with SHAP explanations for a telecom client, which lifted recall from 0.61 to 0.78. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:073",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:074",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs LLM evaluation, Python. I recently built a regression-test harness for prompt and model changes for a SaaS client, which caught 14 regressions before release. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:075",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:076",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:077",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:078",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your media job with recommender systems. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:079",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your healthcare job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:080",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:081",
+  "project": "demand-forecast",
+  "skills": [
+   "time series",
+   "LightGBM",
+   "Prophet",
+   "Airflow"
+  ],
+  "industry": "retail",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs time series, LightGBM. I recently built SKU-level weekly demand forecasts for 300 stores for a retail client, which reduced MAPE from 18% to 11%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:082",
+  "project": "voice-agent",
+  "skills": [
+   "speech-to-text",
+   "Whisper",
+   "LangGraph",
+   "Twilio"
+  ],
+  "industry": "hospitality",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs speech-to-text, Whisper. I recently built a phone agent that books restaurant tables for a hospitality client, which handled 61% of calls end to end. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:083",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your SaaS job with LLM evaluation. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:084",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs LangChain, RAG. I recently built a retrieval-augmented support bot over 12k help-centre articles for a e-commerce client, which deflected 34% of tickets. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:085",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs NLP, spaCy. I recently built entity extraction from de-identified clinical notes for a healthcare client, which achieved F1 of 0.88. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:086",
+  "project": "claims-agents",
+  "skills": [
+   "LangGraph",
+   "multi-agent systems",
+   "tool calling",
+   "FastAPI"
+  ],
+  "industry": "insurance",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs LangGraph, multi-agent systems. I recently built a multi-agent triage workflow for insurance claims with human review for a insurance client, which reduced triage time by 55%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:087",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs LangChain, RAG. I recently built a retrieval-augmented support bot over 12k help-centre articles for a e-commerce client, which deflected 34% of tickets. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:088",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your healthcare job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:089",
+  "project": "claims-agents",
+  "skills": [
+   "LangGraph",
+   "multi-agent systems",
+   "tool calling",
+   "FastAPI"
+  ],
+  "industry": "insurance",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs LangGraph, multi-agent systems. I recently built a multi-agent triage workflow for insurance claims with human review for a insurance client, which reduced triage time by 55%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:090",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs Python, scikit-learn. I recently built a churn model over 2M subscriber records with SHAP explanations for a telecom client, which lifted recall from 0.61 to 0.78. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:091",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your healthcare job with NLP. Please check my profile.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:092",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your e-commerce job with LangChain. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:093",
+  "project": "demand-forecast",
+  "skills": [
+   "time series",
+   "LightGBM",
+   "Prophet",
+   "Airflow"
+  ],
+  "industry": "retail",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your retail job with time series. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:094",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2024-11-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:095",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your logistics job with MLflow. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:096",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:097",
+  "project": "fraud-graph",
+  "skills": [
+   "graph neural networks",
+   "PyTorch Geometric",
+   "Neo4j"
+  ],
+  "industry": "fintech",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your fintech job with graph neural networks. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:098",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:099",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs fine-tuning, LoRA. I recently built a LoRA fine-tuned open model classifying contract clauses for a legal client, which matched GPT-4 accuracy at 1/20th the cost. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:100",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:101",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2023-06-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your logistics job with MLflow. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:102",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:103",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:104",
+  "project": "claims-agents",
+  "skills": [
+   "LangGraph",
+   "multi-agent systems",
+   "tool calling",
+   "FastAPI"
+  ],
+  "industry": "insurance",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your insurance job with LangGraph. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:105",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2023-10-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your marketing job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:106",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs MLflow, Kubernetes. I recently built model training and deployment pipelines for 12 models for a logistics client, which cut release time from 2 weeks to 1 day. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:107",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:108",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:109",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs fine-tuning, LoRA. I recently built a LoRA fine-tuned open model classifying contract clauses for a legal client, which matched GPT-4 accuracy at 1/20th the cost. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:110",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs NLP, spaCy. I recently built entity extraction from de-identified clinical notes for a healthcare client, which achieved F1 of 0.88. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:111",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your logistics job with MLflow. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:112",
+  "project": "demand-forecast",
+  "skills": [
+   "time series",
+   "LightGBM",
+   "Prophet",
+   "Airflow"
+  ],
+  "industry": "retail",
+  "date": "2022-05-15",
+  "text": "Hi, your project needs time series, LightGBM. I recently built SKU-level weekly demand forecasts for 300 stores for a retail client, which reduced MAPE from 18% to 11%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:113",
+  "project": "claims-agents",
+  "skills": [
+   "LangGraph",
+   "multi-agent systems",
+   "tool calling",
+   "FastAPI"
+  ],
+  "industry": "insurance",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs LangGraph, multi-agent systems. I recently built a multi-agent triage workflow for insurance claims with human review for a insurance client, which reduced triage time by 55%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:114",
+  "project": "voice-agent",
+  "skills": [
+   "speech-to-text",
+   "Whisper",
+   "LangGraph",
+   "Twilio"
+  ],
+  "industry": "hospitality",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your hospitality job with speech-to-text. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:115",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2025-08-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your SaaS job with LLM evaluation. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:116",
+  "project": "llm-eval-harness",
+  "skills": [
+   "LLM evaluation",
+   "Python",
+   "pytest",
+   "LangSmith"
+  ],
+  "industry": "SaaS",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your SaaS job with LLM evaluation. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:117",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs computer vision, YOLOv8. I recently built a real-time defect detector on an edge device at 30 FPS for a manufacturing client, which reached 98.2% defect recall. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:118",
+  "project": "fraud-graph",
+  "skills": [
+   "graph neural networks",
+   "PyTorch Geometric",
+   "Neo4j"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs graph neural networks, PyTorch Geometric. I recently built a GNN over transaction graphs to flag mule accounts for a fintech client, which caught 23% more fraud at the same alert volume. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:119",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs LangChain, RAG. I recently built a retrieval-augmented support bot over 12k help-centre articles for a e-commerce client, which deflected 34% of tickets. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:120",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:121",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:122",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your healthcare job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:123",
+  "project": "invoice-ocr",
+  "skills": [
+   "PyTorch",
+   "OCR",
+   "LayoutLM",
+   "Docker"
+  ],
+  "industry": "fintech",
+  "date": "2025-04-15",
+  "text": "Hi, your project needs PyTorch, OCR. I recently built an invoice field-extraction pipeline for 40 vendor layouts for a fintech client, which cut manual entry time by 70%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:124",
+  "project": "demand-forecast",
+  "skills": [
+   "time series",
+   "LightGBM",
+   "Prophet",
+   "Airflow"
+  ],
+  "industry": "retail",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your retail job with time series. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:125",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs reinforcement learning, Python. I recently built a contextual-bandit price tester for hotel rooms for a travel client, which added 4.1% revenue per room. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:126",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2024-07-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your legal job with fine-tuning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:127",
+  "project": "mlops-pipeline",
+  "skills": [
+   "MLflow",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "industry": "logistics",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs MLflow, Kubernetes. I recently built model training and deployment pipelines for 12 models for a logistics client, which cut release time from 2 weeks to 1 day. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:128",
+  "project": "voice-agent",
+  "skills": [
+   "speech-to-text",
+   "Whisper",
+   "LangGraph",
+   "Twilio"
+  ],
+  "industry": "hospitality",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your hospitality job with speech-to-text. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:129",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs LangChain, RAG. I recently built a retrieval-augmented support bot over 12k help-centre articles for a e-commerce client, which deflected 34% of tickets. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:130",
+  "project": "fraud-graph",
+  "skills": [
+   "graph neural networks",
+   "PyTorch Geometric",
+   "Neo4j"
+  ],
+  "industry": "fintech",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs graph neural networks, PyTorch Geometric. I recently built a GNN over transaction graphs to flag mule accounts for a fintech client, which caught 23% more fraud at the same alert volume. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:131",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2025-12-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your legal job with fine-tuning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:132",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-01-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:133",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2023-02-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:134",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2024-03-15",
+  "text": "Hi, your project needs Python, scikit-learn. I recently built a churn model over 2M subscriber records with SHAP explanations for a telecom client, which lifted recall from 0.61 to 0.78. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:135",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your travel job with reinforcement learning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:136",
+  "project": "cv-defect",
+  "skills": [
+   "computer vision",
+   "YOLOv8",
+   "OpenCV",
+   "PyTorch"
+  ],
+  "industry": "manufacturing",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your manufacturing job with computer vision. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:137",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs NLP, Hugging Face. I recently built aspect-level sentiment over 400k product reviews for a marketing client, which surfaced 3 product issues adopted by the client. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:138",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2024-07-15",
+  "text": "Hi, your project needs reinforcement learning, Python. I recently built a contextual-bandit price tester for hotel rooms for a travel client, which added 4.1% revenue per room. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:139",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2025-08-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:140",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2022-09-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your media job with recommender systems. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:141",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2023-10-15",
+  "text": "Hi, your project needs NLP, spaCy. I recently built entity extraction from de-identified clinical notes for a healthcare client, which achieved F1 of 0.88. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:142",
+  "project": "churn-predictor",
+  "skills": [
+   "Python",
+   "scikit-learn",
+   "XGBoost",
+   "feature engineering"
+  ],
+  "industry": "telecom",
+  "date": "2024-11-15",
+  "text": "Hi, your project needs Python, scikit-learn. I recently built a churn model over 2M subscriber records with SHAP explanations for a telecom client, which lifted recall from 0.61 to 0.78. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "won"
+ },
+ {
+  "id": "ai_ml:proposal:143",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2025-12-15",
+  "text": "Hi, your project needs NLP, Hugging Face. I recently built aspect-level sentiment over 400k product reviews for a marketing client, which surfaced 3 product issues adopted by the client. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:144",
+  "project": "price-bandits",
+  "skills": [
+   "reinforcement learning",
+   "Python",
+   "multi-armed bandits"
+  ],
+  "industry": "travel",
+  "date": "2022-01-15",
+  "text": "Hi, your project needs reinforcement learning, Python. I recently built a contextual-bandit price tester for hotel rooms for a travel client, which added 4.1% revenue per room. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:145",
+  "project": "recsys",
+  "skills": [
+   "recommender systems",
+   "PySpark",
+   "Python"
+  ],
+  "industry": "media",
+  "date": "2023-02-15",
+  "text": "Hi, your project needs recommender systems, PySpark. I recently built an implicit-feedback recommender for 1.5M users for a media client, which raised click-through by 9%. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ },
+ {
+  "id": "ai_ml:proposal:146",
+  "project": "sentiment-dash",
+  "skills": [
+   "NLP",
+   "Hugging Face",
+   "sentiment analysis",
+   "Streamlit"
+  ],
+  "industry": "marketing",
+  "date": "2024-03-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your marketing job with NLP. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:147",
+  "project": "rag-support-bot",
+  "skills": [
+   "LangChain",
+   "RAG",
+   "Pinecone",
+   "FastAPI",
+   "OpenAI API"
+  ],
+  "industry": "e-commerce",
+  "date": "2025-04-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your e-commerce job with LangChain. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:148",
+  "project": "legal-finetune",
+  "skills": [
+   "fine-tuning",
+   "LoRA",
+   "Llama",
+   "PEFT"
+  ],
+  "industry": "legal",
+  "date": "2022-05-15",
+  "text": "Dear Sir/Madam, I am a passionate and hardworking ai/ml engineer with many years of experience. I can do your legal job with fine-tuning. Please check my profile.",
+  "outcome": "ignored"
+ },
+ {
+  "id": "ai_ml:proposal:149",
+  "project": "medical-ner",
+  "skills": [
+   "NLP",
+   "spaCy",
+   "transformers",
+   "NER"
+  ],
+  "industry": "healthcare",
+  "date": "2023-06-15",
+  "text": "Hi, your project needs NLP, spaCy. I recently built entity extraction from de-identified clinical notes for a healthcare client, which achieved F1 of 0.88. I would start by reviewing your data and agreeing milestones.",
+  "outcome": "replied"
+ }
+]

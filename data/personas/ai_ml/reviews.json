@@ -1,0 +1,66 @@
+[
+ {
+  "id": "ai_ml:review:churn-predictor",
+  "project": "churn-predictor",
+  "rating": 5.0,
+  "industry": "telecom",
+  "date": "2021-07-01",
+  "text": "Great work on telecom churn prediction. Communication was clear and the result lifted recall from 0.61 to 0.78."
+ },
+ {
+  "id": "ai_ml:review:invoice-ocr",
+  "project": "invoice-ocr",
+  "rating": 5.0,
+  "industry": "fintech",
+  "date": "2023-07-01",
+  "text": "Great work on invoice ocr extraction. Communication was clear and the result cut manual entry time by 70%."
+ },
+ {
+  "id": "ai_ml:review:llm-eval-harness",
+  "project": "llm-eval-harness",
+  "rating": 5.0,
+  "industry": "SaaS",
+  "date": "2025-07-01",
+  "text": "Great work on llm evaluation harness. Communication was clear and the result caught 14 regressions before release."
+ },
+ {
+  "id": "ai_ml:review:recsys",
+  "project": "recsys",
+  "rating": 5.0,
+  "industry": "media",
+  "date": "2022-07-01",
+  "text": "Great work on content recommender. Communication was clear and the result raised click-through by 9%."
+ },
+ {
+  "id": "ai_ml:review:fraud-graph",
+  "project": "fraud-graph",
+  "rating": 4.9,
+  "industry": "fintech",
+  "date": "2024-07-01",
+  "text": "Great work on graph-based fraud detection. Communication was clear and the result caught 23% more fraud at the same alert volume."
+ },
+ {
+  "id": "ai_ml:review:mlops-pipeline",
+  "project": "mlops-pipeline",
+  "rating": 4.8,
+  "industry": "logistics",
+  "date": "2021-07-01",
+  "text": "Great work on mlops platform. Communication was clear and the result cut release time from 2 weeks to 1 day."
+ },
+ {
+  "id": "ai_ml:review:price-bandits",
+  "project": "price-bandits",
+  "rating": 4.8,
+  "industry": "travel",
+  "date": "2023-07-01",
+  "text": "Great work on dynamic pricing with bandits. Communication was clear and the result added 4.1% revenue per room."
+ },
+ {
+  "id": "ai_ml:review:claims-agents",
+  "project": "claims-agents",
+  "rating": 4.9,
+  "industry": "insurance",
+  "date": "2025-07-01",
+  "text": "Great work on insurance claims multi-agent workflow. Communication was clear and the result reduced triage time by 55%."
+ }
+]
