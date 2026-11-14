@@ -16,7 +16,7 @@ ignored, and a few hundred jobs, some vague, some asking for five different thin
 injections.
 
 The question I care about is narrow: when a job arrives, does retrieval put the evidence that proves the freelancer can do it in
-the top five? I measured Recall@5, MRR and nDCG@10 against gold evidence for 93 jobs, across seven retrieval variants.
+the top five? I measured Recall@5, MRR and nDCG@10 against gold evidence for 465 jobs, across seven retrieval variants.
 
 ## What I expected
 
@@ -28,13 +28,14 @@ evidence and re-queries — to stack on top.
 
 ## What happened
 
-Naive dense retrieval (fixed 400-character chunks, cosine similarity on the whole job post) scored Recall@5 0.798. The variant
+Naive dense retrieval (fixed 400-character chunks, cosine similarity on the whole job post) scored Recall@5 0.790. The variant
 that won was the boring one: BM25 and dense retrieval fused with reciprocal rank fusion, over an index where each project's
-summary, README sections and code are stored as separate vectors but returned as one project. Recall@5 0.843, nDCG@10 0.917.
+summary, README sections and code are stored as separate vectors but returned as one project. Recall@5 0.851, nDCG@10 0.916.
 
-Requirement decomposition, my favourite idea, *lowered* recall on exactly the jobs it was supposed to help: 0.583 against 0.598
-for the naive baseline on jobs with four or more requirements. The hypothesis was not supported. Adding decomposition to the
-winning pipeline hurt it too.
+Requirement decomposition, my favourite idea, barely moved recall on exactly the jobs it was supposed to help: 0.600 against
+0.586 for the naive baseline on jobs with four or more requirements, while plain hybrid retrieval reached 0.657. The whole
+pipeline gained 7.2 points, half of what I predicted, so the hypothesis was not supported. Adding decomposition to the
+winning pipeline made it worse.
 
 The reason, once I read the failures, is almost embarrassing. Real job posts contain generic requirements — "Python",
 "documentation and handover", "tests". When you split a post into one query per requirement and merge the result lists, every
@@ -54,7 +55,7 @@ The other "smart" variants told the same story:
   proposals *won* pulls a winning project above the item that actually matches the job. What worked is not always what is
   relevant.
 
-The single most valuable component was the least glamorous: adding BM25 to dense retrieval. Removing it cost 5.2 nDCG points.
+The single most valuable component was the least glamorous: adding BM25 to dense retrieval. Removing it cost 5.9 nDCG points.
 Embeddings blur exact tool names; "dbt", "Celery" and "PEFT" are precisely the tokens a lexical index is good at.
 
 ## The same lesson, in tools

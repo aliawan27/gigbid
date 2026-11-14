@@ -2,40 +2,40 @@
 
 | Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal (after verification) | Judge score (1-5) | GigSim reply rate | p95 latency / proposal (s) | Cost / proposal (USD) |
 |---|---|---|---|---|---|---|---|
-| V0 (naive dense) | 0.798 | 0.848 | 0 | 5 | 0.700 | 119.9 | 0.0027 |
-| Your best (V5 + hybrid, shipped) | 0.843 | 0.917 | 0 | 4.91 | 0.455 | 163.1 | 0.0032 |
+| V0 (naive dense) | 0.790 | 0.841 | 0 | 5 | 0.700 | 119.9 | 0.0027 |
+| Your best (V5 + hybrid, shipped) | 0.851 | 0.916 | 0 | 4.91 | 0.455 | 163.1 | 0.0032 |
 
-### All retrieval variants (93 dev jobs with gold evidence)
+### All retrieval variants (465 dev jobs with gold evidence)
 
 | Variant | Recall@5 | MRR | nDCG@10 | multi-req R@5 | vague R@5 | p95 query latency (s) |
 |---|---|---|---|---|---|---|
-| v0_naive | 0.798 | 1.000 | 0.848 | 0.598 | 0.752 | 0.030 |
-| v1_decompose | 0.803 | 1.000 | 0.889 | 0.583 | 0.826 | 0.046 |
-| v2_hybrid | 0.833 | 1.000 | 0.912 | 0.615 | 0.821 | 0.039 |
-| v3_rerank | 0.828 | 1.000 | 0.901 | 0.582 | 0.842 | 2.916 |
-| v4_outcome | 0.842 | 0.962 | 0.889 | 0.652 | 0.801 | 0.043 |
-| v5_multivector | 0.843 | 1.000 | 0.917 | 0.620 | 0.833 | 0.043 |
-| v8_corrective | 0.802 | 0.989 | 0.853 | 0.532 | 0.863 | 3.348 |
-| best | 0.843 | 1.000 | 0.917 | 0.620 | 0.833 | 0.031 |
+| v0_naive | 0.790 | 1.000 | 0.841 | 0.586 | 0.768 | 0.040 |
+| v1_decompose | 0.813 | 0.999 | 0.893 | 0.600 | 0.831 | 0.059 |
+| v2_hybrid | 0.850 | 1.000 | 0.914 | 0.656 | 0.814 | 0.054 |
+| v3_rerank | 0.835 | 1.000 | 0.898 | 0.611 | 0.822 | 3.051 |
+| v4_outcome | 0.844 | 0.974 | 0.892 | 0.664 | 0.786 | 0.048 |
+| v5_multivector | 0.851 | 1.000 | 0.916 | 0.657 | 0.812 | 0.040 |
+| best | 0.851 | 1.000 | 0.916 | 0.657 | 0.812 | 0.035 |
+| v8_corrective (dev40 subset) | 0.802 | 0.989 | 0.853 | 0.532 | 0.863 | 3.348 |
 
 **Ablation of the shipped pipeline**
 
 | Change | Recall@5 | nDCG@10 |
 |---|---|---|
-| shipped (V5 + hybrid) | 0.843 | 0.917 |
-| -multivector | 0.833 | 0.912 |
-| -hybrid | 0.811 | 0.865 |
-| +decompose | 0.819 | 0.909 |
-| +outcome_boost | 0.850 | 0.904 |
-| +rerank | 0.835 | 0.907 |
+| shipped (V5 + hybrid) | 0.851 | 0.916 |
+| -multivector | 0.850 | 0.914 |
+| -hybrid | 0.800 | 0.857 |
+| +decompose | 0.832 | 0.916 |
+| +outcome_boost | 0.842 | 0.899 |
+| +rerank | 0.837 | 0.905 |
 
 **By persona (shipped)**
 
 | Persona | Recall@5 | nDCG@10 |
 |---|---|---|
-| ai_ml | 0.842 | 0.921 |
-| fullstack | 0.859 | 0.938 |
-| data_analyst | 0.829 | 0.891 |
+| ai_ml | 0.845 | 0.907 |
+| fullstack | 0.865 | 0.931 |
+| data_analyst | 0.843 | 0.909 |
 
 ### Proposal configurations on the fixed GigSim job set
 

@@ -52,19 +52,13 @@ Tool descriptions with an example argument were the cheapest improvement we made
 
 ## 4. R&D question B — retrieval, claim verification, what ships
 **Hypothesis.** Requirement decomposition plus hybrid retrieval raises evidence Recall@5 by ≥ 15 points over V0 on jobs with
-four or more requirements. **Setup.** 93 dev jobs with gold evidence (bid and low-ball jobs; gold = case study, README, code and
+four or more requirements. **Setup.** 465 dev jobs with gold evidence (dev sets extended to 200 per persona) (bid and low-ball jobs; gold = case study, README, code and
 review items of the project(s) each job was generated from), three personas, seven variants and an ablation
 (`evals/runners/rag_eval.py`).
 
 {{TABLE:All retrieval variants}}
 
-**Result: hypothesis not supported.** On ≥4-requirement jobs decomposition alone *lowered* Recall@5 (0.583 vs 0.598) and
-decomposition + hybrid inside the shipped pipeline lowered it too (ablation `+decompose`). One query per requirement over-weights
-generic requirements ("Python", "documentation") whose nearest neighbours are other projects. Hybrid BM25 + dense was the single
-most valuable component (removing it costs 5.2 nDCG points); V5 multi-vector indexing helped READMEs whose code proves an implied
-skill. The cross-encoder (V3) and corrective RAG (V8) added ~3 s latency and did not raise Recall@5 overall; V8 was best only on
-vague posts (0.863), which suggests routing vague posts to V8 as future work. Outcome boosting (V4) gave the best multi-requirement
-recall (0.652) but hurt MRR/nDCG because it pulls winning *projects* above the best-matching item.
+**Result: hypothesis not supported.** On the 465-job set (200 dev jobs per persona) the shipped pipeline beats V0 on ≥4-requirement jobs by 7.2 points of Recall@5 (0.657 vs 0.586) — half the predicted 15. Almost all of that comes from hybrid BM25 + dense fusion (V2 alone: 0.657); requirement decomposition alone adds only 1.4 points (0.600) and, added to the shipped pipeline, lowers Recall@5 (0.832 vs 0.851, ablation `+decompose`). One query per requirement over-weights generic requirements ("Python", "documentation") whose nearest neighbours are other projects. Hybrid fusion is the most valuable component (removing it costs 5.9 nDCG points); V5 multi-vector indexing helps READMEs whose code proves an implied skill. The cross-encoder (V3) added ~3 s per query and lowered Recall@5; corrective RAG (V8, evaluated on the original 93-job subset to save LLM quota) was best only on vague posts (0.863), which suggests routing vague posts to V8 as future work. Outcome boosting (V4) gave the best multi-requirement recall (0.664) but lower MRR/nDCG because it pulls winning *projects* above the best-matching item. The ranking of variants and the shipping decision were identical on the original 93-job set (`evals/results/rag_variants_dev40.json`).
 
 {{TABLE:B5 results table (dev set)}}
 
@@ -75,7 +69,7 @@ Unsupported claims per proposal before → after verification are in the proposa
 
 {{TABLE:Proposal configurations on the fixed GigSim job set}}
 
-**What ships (one paragraph).** V5 multi-vector + hybrid retrieval (best Recall@5 0.843 and nDCG@10 0.917; hybrid fusion is the component that matters), writer strategy B (better on every proposal metric, reply-rate gain p = 0.0894 — see §7), gpt-oss-20b for cheap nodes and gpt-oss-120b for writer/critic (the qwen3.8-27b profile needed 1.82 revisions per proposal vs 1.55 and had a p95 latency of 273.6 s), and the two threshold fixes from §8. **Where better retrieval did not translate into replies:** V0 got 7/10 simulated replies and the shipped retrieval 5/11. Both pipelines end with claim verification (0 unsupported claims after) and the critic, so evidence quality is no longer what separates proposals; GigSim's LLM clients react to the opening, must-have skills and the bid, which is what the writer A/B changed (B: 10/12). With n ≈ 11 per arm these differences are within noise.
+**What ships (one paragraph).** V5 multi-vector + hybrid retrieval (best Recall@5 0.851 and nDCG@10 0.916 on 465 jobs; hybrid fusion is the component that matters), writer strategy B (better on every proposal metric, reply-rate gain p = 0.0894 — see §7), gpt-oss-20b for cheap nodes and gpt-oss-120b for writer/critic (the qwen3.8-27b profile needed 1.82 revisions per proposal vs 1.55 and had a p95 latency of 273.6 s), and the two threshold fixes from §8. **Where better retrieval did not translate into replies:** V0 got 7/10 simulated replies and the shipped retrieval 5/11. Both pipelines end with claim verification (0 unsupported claims after) and the critic, so evidence quality is no longer what separates proposals; GigSim's LLM clients react to the opening, must-have skills and the bid, which is what the writer A/B changed (B: 10/12). With n ≈ 11 per arm these differences are within noise.
 
 **Judge calibration.** The LLM judge (gpt-oss-120b) scored 4.9–5.0 on almost every proposal — a ceiling effect, so it cannot separate the configurations. 30 proposals were exported for blind human labelling (`evals/datasets/judge_labels.csv`, judge scores kept in a separate file); Cohen's kappa is computed by `evals/runners/judge_calibration.py` → `evals/results/judge_calibration.json`. **Result: quadratic-weighted Cohen's kappa = 0.091** between the student's 30 blind labels and the judge (exact agreement 0.2, within ±1 0.733; judge mean 4.93 vs student mean 3.83; `evals/results/judge_calibration.json`). A second blind annotator (Claude) agreed with the student far better than the judge did (kappa 0.598), so the disagreement is the judge's: it rates almost every draft 5, while both annotators mark down drafts that drag in irrelevant projects (e.g. item 14 invents a demand-forecasting need; item 25 is the template fallback). **Conclusion:** the judge is not calibrated and its scores are not used for any decision in this report; reply rate and unsupported claims carry the comparison, and a stricter, rubric-anchored judge prompt is future work. A blind pairwise panel of classmates was not run (no access to raters in the time available).
 
