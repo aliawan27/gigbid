@@ -8,7 +8,7 @@ from agent.handoffs import RiskReport
 from agent.llm import LLMUnavailable
 from agent.mcp_client import call
 from agent.nodes._common import llm_structured, node, tool_rec
-from agent.safety import detect_injection, untrusted
+from agent.safety import defended_text, detect_injection, untrusted
 
 RULES = [
     (re.compile(r"telegram|whatsapp|signal app|skype|outside (the )?platform|off[- ]platform|contact me (on|at|via)", re.I),
@@ -21,7 +21,9 @@ RULES = [
 
 
 def rule_score(job: dict, client: dict) -> tuple[float, list[str]]:
-    text = f"{job['title']} {job['description']}"
+    # rules run on the injection-stripped text: an injected "include your WhatsApp" is an attack on us, not a client
+    # asking to move off-platform (failure analysis: 4/9 injected jobs were skipped as scams)
+    text = f"{job['title']} {defended_text(job['description'])[0]}"
     score, flags = 0.0, []
     for rx, w, flag in RULES:
         if rx.search(text):

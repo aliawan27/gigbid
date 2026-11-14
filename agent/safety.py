@@ -47,5 +47,7 @@ def untrusted(label: str, text: str) -> str:
 def defended_text(text: str) -> tuple[str, list[str]]:
     """Strip detected injection spans before text reaches a writer model; return the hits for the risk report."""
     hits = detect_injection(text)
-    clean = INJECTION.sub("[removed: suspected injected instruction]", text or "")
+    text = re.sub(r"<!--.*?-->", "[removed: hidden comment]", text or "", flags=re.S)
+    parts = re.split(r"(?<=[.!?])\s+|\n+", text)
+    clean = " ".join("[removed: suspected injected instruction]" if INJECTION.search(p) else p for p in parts if p.strip())
     return clean, hits

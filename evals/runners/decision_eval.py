@@ -53,12 +53,12 @@ def metrics(rows: list[dict]) -> dict:
         "p95_usd_per_job": pct([r["usd"] for r in rows], 0.95)}
 
 
-async def main(limit: int | None):
+async def main(limit: int | None, kinds: list[str] | None = None, out_name: str = "decisions"):
     with Stack(client_llm=False):
         g = build_bid_graph(MemorySaver(), InMemoryStore())
         g.interrupt_before_nodes = ["writer"]
         sem = asyncio.Semaphore(4)
-        tasks = [run_job(g, p, gold, sem) for p in PERSONAS for gold in dev(p)[:limit]]
+        tasks = [run_job(g, p, gold, sem) for p in PERSONAS for gold in dev(p)[:limit] if not kinds or gold["kind"] in kinds]
         rows = await asyncio.gather(*tasks)
     out = {"overall": metrics(rows), "by_persona": {p: metrics([r for r in rows if r["persona"] == p]) for p in PERSONAS},
            "by_kind": {k: metrics([r for r in rows if r["kind"] == k]) for k in sorted({r["kind"] for r in rows})},
@@ -66,10 +66,13 @@ async def main(limit: int | None):
                       or (r["gold"] == "bid") != (r["pred"] == "bid")],
            "rows": rows}
     print(out["overall"])
-    write("decisions", out)
+    write(out_name, out)
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int)
-    asyncio.run(main(ap.parse_args().limit))
+    ap.add_argument("--kinds", help="comma-separated job kinds, e.g. inject,scam")
+    ap.add_argument("--out", default="decisions")
+    a = ap.parse_args()
+    asyncio.run(main(a.limit, a.kinds.split(",") if a.kinds else None, a.out))
