@@ -70,7 +70,26 @@ cheapest in tokens and got the arguments right only 10% of the time, because the
 
 ## Did better retrieval win more clients?
 
-OUTCOME_PARAGRAPH
+This is where the story got its second twist. I generated proposals for the same twelve jobs with the naive pipeline and with
+the shipped one, let the system's own critic and claim verifier clean both, and submitted them to GigSim, the marketplace
+simulator, where each client is a small LLM with hidden preferences: must-have skills, a dislike of generic openings, a budget
+ceiling. The naive pipeline got 7 replies out of 10 proposals. The shipped pipeline got 5 out of 11.
+
+I do not believe the naive pipeline writes better proposals; with about ten proposals per arm, that gap is well inside the noise.
+But I also cannot claim that better retrieval *wins more work*, and once I looked at why, it made sense. Both pipelines end with
+claim verification — every sentence that claims experience is checked against the retrieved evidence and removed or rewritten if
+unsupported — so both arms ended with zero unsupported claims. Once every proposal is honest and relevant, the client's decision
+moves to things retrieval does not touch: the first sentence, whether the must-have skill is named, and the price.
+
+So I changed the thing the client actually reads. A second writer strategy opens with one sharp question about the client's
+project instead of a summary of my fit. On the same jobs it got 10 replies out of 12 against 5 out of 11 — and a Fisher exact
+test still says p = 0.089. Suggestive, not proven. I shipped it anyway, because it was at least as good on every other measure
+(fewer unsupported claims before verification, lower latency, same judge score), and I kept the experiment running on real
+outcomes instead of declaring victory.
+
+One more humbling detail: the LLM judge I used to score proposal quality gave almost everything 5 out of 5. A judge that cannot
+tell your variants apart is not measuring anything, which is why the project calibrates it against thirty human labels before
+trusting a single judge score.
 
 ## What I would tell myself on day one
 

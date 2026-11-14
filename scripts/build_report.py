@@ -62,7 +62,11 @@ def md_to_html(md: str) -> str:
             out.append("<ol>" + "".join(f"<li>{x}</li>" for x in items) + "</ol>")
             continue
         elif ln.strip():
-            out.append(f"<p>{inline(ln)}</p>")
+            para = [ln.strip()]
+            while (i + 1 < len(lines) and lines[i + 1].strip() and not re.match(r"(#{1,3} |\s*[-*] |\d+\. |\||<!--pb-->|!\[)", lines[i + 1])):
+                i += 1
+                para.append(lines[i].strip())
+            out.append(f"<p>{inline(' '.join(para))}</p>")
         i += 1
     return "\n".join(out)
 
