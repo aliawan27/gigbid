@@ -54,7 +54,7 @@ def main():
     if not LABELS.exists() or not JUDGE.exists():
         return build()
     hidden = json.loads(JUDGE.read_text())
-    with LABELS.open(encoding="utf-8") as f:
+    with LABELS.open(encoding="utf-8-sig") as f:  # Excel adds a BOM
         rows = [r for r in csv.DictReader(f) if r["human_score"].strip()]
     if len(rows) < 10:
         write("judge_calibration", {"status": "pending_human_labels", "labelled": len(rows),

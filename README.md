@@ -121,7 +121,7 @@ Attack success rate **0.417** before defences → **0.0** after (12 attacks: pla
 
 ### Judge calibration
 
-Cohen's kappa (quadratic) **0.052**, exact agreement 0.1, within ±1 0.567 on 30 proposals; reference labels by claude (AI second annotator, blind to judge scores; NOT the student). The judge is not calibrated, so its scores are not used for decisions.
+Cohen's kappa (quadratic) **0.091**, exact agreement 0.2, within ±1 0.733 on 30 proposals; reference labels by Ali. The judge is not calibrated, so its scores are not used for decisions.
 <!-- results:end -->
 
 **Public traces (LangSmith):** [critic loop 2 revisions](https://smith.langchain.com/public/fcdffc26-a140-4a65-b773-b3c7ae7ad697/r) · [skipped scam](https://smith.langchain.com/public/50c220ee-9199-4d1b-bae6-fbdfadc846a0/r) · [approved proposal submitted](https://smith.langchain.com/public/7230898f-ae23-4ddf-bea7-0a88f031021d/r) · [crash and resume exactly once](https://smith.langchain.com/public/48d35f93-1280-4b6f-902d-ee98cff17d6d/r)

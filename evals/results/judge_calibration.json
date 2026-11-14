@@ -1,25 +1,17 @@
 {
- "generated_at": "2026-11-14T18:15:48",
+ "generated_at": "2026-11-14T18:58:26",
  "status": "done",
  "reference_annotator": [
-  "claude (AI second annotator, blind to judge scores; NOT the student)"
+  "Ali"
  ],
  "n": 30,
- "cohen_kappa_quadratic": 0.052,
- "cohen_kappa_unweighted": -0.025,
- "exact_agreement": 0.1,
- "within_one": 0.567,
- "mean_human": 3.53,
+ "cohen_kappa_quadratic": 0.091,
+ "cohen_kappa_unweighted": -0.026,
+ "exact_agreement": 0.2,
+ "within_one": 0.733,
+ "mean_human": 3.83,
  "mean_judge": 4.93,
  "big_disagreements": [
-  {
-   "item": "3",
-   "job": "Voice booking agent (Whisper, LangGraph)",
-   "human": 3,
-   "judge": 5,
-   "judge_reason": "Highly specific, mentions Whisper, LangGraph, clear plan and relevant experience",
-   "proposal": "Your hospitality business needs a reliable voice booking agent that can turn raw call data into accurate table reservations. I have built a phone agent for a hospitality client that integrates Whisper for speech\u2011to\u2011text, LangGraph for workflow orchestration, and Twilio for telephony, delivering a seamless booking experience. The core module code demonstrates the full pipeline with these technologi"
-  },
   {
    "item": "4",
    "job": "Inventory management system (.NET, SQL Server)",
@@ -27,22 +19,6 @@
    "judge": 5,
    "judge_reason": "Highly specific, addresses all required technologies, outlines concrete steps and timeline, and is concise",
    "proposal": "You need a reliable inventory and purchase\u2011order system that fits your manufacturing workflows and can be delivered quickly. I have built a full\u2011stack inventory management solution for a manufacturing client using Angular, .NET and SQL Server, deployed on Azure, which matches your core stack. The project included comprehensive unit and integration tests, detailed documentation, and a smooth handov"
-  },
-  {
-   "item": "8",
-   "job": "Startup KPI stack (Metabase, SQL)",
-   "human": 3,
-   "judge": 5,
-   "judge_reason": "Highly specific, concrete experience, clear steps and timeline, concise",
-   "proposal": "You need a reliable KPI stack that turns raw data into clear, actionable dashboards for your seed\u2011stage startup, and you need it delivered quickly with Metabase and SQL expertise. I have built a KPI stack for a seed-stage startup using Metabase, PostgreSQL and SQL, and the result became the source for board reporting. The project included end\u2011to\u2011end pipeline code, tests, and comprehensive document"
-  },
-  {
-   "item": "9",
-   "job": "Donor survey analysis (ggplot2, statistics)",
-   "human": 3,
-   "judge": 5,
-   "judge_reason": "Highly specific, concrete plan with clear steps, timeline, and relevant technical details",
-   "proposal": "You need a reproducible R workflow that cleans, models, and visualizes a 5,000\u2011response donor survey for nonprofit stakeholders. The codebase follows tidyverse best practices and includes automated tests and clear documentation for hand\u2011over. A client praised the reproducibility and clarity of the notebook, noting the results were directly used in their fundraising strategy. I will start with an e"
   },
   {
    "item": "10",
@@ -61,14 +37,6 @@
    "proposal": "You need a secure, end\u2011to\u2011end pipeline that extracts entities from de\u2011identified clinical notes and delivers a production\u2011ready model with tests and documentation. I have built a clinical notes NER solution using spaCy, transformers and Prodigy, documented in a case study that highlights work for a healthcare client in 2023. I designed and built a LoRA fine-tuned open model classifying contract cl"
   },
   {
-   "item": "12",
-   "job": "Legal document classifier (PEFT, LoRA)",
-   "human": 3,
-   "judge": 5,
-   "judge_reason": "The proposal directly addresses the job with concrete technical details, clear deliverables, timeline, and next steps.",
-   "proposal": "You need a reliable classifier that can distinguish contract clauses while respecting the sensitivity of legal data. I have built a LoRA\u2011fine\u2011tuned open model for a legal document classifier, delivering accurate clause categorization using PEFT and Llama. The same codebase includes a focused fine\u2011tuning stack with LoRA support. I will then fine\u2011tune the model in PyTorch using Hugging Face Transfor"
-  },
-  {
    "item": "14",
    "job": "Voice booking agent (Whisper, LangGraph)",
    "human": 2,
@@ -79,26 +47,10 @@
   {
    "item": "15",
    "job": "Inventory management system (.NET, SQL Server)",
-   "human": 2,
+   "human": 3,
    "judge": 5,
    "judge_reason": "Highly specific, addresses all required technologies, outlines concrete steps and realistic timeline",
    "proposal": "You need a fast, reliable inventory and purchase\u2011order system that fits your existing manufacturing workflows and migrates legacy data. I have delivered a full-stack inventory management solution for a manufacturing client using Angular, .NET, SQL Server, and Azure. The codebase includes TypeScript\u2011based Chrome extensions that store temporary data in IndexedDB, ensuring offline capability for fiel"
-  },
-  {
-   "item": "16",
-   "job": "Web performance overhaul (Lighthouse, Core Web Vitals)",
-   "human": 3,
-   "judge": 5,
-   "judge_reason": "Highly specific, cites concrete results, outlines clear steps and deliverables, and matches the job requirements",
-   "proposal": "Your storefront\u2019s slow load times are hurting conversions, especially on key Core Web Vitals metrics. I have delivered a full web performance overhaul for an e\u2011commerce site, improving LCP from 4.1\u202fs to 1.6\u202fs and meeting Lighthouse targets, as highlighted in a client review. My case study demonstrates hands\u2011on work with Core Web Vitals, Lighthouse, and webpack in an e\u2011commerce context, and my code"
-  },
-  {
-   "item": "17",
-   "job": "Hotel booking platform (Node.js, MongoDB)",
-   "human": 3,
-   "judge": 5,
-   "judge_reason": "Specific, concrete claims, clear plan and timeline, no filler",
-   "proposal": "You need a hotel booking engine that can handle live availability across 80 properties, scale in real\u2011time and integrate with your existing tech stack. I have worked on a hotel booking platform for a hospitality client using React, Node.js, Express, and MongoDB, with Socket.io listed in the associated code skills. The solution included comprehensive automated tests, clear documentation and a smoot"
   },
   {
    "item": "25",
@@ -109,12 +61,56 @@
    "proposal": "Your project needs Whisper, LangGraph, Twilio, and I have delivered closely related work. Relevant example: voice-agent. Relevant example: code voice-agent. I would start by confirming the scope and success metric with you, then share a short plan with milestones.\n\nDrafted with AI assistance and reviewed by me."
   },
   {
-   "item": "26",
-   "job": "Inventory management system (.NET, SQL Server)",
+   "item": "29",
+   "job": "Logistics admin dashboard (MySQL, Laravel)",
    "human": 3,
    "judge": 5,
-   "judge_reason": "The proposal directly addresses all required technologies, outlines concrete steps, and is concise and specific to the job",
-   "proposal": "Your manufacturing operation requires a robust inventory and purchase-order system within two weeks. I have delivered a similar inventory management solution for a manufacturing client using .NET, SQL Server, Angular, and Azure. This project included comprehensive testing and documentation to ensure a smooth handover. Additionally, I have built Chrome Extensions using TypeScript and IndexedDB, ens"
+   "judge_reason": "The proposal is tailored to the logistics dashboard, cites relevant tech, outlines concrete steps, and is concise.",
+   "proposal": "Your logistics data needs actionable insights, not just storage. I have built a logistics admin dashboard using Laravel and MySQL. This project utilized Vue.js and Tailwind CSS to create a responsive interface for operational tracking. For your broader stack, I have experience with Next.js in projects like realestate-mvp and saas-billing, as well as Strapi and GraphQL for headless CMS architecture"
+  },
+  {
+   "item": "30",
+   "job": "A/B testing programme (Python, A/B testing)",
+   "human": 3,
+   "judge": 5,
+   "judge_reason": "Specific, concrete experience with required tools, clear deliverables and next steps",
+   "proposal": "Building a rigorous experimentation framework from scratch in fintech is challenging, especially when integrating with existing BigQuery and Looker infrastructure. I have delivered a similar A/B testing programme for a fintech client, utilizing Python, statsmodels, and SciPy to ensure statistical rigor in power analysis. This project resulted in 22 experiments running in a single quarter, with cle"
   }
- ]
+ ],
+ "student_vs_claude_second_annotator": {
+  "cohen_kappa_quadratic": 0.598,
+  "exact_agreement": 0.533,
+  "claude_labels": [
+   4,
+   4,
+   3,
+   3,
+   4,
+   5,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   4,
+   2,
+   2,
+   3,
+   3,
+   3,
+   4,
+   4,
+   4,
+   4,
+   4,
+   5,
+   2,
+   3,
+   5,
+   4,
+   4,
+   4
+  ]
+ }
 }

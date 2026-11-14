@@ -84,4 +84,4 @@ Attack success rate **0.417** before defences → **0.0** after (12 attacks: pla
 
 ### Judge calibration
 
-Cohen's kappa (quadratic) **0.052**, exact agreement 0.1, within ±1 0.567 on 30 proposals; reference labels by claude (AI second annotator, blind to judge scores; NOT the student). The judge is not calibrated, so its scores are not used for decisions.
+Cohen's kappa (quadratic) **0.091**, exact agreement 0.2, within ±1 0.733 on 30 proposals; reference labels by Ali. The judge is not calibrated, so its scores are not used for decisions.
