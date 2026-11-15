@@ -13,9 +13,9 @@ PDF = ROOT / "docs" / "report" / "GigBid_RnD_Report.pdf"
 
 CSS = """
 @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
-body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; color: #1d2433; }
-h1 { font-size: 18pt; margin: 0 0 4px; } h2 { font-size: 12.5pt; margin: 14px 0 5px; border-bottom: 1px solid #d0d5dd; padding-bottom: 2px; }
-h3 { font-size: 10.5pt; margin: 10px 0 4px; } p { margin: 4px 0 6px; } ul, ol { margin: 3px 0 6px 18px; padding: 0; } li { margin: 1px 0; }
+body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; color: #1d2433; text-align: justify; hyphens: auto; }
+h1 { font-size: 18pt; margin: 0 0 4px; text-align: left; } h2 { font-size: 12.5pt; margin: 14px 0 5px; border-bottom: 1px solid #d0d5dd; padding-bottom: 2px; text-align: left; }
+h3 { font-size: 10.5pt; margin: 10px 0 4px; text-align: left; } p { margin: 4px 0 6px; } ul, ol { margin: 3px 0 6px 18px; padding: 0; } li { margin: 1px 0; text-align: left; }
 table { border-collapse: collapse; width: 100%; margin: 6px 0 8px; font-size: 8.2pt; page-break-inside: avoid; }
 th, td { border: 1px solid #d0d5dd; padding: 3px 5px; text-align: left; vertical-align: top; } th { background: #f2f4f7; }
 code { font-family: Consolas, monospace; font-size: 8.4pt; background: #f2f4f7; padding: 0 3px; border-radius: 3px; }

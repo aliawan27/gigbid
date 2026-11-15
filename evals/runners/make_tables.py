@@ -102,11 +102,11 @@ def main():
             out.append(f"| {k} | {c['votes']} | {c['a_wins']} | {c['b_wins']} | {c['ties']} | {f(c['a_win_rate_excl_ties'])} "
                        f"| {f(c['sign_test_p_two_sided'])} |")
     if tools:
-        out.append("\n### R&D A — tool granularity (40 tasks)\n\n| Tool set | Tools | Selection accuracy | Argument accuracy | Tokens / task |\n|---|---|---|---|---|")
+        out.append("\n### R&D A: Tool Granularity (40 tasks)\n\n| Tool set | Tools | Selection accuracy | Argument accuracy | Tokens / task |\n|---|---|---|---|---|")
         for k, s in tools["sets"].items():
             out.append(f"| {k} | {s['n_tools']} | {f(s['tool_selection_accuracy'])} | {f(s['argument_accuracy'])} | {f(s['tokens_per_task'], 0)} |")
     if cmp_:
-        out.append("\n### R&D C — single agent vs supervisor vs graph\n")
+        out.append("\n### R&D C: Single Agent vs Supervisor vs Graph\n")
         out.append("| System | Jobs | Failed runs | Bid/skip accuracy | Scam jobs bid on | Unsupported claims / proposal | Violations caught by guard | Violations left in output | Reply rate | Tokens / job | p50 / p95 latency (s) |")
         out.append("|---|---|---|---|---|---|---|---|---|---|---|")
         for k, c in cmp_["systems"].items():
