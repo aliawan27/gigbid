@@ -82,7 +82,10 @@ def embed_cached(texts: list[str]) -> np.ndarray:
             np.savez(_cache_path(), **_emb_cache)
         except OSError:
             pass
-    return np.stack([_emb_cache[k] for k in keys]) if keys else np.zeros((0, 384), np.float32)
+    result = np.stack([_emb_cache[k] for k in keys]) if keys else np.zeros((0, 384), np.float32)
+    if missing:
+        _emb_cache.clear()  # free RAM after persisting; reloaded from disk on next cold call
+    return result
 
 
 TOKEN = re.compile(r"[a-z0-9.+#/-]+")

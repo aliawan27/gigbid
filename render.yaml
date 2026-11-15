@@ -27,3 +27,5 @@ services:
         generateValue: true
       - key: GIGSIM_API_TOKEN
         generateValue: true
+      - key: GIGBID_WORKER
+        value: "0"
