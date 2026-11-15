@@ -78,6 +78,14 @@ Excluded for lack of free-tier LLM quota: 6 jobs.
 | off | 72 | 0.000 | 1 | — | — | — | 97.5 | 0.00050 |
 | scam | 30 | 0.000 | 1 | 1.000 | 1.000 | — | 51.1 | 0.00050 |
 
+### Blind pairwise human panel (28 votes, 3 raters)
+
+| Comparison | Votes | First wins | Second wins | Ties | First win rate (excl. ties) | Sign test p |
+|---|---|---|---|---|---|---|
+| shipped retrieval vs naive V0 retrieval | 8 | 3 | 5 | 0 | 0.375 | 0.727 |
+| writer B (question-led) vs writer A (evidence-led) | 10 | 9 | 1 | 0 | 0.900 | 0.021 |
+| gpt-oss-120b writer vs qwen3.8-27b writer | 10 | 6 | 4 | 0 | 0.600 | 0.754 |
+
 ### R&D A — tool granularity (40 tasks)
 
 | Tool set | Tools | Selection accuracy | Argument accuracy | Tokens / task |

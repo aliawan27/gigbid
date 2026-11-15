@@ -84,7 +84,9 @@ moves to things retrieval does not touch: the first sentence, whether the must-h
 
 So I changed the thing the client actually reads. A second writer strategy opens with one sharp question about the client's
 project instead of a summary of my fit. On the same jobs it got 10 replies out of 12 against 5 out of 11 — and a Fisher exact
-test still says p = 0.089. Suggestive, not proven. I shipped it anyway, because it was at least as good on every other measure
+test still says p = 0.089. Suggestive, not proven. Then I asked three classmates to judge the same pairs blind — two proposals
+for the same job, no labels, random order — and they picked the question-led one 9 times out of 10 (sign test p = 0.022).
+The same classmates showed no preference between the naive and the shipped retrieval (5–3 for naive). I shipped it anyway, because it was at least as good on every other measure
 (fewer unsupported claims before verification, lower latency, same judge score), and I kept the experiment running on real
 outcomes instead of declaring victory.
 

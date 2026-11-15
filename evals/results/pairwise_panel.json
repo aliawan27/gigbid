@@ -1,0 +1,38 @@
+{
+ "generated_at": "2026-11-15T17:25:20",
+ "n_votes": 28,
+ "n_raters": 3,
+ "comparisons": {
+  "shipped retrieval vs naive V0 retrieval": {
+   "a": "best_open",
+   "b": "v0_open",
+   "votes": 8,
+   "a_wins": 3,
+   "b_wins": 5,
+   "ties": 0,
+   "a_win_rate_excl_ties": 0.375,
+   "sign_test_p_two_sided": 0.7266
+  },
+  "writer B (question-led) vs writer A (evidence-led)": {
+   "a": "best_open_B",
+   "b": "best_open",
+   "votes": 10,
+   "a_wins": 9,
+   "b_wins": 1,
+   "ties": 0,
+   "a_win_rate_excl_ties": 0.9,
+   "sign_test_p_two_sided": 0.0215
+  },
+  "gpt-oss-120b writer vs qwen3.8-27b writer": {
+   "a": "best_open",
+   "b": "best_qwen",
+   "votes": 10,
+   "a_wins": 6,
+   "b_wins": 4,
+   "ties": 0,
+   "a_win_rate_excl_ties": 0.6,
+   "sign_test_p_two_sided": 0.7539
+  }
+ },
+ "method": "blind: raters never see configuration names; left/right order randomised per view"
+}

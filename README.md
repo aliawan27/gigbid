@@ -115,6 +115,14 @@ Excluded for lack of free-tier LLM quota: 6 jobs.
 | off | 72 | 0.000 | 1 | — | — | — | 97.5 | 0.00050 |
 | scam | 30 | 0.000 | 1 | 1.000 | 1.000 | — | 51.1 | 0.00050 |
 
+### Blind pairwise human panel (28 votes, 3 raters)
+
+| Comparison | Votes | First wins | Second wins | Ties | First win rate (excl. ties) | Sign test p |
+|---|---|---|---|---|---|---|
+| shipped retrieval vs naive V0 retrieval | 8 | 3 | 5 | 0 | 0.375 | 0.727 |
+| writer B (question-led) vs writer A (evidence-led) | 10 | 9 | 1 | 0 | 0.900 | 0.021 |
+| gpt-oss-120b writer vs qwen3.8-27b writer | 10 | 6 | 4 | 0 | 0.600 | 0.754 |
+
 ### R&D A — tool granularity (40 tasks)
 
 | Tool set | Tools | Selection accuracy | Argument accuracy | Tokens / task |
@@ -143,7 +151,7 @@ Cohen's kappa (quadratic) **0.091**, exact agreement 0.2, within ±1 0.733 on 30
 **Public traces (LangSmith):** [critic loop 2 revisions](https://smith.langchain.com/public/fcdffc26-a140-4a65-b773-b3c7ae7ad697/r) · [skipped scam](https://smith.langchain.com/public/50c220ee-9199-4d1b-bae6-fbdfadc846a0/r) · [approved proposal submitted](https://smith.langchain.com/public/7230898f-ae23-4ddf-bea7-0a88f031021d/r) · [crash and resume exactly once](https://smith.langchain.com/public/48d35f93-1280-4b6f-902d-ee98cff17d6d/r)
 
 ## What ships, and why
-**Retrieval:** V5 multi-vector indexing + hybrid BM25/dense fusion — best Recall@5 (0.851) and nDCG@10 (0.916) of seven variants on 465 dev jobs; the ablation shows hybrid fusion is the component that matters (−5.9 nDCG points without it), while decomposition, the outcome boost and the cross-encoder each lowered nDCG or added ~3 s latency on this corpus. **Writer:** strategy B (question-led) — in the X2 A/B test it got 10/12 replies vs 5/11 for A, fewer unsupported claims before verification and lower latency; the reply-rate gain is not yet significant (Fisher p = 0.0894), so the experiment keeps running on real outcomes. **Decisions:** fit threshold 0.70 and budget-floor ratio 0.55, both from the failure analysis (bid/skip F1 0.922 → 0.968 when re-scored offline). **Models:** gpt-oss-20b for cheap nodes, gpt-oss-120b for writer/critic (the qwen3.8-27b profile was slower and needed more revisions). **Where better retrieval did not help:** the V0 pipeline got a higher simulated reply rate (0.700) than the shipped one (0.455) on 10–11 proposals: every proposal passes claim verification and the critic, so evidence quality is no longer the bottleneck; GigSim's clients react to openings, must-have skills and price, which is exactly what the writer A/B changed.
+**Retrieval:** V5 multi-vector indexing + hybrid BM25/dense fusion — best Recall@5 (0.851) and nDCG@10 (0.916) of seven variants on 465 dev jobs; the ablation shows hybrid fusion is the component that matters (−5.9 nDCG points without it), while decomposition, the outcome boost and the cross-encoder each lowered nDCG or added ~3 s latency on this corpus. **Writer:** strategy B (question-led) — in the X2 A/B test it got 10/12 replies vs 5/11 for A, fewer unsupported claims before verification and lower latency; the reply-rate gain is not yet significant (Fisher p = 0.0894), while the blind human panel preferred B 9–1 (p = 0.022), so the experiment keeps running on real outcomes. **Decisions:** fit threshold 0.70 and budget-floor ratio 0.55, both from the failure analysis (bid/skip F1 0.922 → 0.968 when re-scored offline). **Models:** gpt-oss-20b for cheap nodes, gpt-oss-120b for writer/critic (the qwen3.8-27b profile was slower and needed more revisions). **Where better retrieval did not help:** the V0 pipeline got a higher simulated reply rate (0.700) than the shipped one (0.455) on 10–11 proposals: every proposal passes claim verification and the critic, so evidence quality is no longer the bottleneck; GigSim's clients react to openings, must-have skills and price, which is exactly what the writer A/B changed.
 
 ## Change request (platform policy v1.1, 2 Nov 2026)
 New rules: proposals must carry an AI-assistance disclosure line, and jobs with budgets above $2,000 cost 1.5× Connects.

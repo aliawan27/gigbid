@@ -5,5 +5,5 @@ Done: everything in the brief, plus (2026-11-14 evening) Arq worker on Redis (Re
 student judge labels (kappa 0.091), MCP Inspector screenshots. Live: https://gigbid-sg.onrender.com (Singapore, Neon + Redis).
 
 Waiting on the user (details in HANDOFF.md, git-ignored):
-- [ ] classmates vote at /panel -> `python evals/runners/pairwise_panel.py analyse` (needs DATABASE_URL), make_tables, README, report
+- [x] blind panel analysed (28 votes, 3 raters; writer B 9-1, p=0.022)
 - [ ] demo video, Medium post, Google Classroom submission
