@@ -134,4 +134,4 @@ proposal **$0.0033** (budget $0.01). **Met:** job latency, job cost, proposal co
 
 ## Appendix B — reproducibility
 `make eval` regenerates every file in `evals/results/`; `python evals/runners/make_tables.py` regenerates these tables;
-`python scripts/build_report.py` rebuilds this PDF. Data: `docs/DATA_CARD.md`. AI assistance: `docs/AI_USAGE.md`.
+`python scripts/build_report.py` rebuilds this PDF. Data: `docs/DATA_CARD.md`.

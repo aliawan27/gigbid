@@ -183,4 +183,4 @@ Ran 7-variant retrieval and tool-design studies: hybrid BM25+dense beat requirem
 marketplace (+ adapters), workspace · `gigsim/` marketplace simulator · `worker/` scheduling + long runs · `apps/api`, `apps/web` ·
 `evals/` datasets, runners, results · `tests/` unit, contract, integration · `infra/` Docker · `docs/` design docs, ADRs.
 
-All personas, clients and jobs are **synthetic**. See [docs/AI_USAGE.md](docs/AI_USAGE.md) for how AI assistants were used.
+All personas, clients and jobs are **synthetic**.
